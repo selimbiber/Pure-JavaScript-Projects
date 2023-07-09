@@ -4,3 +4,4 @@
 ## Preview links for the projects:
 
 ### [Tip Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TipCalculator/index.html)
+### [Age Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AgeCalculator/index.html)
