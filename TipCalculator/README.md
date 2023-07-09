@@ -1,4 +1,4 @@
-# Tip Calculator Project | Bahşiş Hesaplama Projesi
+# Tip Calculator | Bahşiş Hesaplayıcı
 
 Bu bahşiş hesaplama uygulaması ile kullanıcı tarafından uygulamaya girilen mevcut fatura tutarını yine kullanıcı tarafından belirlenip uygulamaya girilen bahşiş yüzdesine bölüyor ve bu sayede mevcut fatura tutarına oranla verilecek bahşiş miktarını hesaplamış oluyoruz. 
 
