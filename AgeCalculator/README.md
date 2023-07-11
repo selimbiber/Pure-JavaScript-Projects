@@ -9,4 +9,4 @@ Eğer tarih bilgisi girilmezse uygulamanın sonuç kısmında kullanıcıya uyar
 
 Bu uygulamayı [bu adresteki](https://demo.100jsprojects.com/age-calculator) orijinal haline bağlı kalarak yapmaya çalıştım.
 
-### [Preview Link | Canlı Önizleme Bağlantısı]()
+### [Live Preview Link | Canlı Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AgeCalculator/index.html)

@@ -5,7 +5,7 @@ const messageOutput = document.getElementById('message-output');
 const date = new Date()
 const currentYear = date.getFullYear(),
     currentMonth = date.getMonth() +1,
-    currentDay = date.getDate()
+    currentDay = date.getDate();
 
 // Function
 
@@ -28,7 +28,7 @@ const currentYear = date.getFullYear(),
 
 submitButton.addEventListener('click', (event) => {
     if (dateInput.value.length === 0) {
-        messageOutput.textContent = 'Please enter your birthday.'
+        messageOutput.textContent = 'Please enter your birthday.';
     } else {
         messageOutput.textContent = `Your age is ${calculateAge(dateInput.value)} years old.`;
     }
