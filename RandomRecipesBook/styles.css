@@ -73,13 +73,14 @@ select {
 }
 /*****/
 
-.container {
+.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 4rem;
+    margin: 4rem 2rem 4rem 2rem;
 }
 
 header {
