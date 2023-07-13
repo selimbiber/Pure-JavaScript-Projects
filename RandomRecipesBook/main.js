@@ -1,6 +1,6 @@
 const cardsContainer = document.querySelector('.cards-container')
 
-for ( let i = 0; i < Math.floor(Math.random() * 10); i++) {
+for ( let i = 0; i < Math.floor(Math.random() * 9) + 1; i++) {
   fetch("https://api.spoonacular.com/recipes/random?apiKey=0adc62c089b94d65bbbd11419bee9e4e")
     .then(response => response.json())
     .then(data => {
