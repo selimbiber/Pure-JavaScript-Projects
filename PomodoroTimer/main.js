@@ -14,18 +14,15 @@ START_TIMER.addEventListener('click', () => {
     START_TIMER.textContent = 'START';
     pomodoroTimer = setInterval(remaningTime, 1000);
     START_TIMER.disabled = true;
-    START_TIMER.style.display = 'none'
 });
 
 STOP_TIMER.addEventListener('click', () => {
-    START_TIMER.style.display = 'inline'
     START_TIMER.disabled = false;
     clearInterval(pomodoroTimer);
     START_TIMER.textContent = 'RESUME';
 });
 
 RESET_TIMER.addEventListener('click', () => {
-    START_TIMER.style.display = 'inline'
     START_TIMER.disabled = false;
     TIMER_CLOCK.style.color = 'black';
     START_TIMER.textContent = 'START';
