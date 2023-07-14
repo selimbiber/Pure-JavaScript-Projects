@@ -11,22 +11,28 @@ let seconds = 60;
 let pomodoroTimer;
 
 START_TIMER.addEventListener('click', () => {
+    START_TIMER.textContent = 'START';
     pomodoroTimer = setInterval(remaningTime, 1000);
     START_TIMER.disabled = true;
+    START_TIMER.style.display = 'none'
 });
 
 STOP_TIMER.addEventListener('click', () => {
+    START_TIMER.style.display = 'inline'
     START_TIMER.disabled = false;
-    clearInterval(pomodoroTimer)
+    clearInterval(pomodoroTimer);
+    START_TIMER.textContent = 'RESUME';
 });
 
 RESET_TIMER.addEventListener('click', () => {
+    START_TIMER.style.display = 'inline'
     START_TIMER.disabled = false;
-    TIMER_CLOCK.style.color = 'black'
+    TIMER_CLOCK.style.color = 'black';
+    START_TIMER.textContent = 'START';
     onePomodoro = onePomodoro;
     minutes = onePomodoro -1;
     seconds = 59;
-    TIMER_CLOCK.textContent = `${minutes}:${seconds}`
+    TIMER_CLOCK.textContent = `${minutes}:${seconds}`;
 })
 
 function remaningTime () {
@@ -38,13 +44,13 @@ function remaningTime () {
     if (seconds < 10) {
         seconds = "0" + seconds;
     }
-    TIMER_CLOCK.textContent = `${minutes}:${seconds}`
+    TIMER_CLOCK.textContent = `${minutes}:${seconds}`;
     if (minutes < 10) {
-        TIMER_CLOCK.textContent = `0${minutes}:${seconds}`
+        TIMER_CLOCK.textContent = `0${minutes}:${seconds}`;
     }
     if (minutes === 0 && minutes + seconds < 1) {
         clearInterval(pomodoroTimer)
-        TIMER_CLOCK.textContent = `You have completed the pomodoro!`
-        TIMER_CLOCK.style.color = 'blue'
+        TIMER_CLOCK.textContent = `You have completed the pomodoro!`;
+        TIMER_CLOCK.style.color = 'blue';
     }
 }
