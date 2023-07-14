@@ -26,9 +26,8 @@ RESET_TIMER.addEventListener('click', () => {
     START_TIMER.disabled = false;
     TIMER_CLOCK.style.color = 'black';
     START_TIMER.textContent = 'START';
-    onePomodoro = onePomodoro;
-    minutes = onePomodoro -1;
-    seconds = 59;
+    minutes = onePomodoro;
+    seconds = "0" + 0;
     TIMER_CLOCK.textContent = `${minutes}:${seconds}`;
 })
 
