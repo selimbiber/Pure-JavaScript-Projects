@@ -9,3 +9,4 @@
 ### [Pomodoro Timer](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PomodoroTimer/index.html)
 ### [Stopwatch](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Stopwatch/index.html)
 ### [Weight Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/WeightConverter/index.html)
+### [Video Trailer Popup](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/VideoTrailerPopup/index.html)
