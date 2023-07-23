@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./assets/movie-favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Video Trailer Popup</title>
+	</head>
+	<body>
+		<figure id="movie-card">
+			<img
+				id="movie-banner"
+				src="./assets/movie-banner.jpg"
+				alt="One Flew Over the Cuckoo's Nest (1975)"
+			/>
+			<figure id="movie-title">One Flew Over the Cuckoo's Nest (1975)</figure>
+			<cite id="movie-text">
+				In the Fall of 1963, a Korean War veteran and criminal pleads insanity
+				and is admitted to a mental institution, where he rallies up the scared
+				patients against the tyrannical nurse.
+			</cite>
+			<button id="watch-btn">Watch now</button>
+		</figure>
+		<figure id="movie-screen">
+			<img id="close-icon" src="./assets/close-x.png" alt="video close" />
+			<video id="movie-video" controls>
+				<source src="./assets/Movie-Trailer.mp4" type="video/mp4" />
+				Your browser does not support the video tag.
+			</video>
+		</figure>
+
+		<script src="./main.js"></script>
+	</body>
+</html>
