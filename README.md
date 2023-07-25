@@ -11,3 +11,5 @@
 ### [Weight Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/WeightConverter/index.html)
 ### [Video Trailer Popup](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/VideoTrailerPopup/index.html)
 ### [Temperature Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TemperatureConverter/index.html)
+### [Tabs Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TabsSection/index.html)
+### [Sticky Navbar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StickyNavbar/index.html)
