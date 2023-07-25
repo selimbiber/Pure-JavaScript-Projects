@@ -1,0 +1,139 @@
+/* RESET */
+#root, #__next {
+	isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+    font-size: 1.6rem;
+    min-height: 100vh;
+    max-width: 100vw;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul[class],
+ol[class],
+li {
+    list-style: none;
+}
+/*****/
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+    height: 10vh;
+    padding: 0 5rem;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar #homepage-link {
+    font-size: 3rem;
+    font-style: italic;
+    font-family:monospace;
+    color: orangered
+}
+
+#navbar #other-links {
+    font-size: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#navbar #other-links a {
+    color: orange;
+}
+
+#hero-section {
+    background-image: url(./images/keyboard-background.jpg);
+    background-size: 100% 100vh;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-text {
+    font-size: 7rem;
+    font-style: italic;
+    font-family:monospace;
+    color: orangered;
+    text-align: center;
+}
+
+#article {
+    padding: 5rem 5rem 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+}
+
+footer > a {
+    color: black;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+#github-logo {
+    display: inline;
+    color: black;
+    height: 2rem;
+    width: 2rem;
+    margin-left: .4rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#github-logo:hover {
+    transform: rotate(360deg) scale(1.2);
+}
