@@ -9,40 +9,44 @@
 			type="image/x-icon"
 		/>
 		<link rel="stylesheet" href="styles.css" />
-		<title>Basic Calculator</title>
+		<title>Simple Calculator</title>
 	</head>
 	<body>
-		<header><h1 id="heading">Basic Calculator</h1></header>
+		<header><h1 id="heading">Simple Calculator</h1></header>
 		<main id="calculator">
-			<p id="output-area" dir="ltr">0</p>
+			<p id="output-area" dir="ltr"></p>
 			<input
-				type="number"
-				name="number-input"
 				id="number-input"
+				type="text"
+				name="number-input"
 				value="0"
+				pattern="[0-9]+([\.,][0-9]+)?"
 				onKeyDown="return false"
 				dir="rtl"
 			/>
 			<!-- CLEAR & DELETE -->
-			<button id="clear-btn"><img src="./assets/clear.svg" alt="" /></button
-			><button id="delete-btn"><img src="./assets/delete.svg" alt="" /></button>
-			<button id="seven-btn">7</button>
-			<button id="eight-btn">8</button>
-			<button id="nine-btn">9</button>
-			<button id="obelus-btn">÷</button>
+			<button id="clear-btn">
+				<img src="./assets/clear.svg" alt="CLEAR" /></button
+			><button id="delete-btn">
+				<img src="./assets/delete.svg" alt="DELETE" />
+			</button>
+			<button id="seven-btn" value="7" data-number>7</button>
+			<button id="eight-btn" value="8" data-number>8</button>
+			<button id="nine-btn" value="9" data-number>9</button>
+			<button id="obelus-btn" data-operator>÷</button>
 			<!-- ÷ -> alt + 246 -->
-			<button id="four-btn">4</button>
-			<button id="five-btn">5</button>
-			<button id="six-btn">6</button>
-			<button id="multiply-btn">x</button>
-			<button id="one-btn">1</button>
-			<button id="two-btn">2</button>
-			<button id="three-btn">3</button>
-			<button id="subtract-btn">-</button>
-			<button id="zero-btn">0</button>
+			<button id="four-btn" value="4" data-number>4</button>
+			<button id="five-btn" value="5" data-number>5</button>
+			<button id="six-btn" value="6" data-number>6</button>
+			<button id="multiply-btn" data-operator>x</button>
+			<button id="one-btn" value="1" data-number>1</button>
+			<button id="two-btn" value="2" data-number>2</button>
+			<button id="three-btn" value="3" data-number>3</button>
+			<button id="subtract-btn" data-operator>-</button>
+			<button id="zero-btn" value="0" data-number>0</button>
 			<button id="dot-btn">·</button>
-			<button id="uqual-btn">=</button>
-			<button id="plus-btn">+</button>
+			<button id="equal-btn" data-operator>=</button>
+			<button id="plus-btn" data-operator>+</button>
 		</main>
 		<footer>
 			Challenged by

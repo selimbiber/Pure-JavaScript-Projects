@@ -3,6 +3,8 @@
 # Project Description | Proje Açıklaması
 
 A simple calculator that does basic arithmetic calculations.
-Only the interface design of the application has been made yet. The project will be completed soon.
+
+I think I have completed the project for now. 
+But I will update the project again for new additions and some fixes.
 
 ### [Live Preview Link | Canlı Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/Simple-Calculator/blob/main/index.html)
