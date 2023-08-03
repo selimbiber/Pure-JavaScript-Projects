@@ -44,26 +44,30 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
-
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/af9be004-3c3a-48ba-a3bd-6088d4fac3ca)
+![mobile-thank-you-state](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1262e2aa-e857-4d31-b8d7-35488dce8d40)
 
 #### Desktop Layout (1440px)
 
-
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/4476212e-85f4-4185-919c-7350e39bdc74)
+![desktop-thank-you-state](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1065b1dd-7e35-4743-a9c6-a148dfb63f10)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
-
+![InteractiveRatingComponent-mobile1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8586d61b-e01e-475c-9838-9f494a26e921)
+![InteractiveRatingComponent-mobile2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/74378881-8e27-450d-ae64-da0058c18def)
 
 #### Desktop Layout (1440px)
 
-
+![InteractiveRatingComponent-desktop1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/2b6fe360-955f-4a1b-a66f-7c13274b7a52)
+![InteractiveRatingComponent-desktop2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/6dc81f5e-ebf3-48b2-8ab0-f26d9ac6f042)
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-ufwwSpkAW0)
+- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
 
 ## My process
 
