@@ -13,3 +13,4 @@
 ### [Temperature Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TemperatureConverter/index.html)
 ### [Tabs Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TabsSection/index.html)
 ### [Sticky Navbar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StickyNavbar/index.html)
+### [Interactive Rating Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
