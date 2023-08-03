@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Interactive rating component</title>
+	</head>
+	<body>
+		<main id="rating-card-container">
+			<section id="feedback-section" class="rating-card">
+				<figure class="feedback-section_figure">
+					<img src="./images/icon-star.svg" alt="" id="icon-star" />
+				</figure>
+				<article class="feedback-section_article">
+					<h1 class="feedback-section_article-heading">How did we do?</h1>
+					<p class="feedback-section_article-text">
+						Please let us know how we did with your support request. All
+						feedback is appreciated to help us improve our offering!
+					</p>
+				</article>
+				<ul id="rating-switch-container">
+					<li>
+						<input
+							type="radio"
+							name="rate-btn"
+							value="1"
+							id="btn-rate1"
+							class="rating-btn"
+						/>
+						<label class="switch" for="btn-rate1">1</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							name="rate-btn"
+							value="2"
+							id="btn-rate2"
+							class="rating-btn"
+						/>
+						<label class="switch" for="btn-rate2">2</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							name="rate-btn"
+							value="3"
+							id="btn-rate3"
+							class="rating-btn"
+						/>
+						<label class="switch" for="btn-rate3">3</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							name="rate-btn"
+							value="4"
+							id="btn-rate4"
+							class="rating-btn"
+						/>
+						<label class="switch" for="btn-rate4">4</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							name="rate-btn"
+							value="5"
+							id="btn-rate5"
+							class="rating-btn"
+						/>
+						<label class="switch" for="btn-rate5">5</label>
+					</li>
+				</ul>
+				<button id="submit-btn">SUBMIT</button>
+			</section>
+			<section id="thankyou-section" class="rating-card">
+				<figure class="thankyou-section_figure">
+					<img
+						src="./images/illustration-thank-you.svg"
+						alt=""
+						class="selected-icon"
+					/>
+					<figcaption class="selected-info"></figcaption>
+				</figure>
+				<article class="thankyou-section_article">
+					<h2 class="thankyou-section_article-heading">Thank you!</h2>
+					<p class="thankyou-section_article-text">
+						We appreciate you taking the time to give a rating. If you ever need
+						more support, don’t hesitate to get in touch!
+					</p>
+				</article>
+			</section>
+		</main>
+		<footer class="attribution">
+			Challenge by &nbsp;
+			<a
+				href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI/"
+				target="_blank"
+			>
+				Frontend Mentor
+			</a>
+			<a
+				href="https://github.com/selimbiber/Pure-JavaScript-Projects"
+				title="Selim Biber"
+				target="_blank"
+				><img id="github-logo" src="./images/github-logo.svg" alt="" /></a
+			>Coded by &nbsp;
+			<a
+				href="https://github.com/selimbiber/"
+				title="GitHub: selimbiber"
+				target="_blank"
+				>Selim Biber</a
+			>
+		</footer>
+		<script src="./main.js"></script>
+	</body>
+</html>
