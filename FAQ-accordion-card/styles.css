@@ -48,7 +48,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background: linear-gradient(360deg, rgba(101,101,231,1) 0%, rgba(121,102,232,1) 2%, rgba(175,103,233,1) 50%); */
     background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
     padding: 15rem 0 7rem 0;
 }
@@ -88,7 +87,7 @@ select {
     font: inherit;
 }
 
-/* Card Styles Area 12px */
+/* Card Styles Area */
 
 #card {
     background-color: white;
