@@ -14,3 +14,4 @@
 ### [Tabs Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TabsSection/index.html)
 ### [Sticky Navbar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StickyNavbar/index.html)
 ### [Interactive Rating Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
+### [FAQ Accordion Card](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/FAQ-accordion-card/index.html)
