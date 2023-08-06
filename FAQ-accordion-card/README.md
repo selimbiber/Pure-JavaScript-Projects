@@ -43,18 +43,26 @@ Users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/82856903-ffa2-4279-af6b-cbaeb2129e0a)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/256dabf2-c4b8-42d5-80f8-90d46f52e52f)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![faq-accordion-my-mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/ac40432e-350b-4acb-8d8a-aed6b21da1d1)
+
 #### Desktop Layout (1440px)
+
+![faq-accordion-my-desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8a46ea1b-40e4-4ff2-9624-4a28688c7366)
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL](ndex.html)
+- [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-card-bjO2OipBRD)
+- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/FAQ-accordion-card/index.html)
 
 ## My process
 
