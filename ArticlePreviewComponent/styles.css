@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+:root {
+    font-family: 'Manrope', sans-serif;
+    --color_very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --color_dark-grayish-blue: hsl(214, 17%, 51%);
+    --color_grayish-blue: hsl(212, 23%, 69%);
+    --color_light-grayish-blue: hsl(210, 46%, 95%);
+}
+/* RESET AREA */
+#root, #__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_light-grayish-blue);
+}
+
+ul[class],
+ol[class],
+li {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto; 
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article > * + * {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Component Styles Area */
+
+#component {
+    height: 50.6rem;
+    width: 32.6rem;
+    border-radius: 1rem;
+    background-color: snow;
+}
+
+#component > figure img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 19.9rem;
+    width: 100%;
+    object-fit:cover;
+	object-position: center 28%;
+}
+
+#article-area {
+    padding-top: 3.3rem;
+}
+
+#article-area_heading {    
+    padding: 0 3.3rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--color_very-dark-grayish-blue)
+}
+
+#article-area_text {
+    padding: 0 3.3rem;
+    font-size: 1.31rem;
+    color: var(--color_dark-grayish-blue)
+}
+
+#default-footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+#default-footer_user-left-area {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#default-footer_user-left-area > figure img {
+    height: 3.7rem;
+    border-radius: 100%;
+    background-color:deeppink;
+    cursor: pointer;
+}
+
+#name-date-area {
+    display: flex;
+    flex-direction: column;
+    row-gap: .2rem;
+}
+
+#name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color_very-dark-grayish-blue);
+    cursor: pointer;
+}
+
+#date {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color_grayish-blue)
+}
+
+.default-footer_icon-right-area {
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 100%;
+    background-color: var(--color_light-grayish-blue);
+    cursor: pointer;
+}
+
+#default-footer_right-area img, #alternative-footer_right-area img {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.active-footer_icon-right-area {
+    background-color: var(--color_dark-grayish-blue);
+}
+
+#share-links-tooltip-area {
+    height: 5.5rem;
+    width: 25rem;
+    position: absolute;
+    z-index: 10;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.7rem;
+    top: -8rem;
+    left: 26.3rem;
+    background-color: var(--color_very-dark-grayish-blue);
+}
+
+.passive-share-links-tooltip-area {
+    visibility: hidden;
+    opacity: 0;
+	transition: opacity 1s;
+}
+
+.active-share-links-tooltip-area {
+    visibility: visible;
+    opacity: 1;
+}
+
+#share-links-tooltip-area::after {
+    content: '';
+    border: 1.2rem solid transparent;
+    border-top:1.2rem solid var(--color_very-dark-grayish-blue);
+    border-bottom:0 none;
+    position: absolute;
+    top: 5.5rem;
+}
+
+#share-links-tooltip-area .share-text {
+    font-size: 1.2rem;
+}
+
+#share-links-tooltip-area .sm-icons {
+    height: 1.8rem;
+}
+
+#alternative-footer {
+    margin-top: 2rem;
+    height: 7rem;
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background-color: var(--color_very-dark-grayish-blue);
+}
+
+#alternative-footer_left-area {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.share-text {
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color_grayish-blue);
+}
+
+.sm-icons {
+    height: 2rem;
+    width: 2rem;
+}
+
+.sm-icons:hover {
+    transform: scale(1.2);
+}
+
+#alternative-footer_btn-share-mobile, #alternative-footer_btn-share-desktop {
+    border: 0;
+    height: 3.3rem;
+    width: 3.3rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color_dark-grayish-blue);
+    cursor: pointer;
+}
+
+#alternative-footer_btn-share-desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    #component {
+        display: flex;
+        flex-direction: row;
+        height: 28rem;
+        width: 73rem;
+    }
+    #component > figure img {
+        height: 28rem;
+        width: 28.5rem;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+        object-position: left 18%;
+    }
+    #article-area {
+        height: 28rem;
+        width: 44.5rem;
+    }
+    #article-area_heading {
+        font-size: 2.03rem;
+        line-height: 2.7rem;
+        padding: 0 3.7rem;
+    }
+    #article-area_text {
+        font-size: 1.33rem;
+        padding: 0 3.7rem;
+    }
+    #default-footer {
+        margin-top: 2.3rem;
+        padding: 0 4rem;
+        justify-content: space-between;
+    }
+}

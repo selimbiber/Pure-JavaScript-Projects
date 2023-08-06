@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Article preview component</title>
+	</head>
+	<body>
+		<main id="component">
+			<figure>
+				<img src="./images/drawers.jpg" alt="" class="article-figure" />
+			</figure>
+			<article id="article-area">
+				<header>
+					<h1 id="article-area_heading">
+						Shift the overall look and feel by adding these wonderful touches to
+						furniture in your home
+					</h1>
+				</header>
+				<p id="article-area_text">
+					Ever been in a room and felt like something was missing? Perhaps it
+					felt slightly bare and uninviting. I’ve got some simple tips to help
+					you make any room feel complete.
+				</p>
+				<footer id="default-footer">
+					<!-- AVATAR & NAME & DATE-->
+					<section id="default-footer_user-left-area">
+						<figure>
+							<img
+								src="./images/female-user-avatar.png"
+								alt=""
+								class="avatar-icon"
+							/>
+						</figure>
+						<ul id="name-date-area">
+							<li id="name">Michelle Appleton</li>
+							<li id="date">28 Jun 2020</li>
+						</ul>
+					</section>
+					<ul
+						id="share-links-tooltip-area"
+						class="passive-share-links-tooltip-area"
+					>
+						<li class="share-text">SHARE</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-facebook.svg"
+									alt="facebook icon"
+									class="sm-icons"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-twitter.svg"
+									alt="twitter icon"
+									class="sm-icons"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-pinterest.svg"
+									alt="pinterest icon"
+									class="sm-icons"
+							/></a>
+						</li>
+					</ul>
+					<button
+						id="default-footer_btn-share"
+						class="default-footer_icon-right-area"
+					>
+						<img src="./images/default-icon-share.svg" alt="share icon" />
+					</button>
+					<button
+						id="alternative-footer_btn-share-desktop"
+						class="alternative-footer_icon-right-area"
+					>
+						<img src="./images/alternative-icon-share.svg" alt="share icon" />
+					</button>
+				</footer>
+				<footer id="alternative-footer">
+					<ul id="alternative-footer_left-area">
+						<li class="share-text">SHARE</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-facebook.svg"
+									alt="facebook icon"
+									class="sm-icons"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-twitter.svg"
+									alt="twitter icon"
+									class="sm-icons"
+							/></a>
+						</li>
+						<li>
+							<a href="#"
+								><img
+									src="./images/icon-pinterest.svg"
+									alt="pinterest icon"
+									class="sm-icons"
+							/></a>
+						</li>
+					</ul>
+					<button id="alternative-footer_btn-share-mobile">
+						<img
+							src="./images/alternative-icon-share.svg"
+							alt="share icon"
+							class="share-icon"
+						/>
+					</button>
+				</footer>
+			</article>
+		</main>
+		<script src="./main.js"></script>
+	</body>
+</html>
