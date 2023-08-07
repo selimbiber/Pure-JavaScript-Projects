@@ -28,12 +28,24 @@ const EQUAL_BTN = document.getElementById('equal-btn').addEventListener('click',
   }
   showResult(currentOperator, firstNumber, secondNumber)
 });
+// ALL_BTNS 
+const ALL_BTNS = document.querySelectorAll('button');
+ALL_BTNS.forEach( (BTN) => {
+  BTN.addEventListener('click', playSound)
+});
 
 let currentOperator;
 let firstNumber = 0;
 let secondNumber = 0;
 
 // HELPER_FUNCS
+
+function playSound () {
+  const AUDIO = new Audio('./assets/calculator_sound-effect.mp3');
+  if(!AUDIO) return;
+  AUDIO.currentTime = 0;
+  AUDIO.play();
+}
 
 function clearOutputArea () {
   OUTPUT_AREA.textContent = '';
