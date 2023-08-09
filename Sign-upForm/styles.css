@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root {
+    font-family: 'Poppins', sans-serif;
+    --primary-color-red: hsl(0, 100%, 74%);
+    --primary-color-green: hsl(154, 59%, 51%);
+    --accent-color-blue: hsl(248, 32%, 49%);
+    --neutral-color-dark-blue: hsl(249, 10%, 26%);
+    --neutral-color-grayish-blue: hsl(246, 25%, 77%);
+    --box-shadow-color: hsla(0, 18%, 45%, 0.4);
+    --email-placeholder-color: hsl(249, 10%, 26%);
+    --email-placeholder-fontsize: 1.4rem;
+    --warning-message-color: hsl(0, 61%, 73%);
+}
+/* RESET AREA */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article>*+* {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Main Container 16px */
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6.4rem;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: var(--primary-color-red);
+    padding: 9rem 2.5rem 6rem 2.5rem;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+/* Intro Section */
+
+#intro-section {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    width: 33rem;
+}
+
+#intro-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 3.7rem;
+}
+
+#intro-text {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Form Section */
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+}
+
+#offer-text {
+    background-color: var(--accent-color-blue);
+    height: 9rem;
+    color: rgba(255, 255, 255, 0.74);
+    padding: 2rem 6rem 2.5rem 6rem;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .8rem 0rem var(--box-shadow-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    width: 33rem;
+}
+
+#offer-text strong {
+    color: white;
+}
+
+#sign-up-form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2.2rem 2rem;
+    border-radius: 1rem;
+    min-height: 44rem;
+    width: 33rem;
+    box-shadow: 0 .8rem 0rem var(--box-shadow-color);
+    row-gap: 1.5rem;
+}
+
+#sign-up-form fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    row-gap: 1.5rem;
+}
+
+input {
+    border: .2rem solid #d4d4d4;
+    border-radius: .5rem;
+    padding: 2rem;
+    height: 6rem;
+    width: 28rem;
+}
+
+input:focus {
+    outline: 0px solid var(--accent-color-blue);
+    border-color: var(--accent-color-blue);
+}
+
+input::placeholder {
+    color: var(--neutral-color-dark-blue);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+input + span {
+    position: relative;
+}
+
+input + span::before {
+    position: absolute;
+    right: 3rem;
+    top: 0rem;
+}
+
+#e-mail::placeholder {
+    color: var(--email-placeholder-color);
+    font-size: var(--email-placeholder-fontsize);
+    font-weight: bold;
+}
+  
+input:invalid {
+    border: .2rem solid var(--warning-message-color);
+}
+  
+input:invalid + span::before {
+    content: url('./images/icon-error.svg');
+}
+
+.warning-message {
+    color: var(--warning-message-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: none;
+    padding-right: .3rem;
+    margin-top: .5rem;
+}
+
+#submit-btn {
+    border: 0;
+    border-radius: .7rem;
+    height: 5.5rem;
+    width: 28rem;
+    margin: 0 auto -.5rem auto;
+    background-color: var(--primary-color-green);
+    cursor: pointer;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform:uppercase;
+    padding: 1rem 4rem;
+    text-align: center;
+}
+
+#submit-btn:hover {
+    opacity: 0.5;
+}
+
+footer {
+    padding: 0 2rem;
+}
+
+footer > p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: var(--neutral-color-grayish-blue);
+    line-height: 2rem;
+}
+
+#terms-services-text {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--warning-message-color);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+    #main-container {
+        flex-direction: row;
+        align-items: center;
+        padding: 16rem;
+        gap: 6rem;
+        margin: 0 auto;
+        background-image: url(./images/bg-intro-desktop.png);
+        background-repeat: repeat-y;
+        background-position: center;
+    }
+    #intro-section {
+        width: 50%;
+        text-align: left;
+        row-gap: 2.8rem;
+    }
+    #intro-heading {
+        font-size: 5rem;
+        line-height: 5.5rem;
+        width: 43rem;
+    }
+    #intro-text {
+        font-size: 1.62rem;
+        font-weight: 500;
+        width: 53rem;
+    }
+    #form-section {
+        width: 50%;
+    }
+    #offer-text {
+        height: 6rem;
+        width: 53rem;
+    }
+    #form-section form {
+        padding: 4rem 2.8rem;
+        min-height: 48rem;
+        width: 53rem;
+    }
+    #form-section form input {
+        width: 46rem;
+        padding: 3rem;
+    }
+    #form-section form #submit-btn {
+        height: 1rem;
+        padding: 2rem 0 4rem 0;
+    }
+}

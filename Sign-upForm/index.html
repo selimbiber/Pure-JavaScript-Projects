@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Intro component with sign up form</title>
+	</head>
+	<body>
+		<main id="main-container">
+			<section id="intro-section">
+				<header>
+					<h1 id="intro-heading">Learn to code by watching others</h1>
+				</header>
+				<p id="intro-text">
+					See how experienced developers solve problems in real-time. Watching
+					scripted tutorials is great, but understanding how developers think is
+					invaluable.
+				</p>
+			</section>
+			<section id="form-section">
+				<p id="offer-text">
+					<strong>Try it free 7 days</strong> then $20/mo. thereafter
+				</p>
+				<form action="https://httpbin.org/post" method="post" id="sign-up-form">
+					<fieldset>
+						<label for="first-name">
+							<input
+								required
+								type="text"
+								name="first-name"
+								id="first-name"
+								placeholder="First Name"
+								pattern="[a-zA-Z]*"
+								onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+								maxlength="20" />
+							<span></span>
+							<em
+								id="first-name_warning-message"
+								class="warning-message"
+								dir="rtl"
+							></em
+						></label>
+						<label for="last-name"
+							><input
+								required
+								type="text"
+								name="last-name"
+								id="last-name"
+								placeholder="Last Name"
+								pattern="[a-zA-Z]*"
+								onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+								maxlength="20" />
+							<span></span>
+							<em
+								id="last-name_warning-message"
+								class="warning-message"
+								dir="rtl"
+							></em
+						></label>
+						<label for="e-mail"
+							><input
+								required
+								type="email"
+								name="e-mail"
+								id="e-mail"
+								placeholder="Email Address"
+								onkeydown="if(['Space'].includes(arguments[0].code)){return false;}" />
+							<span></span>
+							<em
+								id="e-mail_warning-message"
+								class="warning-message"
+								dir="rtl"
+							></em
+						></label>
+						<label for="password"
+							><input
+								required
+								type="password"
+								type="password"
+								name="password"
+								placeholder="Password"
+								pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+								onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters' : '');"
+								id="password" />
+							<span></span>
+							<em
+								id="password_warning-message"
+								class="warning-message"
+								dir="rtl"
+							></em
+						></label>
+					</fieldset>
+					<input type="submit" value="Claim your free trial" id="submit-btn" />
+					<footer>
+						<p>
+							By clicking the button, you are agreeing to our
+							<strong id="terms-services-text">Terms and Services</strong>
+						</p>
+					</footer>
+				</form>
+			</section>
+		</main>
+		<script src="./main.js"></script>
+	</body>
+</html>
