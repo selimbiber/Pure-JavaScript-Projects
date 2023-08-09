@@ -48,6 +48,8 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-size: 1.6rem;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: var(--primary-color-red);
 }
 
 ul[class],
@@ -92,8 +94,6 @@ select {
     justify-content: center;
     align-items: center;
     row-gap: 6.4rem;
-    background-image: url(./images/bg-intro-mobile.png);
-    background-color: var(--primary-color-red);
     padding: 9rem 2.5rem 6rem 2.5rem;
     min-height: 100vh;
     min-width: 100%;
@@ -261,15 +261,17 @@ footer > p {
 }
 
 @media screen and (min-width: 1440px) {
+    body {
+        background-image: url(./images/bg-intro-desktop.png);
+        background-repeat: repeat-y;
+        background-position: center;
+    }
     #main-container {
         flex-direction: row;
         align-items: center;
         padding: 16rem;
         gap: 6rem;
         margin: 0 auto;
-        background-image: url(./images/bg-intro-desktop.png);
-        background-repeat: repeat-y;
-        background-position: center;
     }
     #intro-section {
         width: 50%;
