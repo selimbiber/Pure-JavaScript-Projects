@@ -39,18 +39,26 @@ Your users should be able to: - View the optimal layout for the site depending o
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/457b890f-5987-47a9-be92-5004ae5476a4)
+
 #### Desktop Layout (1440px)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/d483af05-01c0-48e6-ba14-476c75c90b66)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![sing-upForm-mobile](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8f51d501-0a76-4269-a183-218f48858ff9)
+
 #### Desktop Layout (1440px)
+
+![sign-upForm-desktop](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/9d9428d1-5148-4e32-befb-2b2bdc381761)
 
 ### Links
 
-- [Solution URL]()
-- [Live Site URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/signup-form-jWVdt42GCA)
+- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Sign-upForm/index.html)
 
 ## My process
 
