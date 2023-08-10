@@ -270,15 +270,15 @@ footer > p {
     }
     #main-container {
         flex-direction: row;
+        justify-content: center;
         align-items: center;
-        padding: 16rem;
-        gap: 6rem;
-        margin: 0 auto;
+        gap: 0rem;
+        padding: 0rem;
     }
     #intro-section {
-        width: 50%;
         text-align: left;
         row-gap: 2.8rem;
+        margin: 0 auto;
     }
     #intro-heading {
         font-size: 5rem;
@@ -291,7 +291,7 @@ footer > p {
         width: 53rem;
     }
     #form-section {
-        width: 50%;
+        margin-right: auto;
     }
     #offer-text {
         height: 6rem;
