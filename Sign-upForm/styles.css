@@ -48,8 +48,8 @@ body {
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-size: 1.6rem;
-    background-image: url(./images/bg-intro-mobile.png);
-    background-color: var(--primary-color-red);
+    background: var(--primary-color-red) url(./images/bg-intro-mobile.png) repeat-x center;
+    background-size: contain;
 }
 
 ul[class],
@@ -263,8 +263,10 @@ footer > p {
 @media screen and (min-width: 1440px) {
     body {
         background-image: url(./images/bg-intro-desktop.png);
-        background-repeat: repeat-y;
-        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #main-container {
         flex-direction: row;
