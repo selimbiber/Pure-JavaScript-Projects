@@ -45,21 +45,30 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/4832254e-4724-4e7b-abb9-6675a98dec43)
+![mobile-error-state](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/318b6f8e-2122-438c-8ebc-f7d894d2005b)
 
 #### Desktop Layout (1440px)
 
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/6678d659-ce07-49dd-917f-ab8de2b0b5e5)
+![desktop-hover-error-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8bd71995-a143-45b1-b8b9-87ea19d319fc)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![my-mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/ae191e10-a58d-46f5-9f6b-f21ebc9e414b)
+![my-mobile-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/e14660c2-e7ab-4ba2-bde1-291b0d8f68ee)
+![my-mobile-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/4a26c0c4-f206-4e0b-a892-d9134b9bc7aa)
 
 #### Desktop Layout (1440px)
 
+![my-desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/07591dc4-862c-4798-86a5-ef69468d1967)
+![my-desktop-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8c8cbc3e-3fa7-4f21-8cb0-f3adbdd9a21a)
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/ping-coming-soon-page-J2-zFOVhQi)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PingComingSoonPage/index.html)
 
 ## My process
