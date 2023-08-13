@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+:root {
+    font-family: 'Libre Franklin', sans-serif;
+    --primary-color-blue: hsl(223, 87%, 63%);
+    --secondary-color-pale-blue:  hsl(223, 100%, 88%);
+    --secondary-color-light-red: hsl(354, 100%, 66%);
+    --neutral-color-gray: hsl(0, 0%, 59%);
+    --neutral-color-very-dark-gray: hsl(209, 33%, 12%);
+}
+/* RESET AREA */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article>*+* {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+/* STYLES AREA */
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 4.6rem;
+    padding: 13rem 5.5rem 6rem 5.5rem;
+}
+
+/* Header Section */
+
+#header-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    position: relative;
+}
+
+#logo {
+    height: 3.3rem;
+    width: 11rem;
+}
+
+#hero-heading {
+    color: var(--neutral-color-gray);
+    font-size: 4.48rem;
+    font-weight: 300;
+    margin-top: 7rem;
+}
+
+#hero-heading strong {
+    font-weight: 700;
+    color: var(--neutral-color-very-dark-gray);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+form > #fieldset-area {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form #legend-text {
+    font-size: 2.37rem;
+    margin: 3rem auto 6rem auto;
+}
+
+#email-input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.email-input-style {
+    height: 8rem;
+    width: 56.4rem;
+    border: .2rem solid var(--secondary-color-pale-blue);
+    border-radius: 5rem;
+    outline: 0;
+    padding: 3rem 6rem;
+    font-size: 2.4rem;
+}
+
+form #email-input::placeholder {
+    color: var(--neutral-color-very-dark-gray);
+}
+
+.valid-email-input {
+    color: var(--primary-color-blue);
+    font-size: 2.4rem;
+}
+
+.invalid-email-input {
+    border-color: var(--secondary-color-light-red);
+}
+
+#warning-message {
+    position: absolute;
+    display: none;
+    top: 38rem;
+    margin-right: auto;
+    font-size: 2.04rem;
+    font-weight: 300;
+    color: var(--secondary-color-light-red);
+}
+
+form #email-submit-btn {
+    height: 8rem;
+    width: 56.4rem;
+    border: 0;
+    border-radius: 5rem;
+    background-color: var(--primary-color-blue);
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 600;
+    box-shadow: 0 1rem 1rem var(--secondary-color-pale-blue);
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+form #email-submit-btn:hover {
+    opacity: .5;
+}
+
+#hero-text {
+    margin-top: 1rem;
+}
+
+/* FIGURE SECTION */
+
+#figure-section {
+    width: 64rem;
+}
+
+/* FOOTER SECTION */
+
+#footer-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 7rem;
+    margin-top: 20rem;
+}
+
+#sm-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.8rem;
+}
+
+.sm-icons {
+    border: .01px solid lightgray;
+    border-radius: 60%;
+    cursor: pointer;
+    padding: 2.6rem;
+}
+
+.sm-icons:hover {
+    background-color: var(--primary-color-blue);
+    transition: background .5s
+}
+
+.facebook-icon {
+    background: url(./images/blue-icon-facebook.svg) no-repeat center;
+    background-size: 35%;
+}
+
+.facebook-icon:hover {
+    background-image: url(./images/white-icon-facebook.svg);
+}
+
+.twitter-icon {
+    background: url(./images/blue-icon-twitter.svg) no-repeat center;
+    background-size: 73%;
+}
+
+.twitter-icon:hover {
+    background-image: url(./images/white-icon-twitter.svg);
+}
+
+.instagram-icon {
+    background: url(./images/blue-icon-instagram.svg) no-repeat center;
+    background-size: 73%;
+}
+
+.instagram-icon:hover {
+    background-image: url(./images/white-icon-instagram.svg);
+}
+
+#copyright-text {
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--neutral-color-gray);
+}
+
+@media screen and (min-width: 1440px) {
+    #main-container {
+        padding: 6.4rem 0 3rem 0;
+        row-gap: 7rem;
+    }
+    #header-section {
+        margin: 0;
+    }
+    #logo {
+        height: 2.5rem;
+        width: 8.4rem;
+    }
+    #hero-heading {
+        margin: 4rem auto -1.5rem auto;
+        font-size: 4.7rem;
+    }
+    form {
+        flex-direction: row;
+        gap: 2.5rem;
+    }
+    form #legend-text {
+        margin: 2rem auto 4rem auto;
+        font-size: 2rem;
+    }
+    #email-input-area {
+        flex-direction: row;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    form #email-input {
+        height: 5.7rem;
+        width: 42rem;
+        padding: 0 3rem;
+        font-size: 1.56rem;
+    }
+    form #email-input::placeholder {
+        font-size: 1.6rem;
+    }
+    form #email-submit-btn {
+        height: 5.7rem;
+        width: 20rem;
+        font-size: 1.5rem;
+        margin-top: auto;
+    }
+    #warning-message {
+        top: 27.5rem;
+        left: 0rem;
+        font-size: 1.2rem;
+    }
+    #figure-section {
+        width: 64rem;
+        margin: -5rem 0 0 0;
+    }
+    #footer-section {
+        margin-top: 0;
+        row-gap: 2.6rem;
+    }
+    #sm-icons-container {
+        gap: 1.6rem;
+    }
+    .sm-icons {
+        padding: 1.3rem;
+    }
+    #copyright-text {
+        font-size: 1.2rem;
+    }
+}
