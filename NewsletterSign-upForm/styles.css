@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+:root {
+    font-family: 'Roboto', sans-serif;
+    --primary-color-tomato: hsl(4, 100%, 67%);
+    --neutral-color-dark-slate-gray: hsl(234, 29%, 20%);
+    --neutral-color-charcoal-gray: hsl(235, 18%, 26%);
+    --neutral-color-gray: hsl(231, 7%, 60%);
+    --neutral-color-white: hsl(0, 0%, 100%);
+    --gradient-color-pink: #ff3e83;
+    --gradient-color-orange: #fd634a;
+    --gradient-box-shadow: #ff3e8355;
+}
+
+/* RESET AREA */
+#root, #__next {
+    isolation: isolate;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;  
+    padding: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+*,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    }
+}
+
+body {
+    min-height: 100vh;
+    scroll-behavior: smooth;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--neutral-color-dark-slate-gray);
+}
+
+ul[class],
+ol[class],
+li {
+    list-style: none;
+}
+
+a:not([class]) {
+    text-decoration-skip-ink: auto; 
+}
+
+a:focus,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    box-shadow: none;
+    outline-offset: .05em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+article > * + * {
+    margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* MAIN AREA */
+
+#newsletter-card {
+    background-color: var(--neutral-color-white);
+}
+
+#card_figure-section {
+    background: url(./images/illustration-sign-up-mobile.svg) no-repeat center;
+    background-size: 100%;
+    height: 33.9vh;
+    width: 100%;
+    display: block;
+}
+
+#card_form-section {
+    padding: 3rem 2.5rem 4.4rem 2.5rem;
+    display: block;
+}
+
+#card_form-section #hero-heading {
+    font-size: 4rem;
+}
+
+#card_form-section #hero-text {
+    color: var(--neutral-color-charcoal-gray);
+    margin-top: 1.2rem;
+}
+
+#card_form-section #list-items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+    margin-top: 2.5rem;
+}
+
+#card_form-section #list-items li {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: var(--neutral-color-charcoal-gray);
+}
+
+form {
+    margin-top: 4rem;
+}
+
+form fieldset {
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+}
+
+#email-input-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+
+#email-input {
+    border-radius: .9rem;
+    height: 5.5rem;
+    width: 100%;
+    padding-left: 2.5rem;
+    outline: 0;
+}
+
+.default-email-input {
+    border: .1rem solid var(--neutral-color-gray);
+}
+
+.default-email-input::placeholder {
+    color: var(--neutral-color-dark-slate-gray);
+}
+
+.invalid-email-input {
+    color: hsl(4, 82%, 40%);
+    border: .1rem solid var(--primary-color-tomato);
+    background-color: hsla(4, 100%, 67%, 0.15);
+    
+}
+
+.invalid-email-input::placeholder {
+    color: hsl(4, 82%, 40%);
+}
+
+#submit-input {
+    border: .1rem solid var(--neutral-color-gray);
+    border-radius: .9rem;
+    height: 5.5rem;
+    width: 100%;
+    background-color: var(--neutral-color-dark-slate-gray);
+    color: var(--neutral-color-white);
+    margin-top: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition: background 1000ms linear;
+    -ms-transition: background 1000ms linear;
+    transition: background 1000ms linear;
+}
+
+#submit-input:hover, #dismiss-btn:hover {
+    background: linear-gradient(
+      90deg,
+      var(--gradient-color-pink),
+      var(--gradient-color-orange)
+    );
+    box-shadow: 0 1rem 1.5rem var(--gradient-box-shadow);
+}
+  
+#submit-input:active {
+    transform: scale(1.01);
+    box-shadow: none;
+}
+
+#email-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--neutral-color-charcoal-gray);
+}
+
+#warning-message {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-color-tomato);
+}
+
+#card_success-section {
+    display: none;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    padding: 15rem 2.3rem 5rem 2.3rem;
+    height: 82rem;
+    width: 37rem;
+}
+
+#card_success-section h2 {
+    font-size: 3.96rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-top: 1.5rem;
+    color: var(--neutral-color-dark-slate-gray);
+}
+
+#success-message-text {
+    font-size: 1.59rem;
+    font-weight: 400;
+    color: var(--neutral-color-charcoal-gray);
+}
+
+#dismiss-btn {
+    border: .1rem solid var(--neutral-color-gray);
+    border-radius: .9rem;
+    font-size: 1.6rem;
+    height: 5.7rem;
+    width: 100%;
+    background-color: var(--neutral-color-dark-slate-gray);
+    color: var(--neutral-color-white);
+    margin-top: auto;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-transition: background 1000ms linear;
+    -ms-transition: background 1000ms linear;
+    transition: background 1000ms linear;
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        background-color: var(--neutral-color-charcoal-gray);
+    }
+    #newsletter-card {
+        border-radius: 3.7rem;
+        height: 64rem;
+        width: 93rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        padding: 2.2rem 1rem 2rem 4rem;
+        gap: 2.4rem;
+    }
+    #card_figure-section {
+        background: url(./images/illustration-sign-up-desktop.svg) no-repeat center;
+        height: 100%;
+        width: 100%;
+        order: 2;
+    }
+    #card_form-section {
+        width: 100%;
+        order: 1;
+        padding-top: 6rem;
+    }
+    #card_form-section #hero-heading {
+        font-size: 5.6rem;
+    }
+    #card_form-section #list-items li {
+        font-size: 1.6rem;
+    }
+    #submit-input{
+        height: 5.7rem;
+    }
+    #card_success-section {
+        height: 52rem;
+        width: 50.5rem;
+        padding: 4.9rem 6.4rem 6rem 6.4rem;
+    }
+    #card_success-section h2 {
+        font-size: 5.5rem;
+        line-height: 5.7rem;
+    }
+    #success-message-text {
+        font-size: 1.58rem;
+    }
+}
