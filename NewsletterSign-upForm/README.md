@@ -67,7 +67,7 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
-![my-mobile-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1ed1f0c4-7077-40b7-adcf-cc420ab31fc7)
+![my-mobile-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1950edd0-c8c4-45ef-97f1-4e5115037811)
 
 ![my-mobile-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/a38d495a-56da-4554-8e63-876e2fb1285b)
 
