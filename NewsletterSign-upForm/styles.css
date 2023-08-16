@@ -110,7 +110,7 @@ select {
 }
 
 #card_form-section {
-    padding: 3rem 2.5rem 4.4rem 2.5rem;
+    padding: 3rem 2.5rem 4rem 2.5rem;
     display: block;
 }
 
@@ -174,7 +174,7 @@ form fieldset {
 }
 
 .default-email-input::placeholder {
-    color: var(--neutral-color-dark-slate-gray);
+    color: var(--neutral-color-gray);
 }
 
 .invalid-email-input {
