@@ -47,21 +47,41 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/bf8fdd0e-f94b-4fff-924e-1ba9a13666b8)
+
+![mobile-success](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/c9497a0e-6054-4c8d-9027-e2c0d88d2686)
 
 #### Desktop Layout (1440px)
 
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/26773df9-e913-4c14-a6b9-65da0b4c7455)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/6afc5705-6317-43e8-862c-fbaef7a1ab8b)
+
+![error-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1e38f392-d471-4085-9251-0c77b8330b9b)
+
+![desktop-success](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/43c12ba6-3140-4482-bb0b-963e8de1b3ab)
+
+![desktop-success-active](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/bde68947-4ac7-4ac5-b8a7-cb91e9b2a087)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![my-mobile-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1ed1f0c4-7077-40b7-adcf-cc420ab31fc7)
+
+![my-mobile-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/a38d495a-56da-4554-8e63-876e2fb1285b)
 
 #### Desktop Layout (1440px)
 
+![my-desktop-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/74eb5625-6733-4a9d-8e76-800dd9b0a9aa)
+
+![my-desktop-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/477c18dc-92ca-4787-820b-ef7e66f1a093)
+
+![my-desktop-design-3](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/18ed10e2-4f98-4616-90e7-bfd4bffa19a2)
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/newsletter-signup-form-WaNlEvgV4q)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsletterSign-upForm/index.html)
 
 ## My process
