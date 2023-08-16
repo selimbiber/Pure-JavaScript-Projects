@@ -9,10 +9,6 @@ const ENTERED_EMAIL = document.getElementById("entered-email-value");
 const SUCCESS_SECTION = document.getElementById("card_success-section");
 const DISMISS_BTN = document.getElementById("dismiss-btn");
 
-if (window.innerWidth >= 1440) {
-	FIGURE_IMG.src = "./images/illustration-sign-up-desktop.svg";
-}
-
 let EMAIL_INPUT_VALUE;
 let EMAIL_INPUT_LENGTH = 0;
 

@@ -99,10 +99,14 @@ select {
     display: block;
 }
 
-#card_figure-img {
+#card_figure-desktop-img {
     object-fit: contain;
     height: 100%;
     width: 100%;
+}
+
+#card_figure-mobile-img {
+    display: none;
 }
 
 #card_form-section {
@@ -282,7 +286,11 @@ form fieldset {
         height: 93.6%;
         order: 2;
     }
-    #card_figure-img {
+    #card_figure-desktop-img {
+        display: none;
+    }
+    #card_figure-mobile-img {
+        display: block;
         object-fit: contain;
         height: 100%;
         width: 100%;
