@@ -42,13 +42,27 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/d70bcc54-4f29-4636-aef2-1062043f9c4f)
+
+![mobile-menu](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/4e2ac76a-6d94-4b72-b93c-cf080b6f0152)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/7821671c-b3f9-49df-94b3-11214d41027b)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/b6d13d43-1818-4b3a-b189-2ec9c76842d0)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![my-mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/142ea8c8-9f3f-4d6d-b939-1eac66175304)
+
+![my-mobile-design-hamburger-menu](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/ea797eb7-45db-48fc-8619-dc6e3ea513eb)
+
 #### Desktop Layout (1440px)
+
+![my-desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/d2bf0365-7937-4896-b92a-be6af0079303)
 
 ### Links
 
