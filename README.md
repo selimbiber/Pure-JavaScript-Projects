@@ -16,6 +16,8 @@
 ### [Interactive Rating Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
 ### [FAQ Accordion Card](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/FAQ-accordion-card/index.html)
 ### [Article Preview Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ArticlePreviewComponent/index.html)
+### [Newsletter Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsletterSign-upForm/index.html)
+### [News Homepage](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsHomepage/index.html)
 
 ## Preview Links For My Other JavaScript Projects:
 
