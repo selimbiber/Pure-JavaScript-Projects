@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+	</head>
+	<body id="container">
+		<header id="header-section">
+			<figure>
+				<img src="./images/logo.svg" alt="" id="homepage-logo" />
+			</figure>
+			<nav id="header-section_nav-menu" class="header-section_nav-menu">
+				<ul id="nav-menu_links-list">
+					<li class="nav-menu_links">
+						<details class="dropdown-items">
+							<summary class="dropdown-title">
+								Features
+								<figure>
+									<img src="./images/icon-arrow-down.svg" alt="" />
+								</figure>
+							</summary>
+							<ul class="dropdown-contents">
+								<li
+									class="dropdown-contents_sub-content"
+									onclick="toggleMenu()"
+								>
+									<a href="#"
+										><figure>
+											<img
+												src="./images/icon-todo.svg"
+												alt=""
+												class="drowndown-content_icon"
+											/>
+										</figure>
+										Todo List</a
+									>
+								</li>
+								<li
+									class="dropdown-contents_sub-content"
+									onclick="toggleMenu()"
+								>
+									<a href="#"
+										><figure>
+											<img
+												src="./images/icon-calendar.svg"
+												alt=""
+												class="drowndown-content_icon"
+											/>
+										</figure>
+										Calendar</a
+									>
+								</li>
+								<li
+									class="dropdown-contents_sub-content"
+									onclick="toggleMenu()"
+								>
+									<a href="#"
+										><figure>
+											<img
+												src="./images/icon-reminders.svg"
+												alt=""
+												class="drowndown-content_icon"
+											/>
+										</figure>
+										Reminders</a
+									>
+								</li>
+								<li
+									class="dropdown-contents_sub-content"
+									onclick="toggleMenu()"
+								>
+									<a href="#"
+										><figure>
+											<img
+												src="./images/icon-planning.svg"
+												alt=""
+												class="drowndown-content_icon"
+											/>
+										</figure>
+										Planning</a
+									>
+								</li>
+							</ul>
+						</details>
+					</li>
+					<li class="nav-menu_links">
+						<details class="dropdown-items">
+							<summary class="dropdown-title">
+								Company
+								<figure>
+									<img src="./images/icon-arrow-down.svg" alt="" />
+								</figure>
+							</summary>
+							<ul class="dropdown-contents" id="dropdown-contents_company">
+								<li onclick="toggleMenu()">
+									<a href="#">History</a>
+								</li>
+								<li onclick="toggleMenu()">
+									<a href="#">Our Team</a>
+								</li>
+								<li onclick="toggleMenu()">
+									<a href="#">Blog</a>
+								</li>
+							</ul>
+						</details>
+					</li>
+					<li class="nav-menu_links" onclick="toggleMenu()">
+						<a href="#">Careers</a>
+					</li>
+					<li class="nav-menu_links" onclick="toggleMenu()">
+						<a href="#">About</a>
+					</li>
+				</ul>
+				<ul id="nav-menu_buttons-area">
+					<li>
+						<button class="menu-buttons" id="login-btn" onclick="toggleMenu()">
+							Login
+						</button>
+					</li>
+					<li>
+						<button class="menu-buttons" id="register-btn">Register</button>
+					</li>
+				</ul>
+			</nav>
+			<button
+				id="hamburger-menu_btn"
+				title="hamburger menu button"
+				onclick="toggleMenu()"
+			>
+				<figure>
+					<img src="./images/icon-menu.svg" alt="" id="icon-open-menu" />
+					<img src="./images/icon-close-menu.svg" alt="" id="icon-close-menu" />
+				</figure>
+			</button>
+		</header>
+		<main id="hero-section">
+			<figure id="hero-section_figure-subsection">
+				<img
+					src="./images/image-hero-desktop.png"
+					alt=""
+					id="hero-section_desktop-image"
+				/>
+				<img
+					src="./images/image-hero-mobile.png"
+					alt=""
+					id="hero-section_mobile-image"
+				/>
+			</figure>
+			<section id="hero-section_content-subsection">
+				<article id="content-subsection_article-area">
+					<header>
+						<h1 id="content-subsection_article-heading">Make remote work</h1>
+					</header>
+					<p id="content-subsection_article-text">
+						Get your team in sync, no matter your location. Streamline
+						processes, create team rituals, and watch productivity soar.
+					</p>
+					<button id="content-subsection_article-btn">Learn more</button>
+				</article>
+				<footer id="content-subsection_footer-area">
+					<figure id="footer-area_client-figures">
+						<img src="./images/client-databiz.svg" alt="" class="client-icons"
+						id="icon-databiz" / ><img
+							src="./images/client-audiophile.svg"
+							alt=""
+							class="client-icons"
+							id="icon-audiophile"
+						/><img
+							src="./images/client-meet.svg"
+							alt=""
+							class="client-icons"
+							id="icon-meet"
+						/><img
+							src="./images/client-maker.svg"
+							alt=""
+							class="client-icons"
+							id="icon-maker"
+						/>
+					</figure>
+				</footer>
+			</section>
+		</main>
+		<script src="./main.js"></script>
+	</body>
+</html>
