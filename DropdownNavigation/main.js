@@ -4,17 +4,18 @@ const HAMBURGER_BTN = document.getElementById('hamburger-menu_btn')
 const ICON_OPEN_MENU = document.getElementById('icon-open-menu')
 const ICON_CLOSE_MENU = document.getElementById('icon-close-menu')
 const HERO_IMAGE = document.getElementById('hero-section_mobile-image')
-const HERO_TEXT = document.getElementById('hero-section_article-text')
-const HERO_BTN = document.getElementById('hero-section_article-btn')
+const HERO_TEXT = document.getElementById('content-subsection_article-text')
+const HERO_BTN = document.getElementById('content-subsection_article-btn')
 const DROPDOWN_ITEMS = document.querySelectorAll('.dropdown-items')
 const CLIENT_ICONS = document.querySelectorAll('.client-icons')
 
-function toggleMenu() {
+if (window.innerWidth < 1440) {
+  function toggleMenu() {
     if ( HAMBURGER_MENU.classList.contains("show-menu") ) {
       HAMBURGER_MENU.classList.remove("show-menu");
       ICON_CLOSE_MENU.style.display = "none";
       ICON_OPEN_MENU.style.display = "block";
-      NEWS_HOMEPAGE.style.backgroundColor = 'var(--neutral-color-almost-white)';
+      BODY_CONTAINER.style.backgroundColor = 'var(--neutral-color-almost-white)';
       HERO_BTN.style.opacity = '1';
       HERO_IMAGE.style.filter = 'none';
       CLIENT_ICONS.forEach(icon => {
@@ -24,14 +25,19 @@ function toggleMenu() {
       HAMBURGER_MENU.classList.add("show-menu");
       ICON_CLOSE_MENU.style.display = "block";
       ICON_OPEN_MENU.style.display = "none";
-      NEWS_HOMEPAGE.style.backgroundColor = 'var(--neutral-color-medium-gray)';
-      HERO_BTN.style.opacity = '.9';
+      BODY_CONTAINER.style.backgroundColor = 'var(--neutral-color-medium-gray)';
+      HERO_BTN.style.opacity = '.6';
       HERO_IMAGE.style.filter = 'brightness(.36)';
       CLIENT_ICONS.forEach(icon => {
         icon.style.filter = 'brightness(.45)';
       });
       HERO_TEXT.style.color = 'var(--active-color-dark-gray)';
     }
+  }
+} else {
+  function toggleMenu() {
+    return false;
+  }
 }
 
 DROPDOWN_ITEMS.forEach((targetDetail) => {
@@ -45,11 +51,18 @@ DROPDOWN_ITEMS.forEach((targetDetail) => {
     targetDetail.setAttribute('id', 'opened-detail');
     
     DROPDOWN_ITEMS.forEach( (detail) => {
-      // if (detail !== targetDetail) {
-      //   detail.removeAttribute("open");
-      // }
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
       if ( detail.hasAttribute('open') ) {
         lastClickedDetail.querySelector('summary img').classList.remove('active-icon-arrow');
+      }
+      if ( detail.hasAttribute('open') ) {
+        lastClickedDetail.querySelectorAll('ul li').forEach( (link) => {
+          link.addEventListener('click', () => {
+            detail.removeAttribute("open");
+          });
+        });
       }
     });
   });
