@@ -364,7 +364,7 @@ details[open] > summary ~ * {
     #hero-section {
         flex-direction: row;
         justify-content: space-between;
-        padding: 2.8rem 13rem;
+        padding: 4rem 13rem;
         column-gap: 0rem;
     }
     #hero-section_figure-subsection {
@@ -430,11 +430,12 @@ details[open] > summary ~ * {
         display: none;
     }
     #homepage-logo {
-        width: 9rem;
+        width: 8.6rem;
     }
     .header-section_nav-menu {
         position: absolute;
         transform: none;
+        transition: none;
         max-width: none;
         top: 2rem;
         right: 4.2rem;
@@ -482,7 +483,7 @@ details[open] > summary ~ * {
         height:7.7rem;
         width: 10.5rem;
         padding-bottom: 5.5rem;
-        top: 4rem;
+        top: 5rem;
         left: -1rem;
     }
     .dropdown-contents_sub-content a {
@@ -506,7 +507,7 @@ details[open] > summary ~ * {
         row-gap: 1rem;
         height: 5rem;
         padding-bottom: 6rem;
-        top: 4rem;
+        top: 5rem;
         left: 18.2rem;
     }
 }
