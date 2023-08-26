@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+		<title>Frontend Mentor | Interactive card details form</title>
+	</head>
+	<body>
+		<main id="main-container">
+			<section id="card-section">
+				<div id="cards-container">
+					<figure id="bg-card-back">
+						<img
+							src="./images/bg-card-back.png"
+							alt="Card Back"
+							class="bg-card"
+						/>
+						<p id="cvc-number-output" dir="rtl">000</p>
+					</figure>
+					<figure id="bg-card-front">
+						<img
+							src="./images/bg-card-front.png"
+							alt="Card Front"
+							class="bg-card"
+						/>
+						<img src="./images/card-logo.svg" alt="" id="card-logo" />
+						<ul id="card-details">
+							<li id="card-number-output">0000 0000 0000 0000</li>
+							<li id="name-date-output">
+								<p id="cardholder-name-output">Jane Appleseed</p>
+								<p id="card-date-output">00/00</p>
+							</li>
+						</ul>
+					</figure>
+				</div>
+			</section>
+			<section id="info-section">
+				<form
+					action="https://httpbin.org/post"
+					method="post"
+					id="card-details-form"
+				>
+					<fieldset>
+						<ul id="form-elements">
+							<li class="form-element">
+								<label for="cardholder-name" class="input-label-text"
+									>Cardholder Name</label
+								>
+								<input
+									type="text"
+									name="cardholder-name"
+									id="cardholder-name-input"
+									placeholder="e.g. Jane Appleseed"
+								/>
+								<p class="warning-message" id="cardholder-name_warning-message">
+									Wrong format, only letters
+								</p>
+							</li>
+							<li class="form-element">
+								<label for="card-number" class="input-label-text"
+									>Card Number</label
+								>
+								<input
+									type="text"
+									name="card-number"
+									id="card-number-input"
+									placeholder="e.g. 1234 5678 9123 0000"
+								/>
+								<p class="warning-message" id="card-number_warning-message">
+									Wrong format, numbers only
+								</p>
+							</li>
+							<li class="form-element" id="date-cvc-containers-area">
+								<div id="month-year-area-container">
+									<label for="month-year-inputs-area" class="input-label-text"
+										>Exp. Date (MM/YY)</label
+									>
+									<div id="month-year-inputs-area">
+										<input
+											type="text"
+											name="month"
+											placeholder="MM"
+											class="month-year-input"
+										/><input
+											type="text"
+											name="year"
+											placeholder="YY"
+											class="month-year-input"
+										/>
+									</div>
+									<p class="warning-message" id="month-year_warning-message">
+										Can't be blank
+									</p>
+								</div>
+								<div id="cvc-input-area-container">
+									<label for="cvc-number-input" class="input-label-text"
+										>CVC</label
+									><input
+										type="number"
+										name="cvc-number"
+										placeholder="e.g. 123"
+										id="cvc-number-input"
+									/>
+									<p class="warning-message" id="cvc-number_warning-message">
+										Can't be blank
+									</p>
+								</div>
+							</li>
+						</ul>
+					</fieldset>
+					<input type="submit" value="Confirm" id="card-confirm-input" />
+				</form>
+				<article id="completed-state">
+					<figure>
+						<img src="./images/icon-complete.svg" alt="" id="icon-complete" />
+					</figure>
+					<header>
+						<h1 id="state-heading">Thank you!</h1>
+						<p id="state-text">We've added your card details</p>
+					</header>
+					<button id="continue-btn">Continue</button>
+				</article>
+			</section>
+		</main>
+		<!-- Completed state start
+		  
+		-->
+		<script src="./main.js"></script>
+	</body>
+</html>
