@@ -43,17 +43,38 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/d046d754-bfb2-4889-8a47-3e4f5f073b56)
+
+![mobile-menu-collapsed](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/82e28bf8-f23b-4f3b-a902-2aa5398120c6)
+
+![mobile-menu-expanded](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/cffe3c33-cf3f-427d-acff-0f24b1241519)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/4888b1be-d0e1-405d-b8a2-14e3f1beba62)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/6d6d3662-ca05-4afa-86e4-2e18b59de116)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/ad6e6466-3173-412f-8eca-6b376f38101b)
+
+![DropdownNavigation_collapsed-menu](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/877cdbc8-ee5e-41a6-baa0-79759a806dbe)
+
+![DropdownNavigation_expanded-menu](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/f0a3cc68-570b-43de-8cb9-bbdf5297025d)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/dbd13986-8e0b-423d-b046-f74da622e912)
+
+![desktop-design-active](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/3be4096a-6e25-464b-a9e1-dce24c57c944)
+
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BDD3P2F3nd)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DropdownNavigation/index.html)
 
 ## My process
