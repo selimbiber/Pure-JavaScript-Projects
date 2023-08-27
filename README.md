@@ -18,6 +18,8 @@
 ### [Article Preview Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ArticlePreviewComponent/index.html)
 ### [Newsletter Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsletterSign-upForm/index.html)
 ### [News Homepage](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsHomepage/index.html)
+### [Intro Section With Dropdown Navigation](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DropdownNavigation/index.html)
+### [Interactive Card Details Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveCardDetailsForm/index.html)
 
 ## Preview Links For My Other JavaScript Projects:
 
