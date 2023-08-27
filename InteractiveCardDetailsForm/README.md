@@ -56,7 +56,17 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/e2157d58-eaf8-4575-a16d-5f1fb25cf254)
+
+![complete-state-mobile](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/abdba1ab-71b5-4354-bb8e-315663bf0e2e)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/20e6ac05-8db9-4a60-9b1c-5e50712585f0)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/2f9b51ee-8c3d-481b-902e-054ed5ae89e2)
+
+![complete-state-desktop](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/601864c3-7de7-44c2-9009-02878bc37b19)
 
 ### My Result
 
@@ -66,7 +76,7 @@ Your users should be able to:
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-crKczW-Sv5)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveCardDetailsForm/index.html)
 
 ## My process
