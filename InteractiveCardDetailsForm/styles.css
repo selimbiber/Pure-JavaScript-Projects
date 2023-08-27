@@ -175,20 +175,51 @@ select {
 #bg-card-front #card-details #card-number-output {
     letter-spacing: .3rem;
     font-size: 1.66rem;
+    width: 23.8rem;
+}
+
+.card-output {
+    cursor:default;
+    caret-color: transparent;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: var(--neutral-color-white);
+}
+
+.card-output::placeholder {
+    color: var(--neutral-color-white);
+    opacity: 1;
 }
 
 #bg-card-front #card-details #name-date-output {
     display: flex;
-    column-gap: 12.3rem;
+    justify-content: space-between;
     font-size: .9rem;
-    letter-spacing: .1rem;
 }
 
 #bg-card-front #card-details #name-date-output #cardholder-name-output {
     text-transform: uppercase;
     font-size: .96rem;
+    letter-spacing: .1rem;
 }
 
+#bg-card-front #card-details #name-date-output #cardholder-name-output::placeholder {
+    font-size: .96rem;
+    letter-spacing: .1rem;
+}
+
+#bg-card-front #card-details #name-date-output #card-date-output {
+    margin-right: -.64rem;
+    cursor: default;
+    display: flex;
+    column-gap: .1rem;
+}
+
+#bg-card-front #card-details #name-date-output #card-date-output input {
+    width: 1.37rem;
+    letter-spacing: .1rem;
+}
 /* INFO STYLES */
 
 #info-section {
@@ -239,6 +270,7 @@ input[type=number] {
 }
 
 #cardholder-name-input, #card-number-input {
+    color: var(--neutral-color-very-dark-violet);
     width: 32.6rem;
 }
 
@@ -257,7 +289,7 @@ input[type=number] {
     color: var(--neutral-color-very-dark-violet);
 }
 
-input:focus {
+.form-element input:focus {
     border: thin solid hsl(278, 94%, 30%);
 }
 
@@ -351,8 +383,9 @@ input:focus {
 #state-heading {
     color: var(--neutral-color-very-dark-violet);
     font-size: 2.86rem;
-    letter-spacing: .2rem;
+    letter-spacing: .3rem;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 #state-text {
@@ -374,11 +407,13 @@ input:focus {
         position: relative;
     }
     #cards-container {
-        all: unset;
+        height: 52.3rem;
+        width: 34rem;
+        margin-left: auto;
     }
     #bg-card-back {
         right: -22rem;
-        top: 46.8rem;
+        top: 28rem;
         height: 24.4rem;
         width: 44.7rem;
     }
@@ -401,9 +436,8 @@ input:focus {
         padding-top: .9rem;
     }
     #bg-card-front {
-        top: 18.6rem;
-        left: 16.49rem;
-        right: -6rem;
+        top: 0rem;
+        left: 1.5vw;
         height: 24.4rem;
         width: 44.7rem;
     }
@@ -421,21 +455,32 @@ input:focus {
         top: 13.7rem;
         left: 3.1rem;
         row-gap: 2rem;
+        color: var(--neutral-color-white);
     }
     #bg-card-front #card-details #card-number-output {
         font-size: 2.835rem;
         word-spacing: .1rem;
-        width: 40rem;
+        width: 37.1rem;
     }
     #bg-card-front #card-details #name-date-output {
-        column-gap: 19.2rem;
+        margin-right: 0;
+        padding-right: 1.8rem;
     }
     #bg-card-front #card-details #name-date-output #cardholder-name-output {
         font-size: 1.4rem;
         letter-spacing: .2rem;
     }
+    #bg-card-front #card-details #name-date-output #cardholder-name-output::placeholder {
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+    }
     #bg-card-front #card-details #name-date-output #card-date-output {
         font-size: 1.4rem;
+        margin-right: -2.68rem;
+        column-gap: .2rem;
+    }
+    #bg-card-front #card-details #name-date-output #card-date-output input {
+        width: 2rem;
         letter-spacing: .2rem;
     }
     #info-section {
@@ -455,6 +500,7 @@ input:focus {
         font-size: 1.3rem;
     }
     #cardholder-name-input, #card-number-input {
+        font-size: 1.8rem;
         width: 36.6rem;
     }
     #date-cvc-containers-area {
@@ -471,5 +517,11 @@ input:focus {
     }
     #card-confirm-input {
         width: 38.1rem;
+    }
+    #completed-state {
+        padding-top: 4rem;
+    }
+    #continue-btn {
+        width: 38rem;
     }
 }

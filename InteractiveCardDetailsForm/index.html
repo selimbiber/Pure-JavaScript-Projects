@@ -22,7 +22,13 @@
 							alt="Card Back"
 							class="bg-card"
 						/>
-						<p id="cvc-number-output" dir="rtl">000</p>
+						<input
+							type="text"
+							placeholder="000"
+							id="cvc-number-output"
+							class="card-output"
+							dir="rtl"
+						/>
 					</figure>
 					<figure id="bg-card-front">
 						<img
@@ -32,10 +38,40 @@
 						/>
 						<img src="./images/card-logo.svg" alt="" id="card-logo" />
 						<ul id="card-details">
-							<li id="card-number-output">0000 0000 0000 0000</li>
+							<li>
+								<input
+									type="text"
+									placeholder="0000 0000 0000 0000"
+									id="card-number-output"
+									class="card-output"
+								/>
+							</li>
 							<li id="name-date-output">
-								<p id="cardholder-name-output">Jane Appleseed</p>
-								<p id="card-date-output">00/00</p>
+								<input
+									type="text"
+									placeholder="Jane Appleseed"
+									id="cardholder-name-output"
+									class="card-output"
+								/>
+								<ul id="card-date-output">
+									<li>
+										<input
+											type="text"
+											placeholder="00"
+											id="card-month-output"
+											class="card-output"
+										/>
+									</li>
+									/
+									<li>
+										<input
+											type="text"
+											placeholder="00"
+											id="card-year-output"
+											class="card-output"
+										/>
+									</li>
+								</ul>
 							</li>
 						</ul>
 					</figure>
@@ -58,6 +94,7 @@
 									name="cardholder-name"
 									id="cardholder-name-input"
 									placeholder="e.g. Jane Appleseed"
+									onkeydown="removeSpaces(event)"
 								/>
 								<p class="warning-message" id="cardholder-name_warning-message">
 									Wrong format, only letters
@@ -72,6 +109,8 @@
 									name="card-number"
 									id="card-number-input"
 									placeholder="e.g. 1234 5678 9123 0000"
+									onkeydown="removeSpaces(event)"
+									maxlength="19"
 								/>
 								<p class="warning-message" id="card-number_warning-message">
 									Wrong format, numbers only
@@ -86,12 +125,18 @@
 										<input
 											type="text"
 											name="month"
+											id="card-month-input"
 											placeholder="MM"
+											onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+											maxlength="2"
 											class="month-year-input"
 										/><input
 											type="text"
 											name="year"
+											id="card-year-input"
 											placeholder="YY"
+											onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+											maxlength="2"
 											class="month-year-input"
 										/>
 									</div>
@@ -103,9 +148,11 @@
 									<label for="cvc-number-input" class="input-label-text"
 										>CVC</label
 									><input
-										type="number"
+										type="text"
 										name="cvc-number"
 										placeholder="e.g. 123"
+										onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+										maxlength="3"
 										id="cvc-number-input"
 									/>
 									<p class="warning-message" id="cvc-number_warning-message">
@@ -129,9 +176,6 @@
 				</article>
 			</section>
 		</main>
-		<!-- Completed state start
-		  
-		-->
 		<script src="./main.js"></script>
 	</body>
 </html>
