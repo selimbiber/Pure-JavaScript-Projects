@@ -56,17 +56,37 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/e2157d58-eaf8-4575-a16d-5f1fb25cf254)
+
+![complete-state-mobile](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/abdba1ab-71b5-4354-bb8e-315663bf0e2e)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/20e6ac05-8db9-4a60-9b1c-5e50712585f0)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/2f9b51ee-8c3d-481b-902e-054ed5ae89e2)
+
+![complete-state-desktop](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/601864c3-7de7-44c2-9009-02878bc37b19)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/05fba868-3d9a-41c9-9b86-c2eb42f43c30)
+
+![mobile-completed-state-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/44b23842-f104-4cac-9a28-c32d2385c30e)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/774f705c-d3fa-49d4-bbd1-11fa93d43142)
+
+![desktop-error-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/c2766dfa-a520-47f6-8ffe-c982a6dffdab)
+
+![desktop-completed-state-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/6e80e146-3443-4b0b-93e0-3609662476dc)
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/interactive-card-details-form-crKczW-Sv5)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveCardDetailsForm/index.html)
 
 ## My process
