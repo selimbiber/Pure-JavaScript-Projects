@@ -13,18 +13,21 @@
 		<title>Frontend Mentor | Crowdfunding product page</title>
 	</head>
 	<body>
+		<div id="menu-background" class="menu-bg_hidden"></div>
 		<header id="header-section">
 			<figure>
 				<img src="./images/logo.svg" alt="crowdfund logo" id="logo" />
 			</figure>
 			<nav id="nav-bar">
-				<ul
-					id="nav-menu_list-items"
-					class="nav-menu_mobile-styles nav-menu_desktop-styles"
-				>
-					<li class="nav-menu_list-item">About</li>
-					<li class="nav-menu_list-item">Discover</li>
-					<li class="nav-menu_list-item">Get Started</li>
+				<ul id="nav-bar_mobile-items" class="nav-bar_mobile-styles">
+					<li class="nav-menu_list-item"><a href="#">About</a></li>
+					<li class="nav-menu_list-item"><a href="#">Discover</a></li>
+					<li class="nav-menu_list-item"><a href="#">Get Started</a></li>
+				</ul>
+				<ul id="nav-bar_desktop-items" class="nav-bar_desktop-styles">
+					<li class="nav-menu_list-item"><a href="#">About</a></li>
+					<li class="nav-menu_list-item"><a href="#">Discover</a></li>
+					<li class="nav-menu_list-item"><a href="#">Get Started</a></li>
 				</ul>
 			</nav>
 			<button
@@ -52,7 +55,11 @@
 					A beautiful & handcrafted monitor stand to reduce neck and eye strain.
 				</p>
 				<ul id="hero-buttons">
-					<li><button id="back-btn">Back this project</button></li>
+					<li>
+						<button id="back-btn" onclick="toggleModalMenu()">
+							Back this project
+						</button>
+					</li>
 					<li>
 						<input type="checkbox" title="bookmark" id="bookmark-btn" />
 					</li>
@@ -61,15 +68,17 @@
 			<section id="back-states-subsection">
 				<ul id="back-states-list">
 					<li class="back-state_list-item">
-						<p class="back-state_count-title">$89,914</p>
+						<p class="back-state_count-title">
+							$<span id="current-backed-rate"></span>
+						</p>
 						<p class="back-state_count-info">of $100,000 backed</p>
 					</li>
 					<li class="back-state_list-item">
-						<p class="back-state_count-title">5,007</p>
+						<p id="total-backers-count" class="back-state_count-title"></p>
 						<p class="back-state_count-info">total backers</p>
 					</li>
 					<li class="back-state_list-item">
-						<p class="back-state_count-title">56</p>
+						<p id="number-days-left" class="back-state_count-title">56</p>
 						<p class="back-state_count-info">days left</p>
 					</li>
 				</ul>
@@ -107,10 +116,12 @@
 					</p>
 					<div class="reward-count-reward-btn_container">
 						<p class="reward-count">
-							<span class="left-behind">101</span
+							<span class="left-behind bamboo-stand_left-behind">101</span
 							><span class="left-text">left</span>
 						</p>
-						<button class="select-reward_btn">Select Reward</button>
+						<button class="select-reward_btn" onclick="toggleModalMenu()">
+							Select Reward
+						</button>
 					</div>
 				</div>
 				<div class="select-reward_list-items">
@@ -125,10 +136,12 @@
 					</p>
 					<div class="reward-count-reward-btn_container">
 						<p class="reward-count">
-							<span class="left-behind">64</span
+							<span class="left-behind black-edition_left-behind">64</span
 							><span class="left-text">left</span>
 						</p>
-						<button class="select-reward_btn">Select Reward</button>
+						<button class="select-reward_btn" onclick="toggleModalMenu()">
+							Select Reward
+						</button>
 					</div>
 				</div>
 				<div class="select-reward_list-items finished_reward_list-items">
@@ -143,7 +156,7 @@
 					</p>
 					<div class="reward-count-reward-btn_container">
 						<p class="reward-count">
-							<span class="left-behind">0</span
+							<span class="left-behind special-edition_left-behind">0</span
 							><span class="left-text">left</span>
 						</p>
 						<button class="select-reward_btn out-of-stock_btn">
@@ -152,10 +165,10 @@
 					</div>
 				</div>
 			</section>
-			<section id="modal-menu-subsection">
+			<section id="modal-menu-subsection" class="modal-menu-subsection_styles">
 				<header>
 					<h2 id="modal-menu_heading">Back this project</h2>
-					<button id="modal-menu_btn">
+					<button id="modal-menu_btn" onclick="toggleModalMenu()">
 						<img src="./images/icon-close-modal.svg" alt="" />
 					</button>
 				</header>
@@ -170,32 +183,30 @@
 							name="reward-selection"
 							class="input-radio"
 							id="no-reward"
+							autocomplete="off"
 						/>
-						<h3>Pledge with no reward</h3>
+						<h3 class="reward-title">Pledge with no reward</h3>
 					</header>
 					<p class="reward-info">
 						Choose to support us without a reward if you simply believe in our
 						project. As a backer, you will be signed up to receive product
 						updates via email.
 					</p></label
-				><label
-					for="bamboo-stand"
-					class="select-reward_list-items"
-					id="selected-reward_list-item"
-				>
+				><label for="bamboo-stand" class="select-reward_list-items">
 					<header>
 						<input
 							type="radio"
 							name="reward-selection"
 							class="input-radio"
 							id="bamboo-stand"
+							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
 							<li><h3 class="reward-title">Bamboo Stand</h3></li>
 							<li class="reward-pledge">Pledge $25 or more</li>
 						</ul>
 						<ul class="left-behind-container_desktop">
-							<li class="left-behind">101</li>
+							<li class="left-behind bamboo-stand_left-behind">101</li>
 							<li class="left-text">left</li>
 						</ul>
 					</header>
@@ -205,18 +216,22 @@
 						Backer member list.
 					</p>
 					<ul class="left-behind-container_mobile">
-						<li class="left-behind">101</li>
+						<li class="left-behind bamboo-stand_left-behind">101</li>
 						<li class="left-text">left</li>
 					</ul>
 					<form class="enter-pledge_form">
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
-							<input
-								type="number"
-								name="pledge-amount-input"
-								class="pledge-amount_input"
-								id="enter-pledge_bamboo_stand"
-							/>
+							<label
+								for="enter-pledge_bamboo_stand"
+								class="pledge-amount-input_container"
+								><input
+									type="text"
+									name="pledge-amount-input"
+									value="25"
+									class="pledge-amount_input"
+									id="enter-pledge_bamboo_stand"
+							/></label>
 							<input type="submit" value="Continue" class="continue-btn" />
 						</fieldset></form></label
 				><label for="black-edition" class="select-reward_list-items">
@@ -226,13 +241,14 @@
 							name="reward-selection"
 							class="input-radio"
 							id="black-edition"
+							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
 							<li><h3 class="reward-title">Black Edition Stand</h3></li>
 							<li class="reward-pledge">Pledge $75 or more</li>
 						</ul>
 						<ul class="left-behind-container_desktop">
-							<li class="left-behind">101</li>
+							<li class="left-behind black-edition_left-behind">64</li>
 							<li class="left-text">left</li>
 						</ul>
 					</header>
@@ -242,18 +258,22 @@
 						included.
 					</p>
 					<ul class="left-behind-container_mobile">
-						<li class="left-behind">64</li>
+						<li class="left-behind black-edition_left-behind">64</li>
 						<li class="left-text">left</li>
 					</ul>
 					<form class="enter-pledge_form">
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
-							<input
-								type="number"
-								name="pledge-amount-input"
-								class="pledge-amount_input"
-								id="enter-pledge_black-edition"
-							/>
+							<label
+								for="enter-pledge_black-edition"
+								class="pledge-amount-input_container"
+								><input
+									type="text"
+									name="pledge-amount-input"
+									value="75"
+									class="pledge-amount_input"
+									id="enter-pledge_black-edition"
+							/></label>
 							<input type="submit" value="Continue" class="continue-btn" />
 						</fieldset></form></label
 				><label
@@ -266,13 +286,14 @@
 							name="reward-selection"
 							class="input-radio"
 							id="special-edition"
+							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
 							<li><h3 class="reward-title">Mahogany Special Edition</h3></li>
 							<li class="reward-pledge">Pledge $200 or more</li>
 						</ul>
 						<ul class="left-behind-container_desktop">
-							<li class="left-behind">101</li>
+							<li class="special-edition_left-behind">0</li>
 							<li class="left-text">left</li>
 						</ul>
 					</header>
@@ -282,29 +303,41 @@
 						Shipping is included.
 					</p>
 					<ul class="left-behind-container_mobile">
-						<li class="left-behind">0</li>
+						<li class="left-behind special-edition_left-behind">0</li>
 						<li class="left-text">left</li>
 					</ul>
 					<form class="enter-pledge_form">
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
-							<input
-								type="number"
-								name="pledge-amount-input"
-								class="pledge-amount_input"
-								id="enter-pledge_bamboo_stand"
-							/>
+							<label
+								for="enter-pledge_special-edition"
+								class="pledge-amount-input_container"
+								><input
+									type="text"
+									name="pledge-amount-input"
+									value="200"
+									class="pledge-amount_input"
+									id="enter-pledge_special-edition"
+							/></label>
 							<input type="submit" value="Continue" class="continue-btn" />
 						</fieldset></form
 				></label>
 			</section>
+			<section id="success-modal-subsection">
+				<figure>
+					<img src="./images/icon-check.svg" alt="" id="check-icon" />
+				</figure>
+				<header>
+					<h2 id="thanks-heading">Thanks for your support!</h2>
+					<p id="thanks-message">
+						Your pledge brings us one step closer to sharing Mastercraft Bamboo
+						Monitor Riser worldwide. You will get an email once our campaign is
+						completed.
+					</p>
+				</header>
+				<button id="got-it_btn">Got it!</button>
+			</section>
 		</main>
-		<!-- Success modal 
-
-    Thanks for your support! Your pledge brings us one step closer to sharing
-		Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our
-		campaign is completed. Got it!
-    -->
 		<script src="./main.js"></script>
 	</body>
 </html>
