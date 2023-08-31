@@ -48,12 +48,12 @@ function updateCurrentBackedRate (input) {
 
   CURRENT_BACKED_RATE.textContent = currentBackedRate.toLocaleString();
   TOTAL_BACKERS_COUNT.textContent = totalBackersCount.toLocaleString();
-
-  const PERCENTAGE = (currentBackedRate / 100000) * 100;
-  PROGRESS_BAR_STATE.style.width = PERCENTAGE + '%';
 }
 
 let numberDaysLeft = 56;
+
+const PERCENTAGE = (currentBackedRate / 100000) * 100;
+PROGRESS_BAR_STATE.style.width = PERCENTAGE + '%';
 
 function toggleHamburgerMenu() {
     if ( HAMBURGER_MENU.classList.contains('show-menu') ) {
