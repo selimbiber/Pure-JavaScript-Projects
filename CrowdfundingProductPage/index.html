@@ -7,7 +7,7 @@
 			rel="icon"
 			type="image/png"
 			sizes="32x32"
-			href="./images/favicon-32x32.png"
+			href="./images/logo-mastercraft.svg"
 		/>
 		<link rel="stylesheet" href="styles.css" />
 		<title>Frontend Mentor | Crowdfunding product page</title>
@@ -104,7 +104,7 @@
 						USB sticks to be stored under the stand.
 					</p>
 				</article>
-				<div class="select-reward_list-items">
+				<div name="bamboo-stand_li" class="select-reward_list-items">
 					<header>
 						<h3 class="reward-title">Bamboo Stand</h3>
 						<p class="reward-pledge">Pledge $25 or more</p>
@@ -119,12 +119,16 @@
 							<span class="left-behind bamboo-stand_left-behind">101</span
 							><span class="left-text">left</span>
 						</p>
-						<button class="select-reward_btn" onclick="toggleModalMenu()">
+						<button
+							name="bamboo-stand_reward-btn"
+							class="select-reward_btn"
+							onclick="toggleModalMenu()"
+						>
 							Select Reward
 						</button>
 					</div>
 				</div>
-				<div class="select-reward_list-items">
+				<div name="black-edition_li" class="select-reward_list-items">
 					<header>
 						<h3 class="reward-title">Black Edition Stand</h3>
 						<p class="reward-pledge">Pledge $75 or more</p>
@@ -139,12 +143,16 @@
 							<span class="left-behind black-edition_left-behind">64</span
 							><span class="left-text">left</span>
 						</p>
-						<button class="select-reward_btn" onclick="toggleModalMenu()">
+						<button
+							name="black-edition_reward-btn"
+							class="select-reward_btn"
+							onclick="toggleModalMenu()"
+						>
 							Select Reward
 						</button>
 					</div>
 				</div>
-				<div class="select-reward_list-items finished_reward_list-items">
+				<div name="special-edition_li" class="select-reward_list-items">
 					<header>
 						<h3 class="reward-title">Mahogany Special Edition</h3>
 						<p class="reward-pledge">Pledge $200 or more</p>
@@ -159,7 +167,10 @@
 							<span class="left-behind special-edition_left-behind">0</span
 							><span class="left-text">left</span>
 						</p>
-						<button class="select-reward_btn out-of-stock_btn">
+						<button
+							name="special-edition_reward-btn"
+							class="select-reward_btn out-of-stock_btn"
+						>
 							Out of Stock
 						</button>
 					</div>
@@ -168,7 +179,7 @@
 			<section id="modal-menu-subsection" class="modal-menu-subsection_styles">
 				<header>
 					<h2 id="modal-menu_heading">Back this project</h2>
-					<button id="modal-menu_btn" onclick="toggleModalMenu()">
+					<button id="modal-menu_btn">
 						<img src="./images/icon-close-modal.svg" alt="" />
 					</button>
 				</header>
@@ -176,13 +187,17 @@
 					Want to support us in bringing Mastercraft Bamboo Monitor Riser out in
 					the world?
 				</p>
-				<label for="no-reward" class="select-reward_list-items">
+				<label
+					for="no-reward"
+					name="no-reward_li"
+					class="select-reward_list-items"
+				>
 					<header>
 						<input
 							type="radio"
 							name="reward-selection"
 							class="input-radio"
-							id="no-reward"
+							id="no-reward_radio"
 							autocomplete="off"
 						/>
 						<h3 class="reward-title">Pledge with no reward</h3>
@@ -191,14 +206,48 @@
 						Choose to support us without a reward if you simply believe in our
 						project. As a backer, you will be signed up to receive product
 						updates via email.
-					</p></label
-				><label for="bamboo-stand" class="select-reward_list-items">
+					</p>
+					<form
+						id="no-reward_pledge-form"
+						class="enter-pledge_form"
+						action="https://httpbin.org/post"
+						method="post"
+					>
+						<legend class="enter-pledge_text">Enter your pledge</legend>
+						<fieldset class="amount-btn_form-area">
+							<label
+								for="enter-pledge_bamboo_stand"
+								class="pledge-amount-input_container"
+								><input
+									type="text"
+									name="pledge-amount-input"
+									value="1"
+									min="1"
+									class="pledge-amount_input"
+									id="enter-pledge_no-reward"
+								/>
+								<p class="warning-message" id="warning-message_bamboo-stand">
+									Your pledge amount must $1 or more
+								</p></label
+							>
+							<input
+								type="submit"
+								value="Continue"
+								class="continue-btn"
+								id="bamboo-stand_continue-btn"
+							/>
+						</fieldset></form></label
+				><label
+					for="bamboo-stand"
+					name="bamboo-stand_li"
+					class="select-reward_list-items"
+				>
 					<header>
 						<input
 							type="radio"
 							name="reward-selection"
 							class="input-radio"
-							id="bamboo-stand"
+							id="bamboo-stand_radio"
 							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
@@ -219,7 +268,12 @@
 						<li class="left-behind bamboo-stand_left-behind">101</li>
 						<li class="left-text">left</li>
 					</ul>
-					<form class="enter-pledge_form">
+					<form
+						id="bamboo-stand_pledge-form"
+						class="enter-pledge_form"
+						action="https://httpbin.org/post"
+						method="post"
+					>
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
 							<label
@@ -229,18 +283,32 @@
 									type="text"
 									name="pledge-amount-input"
 									value="25"
+									min="25"
 									class="pledge-amount_input"
-									id="enter-pledge_bamboo_stand"
-							/></label>
-							<input type="submit" value="Continue" class="continue-btn" />
+									id="enter-pledge_bamboo-stand"
+								/>
+								<p class="warning-message" id="warning-message_bamboo-stand">
+									Your pledge amount must $25 or more
+								</p></label
+							>
+							<input
+								type="submit"
+								value="Continue"
+								class="continue-btn"
+								id="bamboo-stand_continue-btn"
+							/>
 						</fieldset></form></label
-				><label for="black-edition" class="select-reward_list-items">
+				><label
+					for="black-edition"
+					name="black-edition_li"
+					class="select-reward_list-items"
+				>
 					<header>
 						<input
 							type="radio"
 							name="reward-selection"
 							class="input-radio"
-							id="black-edition"
+							id="black-edition_radio"
 							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
@@ -261,7 +329,12 @@
 						<li class="left-behind black-edition_left-behind">64</li>
 						<li class="left-text">left</li>
 					</ul>
-					<form class="enter-pledge_form">
+					<form
+						id="black-edition_pledge-form"
+						class="enter-pledge_form"
+						action="https://httpbin.org/post"
+						method="post"
+					>
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
 							<label
@@ -271,21 +344,34 @@
 									type="text"
 									name="pledge-amount-input"
 									value="75"
+									min="75"
 									class="pledge-amount_input"
 									id="enter-pledge_black-edition"
-							/></label>
-							<input type="submit" value="Continue" class="continue-btn" />
-						</fieldset></form></label
-				><label
+								/>
+								<p class="warning-message" id="warning-message_black-edition">
+									Your pledge amount must $75 or more
+								</p>
+							</label>
+							<input
+								type="submit"
+								value="Continue"
+								class="continue-btn"
+								id="black-edition_continue-btn"
+							/>
+						</fieldset>
+					</form>
+				</label>
+				<label
 					for="special-edition"
+					name="special-edition_li"
 					class="select-reward_list-items finished_reward_list-items"
 				>
-					<header>
+					<header class="finished_reward_list-items">
 						<input
 							type="radio"
 							name="reward-selection"
 							class="input-radio"
-							id="special-edition"
+							id="special-edition_radio"
 							autocomplete="off"
 						/>
 						<ul class="title-pledge_container">
@@ -306,7 +392,11 @@
 						<li class="left-behind special-edition_left-behind">0</li>
 						<li class="left-text">left</li>
 					</ul>
-					<form class="enter-pledge_form">
+					<form
+						class="enter-pledge_form"
+						action="https://httpbin.org/post"
+						method="post"
+					>
 						<legend class="enter-pledge_text">Enter your pledge</legend>
 						<fieldset class="amount-btn_form-area">
 							<label
@@ -316,14 +406,22 @@
 									type="text"
 									name="pledge-amount-input"
 									value="200"
+									min="200"
 									class="pledge-amount_input"
 									id="enter-pledge_special-edition"
-							/></label>
+								/>
+								<p class="warning-message" id="warning-message_special-edition">
+									Your pledge amount must $200 or more
+								</p>
+							</label>
 							<input type="submit" value="Continue" class="continue-btn" />
 						</fieldset></form
 				></label>
 			</section>
-			<section id="success-modal-subsection">
+			<section
+				id="success-modal-subsection"
+				class="success-modal-subsection_styles"
+			>
 				<figure>
 					<img src="./images/icon-check.svg" alt="" id="check-icon" />
 				</figure>

@@ -354,6 +354,7 @@ main {
 }
 
 #progress-bar-state {
+    max-width: 100%;
     height: 1.2rem;
     background-color: var(--primary-color_moderate-cyan);
 }
@@ -464,6 +465,10 @@ main {
     background-color: var(--neutral-color_dark-gray);
 }
 
+.finished_reward_list-items *:hover {
+    transform: none;
+}
+
 /* MODAL MENU SUBSECTION */
 
 .modal-menu-subsection_styles {
@@ -528,6 +533,16 @@ label.select-reward_list-items:has(input[type='radio']:checked) {
     position: relative;
 }
 
+.input-radio:hover {
+    border: thin solid var(--primary-color_dark-cyan);
+}
+
+.input-radio:disabled:hover {
+    border: 0;
+    transform: none;
+    cursor: not-allowed;
+}
+
 .input-radio:checked::after {
     content: '';
     height: 1.1rem;
@@ -535,8 +550,8 @@ label.select-reward_list-items:has(input[type='radio']:checked) {
     border-radius: 50%;
     background-color: var(--primary-color_moderate-cyan);
     position: absolute;
-    left: .45rem;
-    top: .45rem;
+    left: .4rem;
+    top: .4rem;
 }
 
 label > header {
@@ -550,6 +565,11 @@ label > header {
     display: flex;
     flex-direction: column;
     margin-right: auto;
+}
+
+.finished_reward_list-items .reward-title:hover {
+    color: inherit;
+    cursor: default;
 }
 
 .reward-title:hover {
@@ -665,20 +685,16 @@ label.select-reward_list-items:has(input[type='radio']:checked) .enter-pledge_fo
     font-weight: 700;
 }
 
-.pledge-amount_input:hover {
+.pledge-amount_input:not(:disabled):hover {
     border: thin solid var(--primary-color_moderate-cyan);
 }
 
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
+.warning-message {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: red;
+    margin-top: 1rem;
+    display: none;
 }
 
 .continue-btn {
@@ -698,12 +714,15 @@ main #success-modal-subsection {
     z-index: 10000;
     position: absolute;
     top: -15.7rem;
-    display: flex;
+    row-gap: 2.2rem;
+    padding: 3.3rem 2rem 4rem 2rem;
+}
+
+.success-modal-subsection_styles {
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 2.2rem;
-    padding: 3.3rem 2rem 4rem 2rem;
 }
 
 #success-modal-subsection header {
@@ -726,7 +745,6 @@ main #success-modal-subsection {
 }
 
 #got-it_btn {
-    display: none;
     background-color: var(--primary-color_moderate-cyan);
     height: 4.6rem;
     width: 11rem;
