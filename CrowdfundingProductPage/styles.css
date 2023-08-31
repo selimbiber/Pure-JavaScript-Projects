@@ -712,7 +712,6 @@ label.select-reward_list-items:has(input[type='radio']:checked) .enter-pledge_fo
 
 main #success-modal-subsection {
     z-index: 10000;
-    position: absolute;
     top: -15.7rem;
     row-gap: 2.2rem;
     padding: 3.3rem 2rem 4rem 2rem;
