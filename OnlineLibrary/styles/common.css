@@ -1,0 +1,52 @@
+:root {
+    --theme-color_red: rgb(251,79,86); /* #fb4f56 */
+    --theme-color_blue: rgb(79,164,251); /* #4fa4fb */
+    --theme-color_orange: rgb(251,176,79); /* #fbb04f */
+    --theme-color_green: rgb(65,227,122); /* #41e37a */
+}
+
+.main-container, .data-section, .form-section {
+    background-color: rgb(231,235,239);
+}
+
+.header-section, .library-stats_menu-item, form fieldset, label {
+    display: flex;
+}
+
+#online-library_stats-btn:hover, #new-book_menu-btn:hover {
+    transform: scale(1.1);
+}
+
+.data-section, .form-section {
+    width: 100%;
+    max-width: 37.5rem;
+    height: 100%;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    transition: transform 0.3s;
+    z-index: 7;
+}
+
+.main-container, .data-section, .form-section, form, .label-input-error_container, .library-stats_menu-list, .empty-section {
+    display: flex;
+    flex-direction: column;
+}
+
+form legend, h2, .menu-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+#empty-library_btn, #submit-form_btn, #random-books_btn {
+    margin: 0 auto;
+    height: 4rem;
+    width: 86%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    border: 0;
+    text-transform:uppercase;
+    cursor: pointer;
+}

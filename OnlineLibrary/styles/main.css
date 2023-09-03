@@ -1,0 +1,195 @@
+@import './reset.css';
+@import './common.css';
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+/* CUSTOM STYLES */
+
+#page-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.page-bg_hidden {
+    visibility: hidden;
+}
+
+.page-bg_visible {
+    visibility: visible;
+}
+
+/* HEADER STYLES */
+
+.header-section {
+    height: 15vh;
+    top: 0;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    background-color: var(--theme-color_orange);
+    border-bottom: .5rem solid var(--theme-color_blue);
+    box-shadow: 0 0 1rem .1rem black;
+    z-index: 9;
+}
+
+.top-heading {
+    font-family: 'Yellowtail', cursive;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+#online-library_stats-btn {
+    height: 6rem;
+    width: 6rem;
+    background: transparent url(../images/online-library_favicon.png) no-repeat center;
+    background-size: cover;
+}
+
+#new-book_menu-btn {
+    height: 5rem;
+    width: 5rem;
+    background: transparent url(../images/plus-svgrepo-com.svg) no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* MAIN STYLES */
+
+.main-container {
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    padding: 4rem;
+}
+
+/* DATA SECTION */
+
+.data-section {
+    row-gap: .5rem;
+    left: -37.5rem;
+    transform: translateX(0);
+}
+
+.show-data-section {
+    transform: translateX(100%);
+}
+
+.library-stats_menu-list {
+    row-gap: 1rem;
+    padding: 2rem;
+}
+
+.library-stats_menu-item {
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: thin solid black;
+    height: 4.6rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#empty-library_btn {
+    background-color: var(--theme-color_red);
+}
+
+/* FORM SECTION */
+
+.form-section {
+    right: 0;
+    transform: translateX(100%);
+}
+
+.show-form-section {
+    transform: translateX(0);
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.8rem;
+}
+
+form fieldset, .label-input-error_container {
+    row-gap: 2rem;
+}
+
+form fieldset {
+    flex-direction: column;
+}
+
+label {
+    column-gap: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+input, select {
+    margin-left: auto;
+    padding-left: .3rem;
+    border: thin solid black;
+    background-color: white;
+}
+
+input[type='number'], select {
+    width: 12.6rem;
+}
+
+#select-state option:nth-child(1), #select-rate option:nth-child(1), #select-rate option:nth-child(2) {
+    background-color: var(--theme-color_red);
+}
+
+#select-state option:nth-child(2), #select-rate option:nth-child(3) {
+    background-color: var(--theme-color_orange);
+}
+
+#select-state option:nth-child(3), #select-rate option:nth-child(4), #select-rate option:nth-child(5) {
+    background-color: var(--theme-color_green);
+}
+
+.form_warning-message {
+    font-size: 1rem;
+    color: var(--theme-color_red);
+    display: none;
+}
+
+#number-pages-read_container, #select-rate_container {
+    display: none;
+}
+
+#submit-form_btn {
+    background-color: var(--theme-color_blue);
+}
+
+/* EMPTY SECTION */
+
+.empty-section {
+    background-color: white;
+    position: absolute;
+    width:  35rem;
+    box-shadow: 0 0 .5rem .1rem gray;
+    row-gap: 1rem;
+    z-index: 7;
+    display: none;
+}
+
+.empty-section header {
+    border-bottom: thin solid lightgray;
+    padding: 1rem;
+}
+
+.empty-section p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+#random-books_btn {
+    background-color: var(--theme-color_orange);
+    width: 100%;
+}

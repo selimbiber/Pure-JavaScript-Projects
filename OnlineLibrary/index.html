@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="shortcut icon"
+			href="./images/online-library_favicon.png"
+			type="image/x-icon"
+		/>
+		<!-- STYLES START -->
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/common.css" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<!-- STYLES END -->
+		<title>Online Library</title>
+	</head>
+	<body>
+		<div id="page-background" class="page-bg_hidden"></div>
+		<header class="header-section">
+			<button
+				title="show current library statistics"
+				id="online-library_stats-btn"
+			></button>
+			<h1 class="top-heading">Online Library</h1>
+			<button title="add a new book" id="new-book_menu-btn"></button>
+		</header>
+		<main class="main-container">
+			<section class="data-section">
+				<header><h3 class="menu-heading">Online Library Statistics</h3></header>
+				<ul class="library-stats_menu-list">
+					<li class="library-stats_menu-item">
+						Available books number:
+						<p class="stats-data" id="available-books_number">0</p>
+					</li>
+					<li class="library-stats_menu-item">
+						In progress books number:
+						<p class="stats-data" id="in-progress-books_number">0</p>
+					</li>
+					<li class="library-stats_menu-item">
+						Completed books number:
+						<p class="stats-data" id="completed-books_number">0</p>
+					</li>
+					<li class="library-stats_menu-item">
+						Fav books number:
+						<p class="stats-data" id="fav-books_number">0</p>
+					</li>
+					<li class="library-stats_menu-item">
+						Total number of pages read:
+						<p class="stats-data" id="total-books_number">0</p>
+					</li>
+				</ul>
+				<button id="empty-library_btn">Empty the library</button>
+			</section>
+			<section class="empty-section">
+				<header>
+					<h2>Your Online Library is Empty!</h2>
+				</header>
+				<p>Click the "+" button to add a new book.</p>
+				<p>OR</p>
+				<button id="random-books_btn">Try Random Books</button>
+			</section>
+			<section class="form-section">
+				<form id="book-registration_form">
+					<legend>Book Registration Form</legend>
+					<fieldset>
+						<div class="label-input-error_container">
+							<label for="book-title"
+								>Title:<input type="text" name="book-title" id="book-title" />
+							</label>
+							<p class="form_warning-message" id="book-title_wm-blank">
+								Can't be blank.
+							</p>
+						</div>
+						<div class="label-input-error_container">
+							<label for="book-author-name"
+								>Author:<input
+									type="text"
+									name="book-author-name"
+									id="book-author-name"
+								/>
+							</label>
+							<p class="form_warning-message" id="book-author-name_wm-blank">
+								Can't be blank.
+							</p>
+						</div>
+						<div
+							class="label-input-error_container"
+							id="book-pages-count_container"
+						>
+							<label for="book-pages-count"
+								>Pages:<input
+									type="number"
+									name="book-pages-count"
+									id="book-pages-count"
+									onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+								/>
+							</label>
+							<p class="form_warning-message" id="book-pages-count_wm-blank">
+								Can't be blank.
+							</p>
+						</div>
+						<div
+							class="label-input-error_container"
+							id="select-state_container"
+						>
+							<label for="select-state"
+								>State:
+								<select name="select-state" id="select-state">
+									<option data-read="not">Not read</option>
+									<option data-read="being">Being read</option>
+									<option data-read="already">Already read</option>
+								</select>
+							</label>
+						</div>
+						<div
+							class="label-input-error_container"
+							id="number-pages-read_container"
+						>
+							<label for="number-pages-read"
+								>Number pages read:<input
+									type="number"
+									name="number-pages-read"
+									id="number-pages-read"
+									onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+								/>
+							</label>
+							<p class="form_warning-message" id="number-pages-read_wm-blank">
+								Can't be blank.
+							</p>
+							<p class="form_warning-message" id="number-pages-read_wm-exceed">
+								The value entered cannot exceed the number of pages in the book.
+							</p>
+						</div>
+						<div class="label-input-error_container" id="select-rate_container">
+							<label for="select-rate"
+								>Rate this book:
+								<select name="select-rate" id="select-rate">
+									<option data-star="1">&bigstar;</option>
+									<option data-star="2">&bigstar; &bigstar;</option>
+									<option data-star="3">&bigstar; &bigstar; &bigstar;</option>
+									<option data-star="4">
+										&bigstar; &bigstar; &bigstar; &bigstar;
+									</option>
+									<option data-star="5">
+										&bigstar; &bigstar; &bigstar; &bigstar; &bigstar;
+									</option>
+								</select>
+							</label>
+						</div>
+					</fieldset>
+					<input
+						type="submit"
+						value="Save to online library"
+						id="submit-form_btn"
+					/>
+				</form>
+			</section>
+		</main>
+		<script src="./main.js"></script>
+	</body>
+</html>
