@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="This is a simple Online Library Application, where you can add new books and delete old ones."
+		/>
 		<link
 			rel="shortcut icon"
 			href="./images/online-library_favicon.png"
@@ -16,7 +20,7 @@
 		<title>Online Library</title>
 	</head>
 	<body>
-		<div id="page-background" class="page-bg_hidden"></div>
+		<!-- <div id="page-background" class="page-bg_hidden"></div> -->
 		<header class="header-section">
 			<button
 				title="show current library statistics"
@@ -31,26 +35,35 @@
 				<ul class="library-stats_menu-list">
 					<li class="library-stats_menu-item">
 						Available books number:
-						<p class="stats-data" id="available-books_number">0</p>
+						<p class="stats-data" id="available-books_number"></p>
 					</li>
 					<li class="library-stats_menu-item">
 						In progress books number:
-						<p class="stats-data" id="in-progress-books_number">0</p>
+						<p class="stats-data" id="in-progress-books_number"></p>
 					</li>
 					<li class="library-stats_menu-item">
 						Completed books number:
-						<p class="stats-data" id="completed-books_number">0</p>
+						<p class="stats-data" id="completed-books_number"></p>
 					</li>
 					<li class="library-stats_menu-item">
 						Fav books number:
-						<p class="stats-data" id="fav-books_number">0</p>
+						<p class="stats-data" id="fav-books_number"></p>
 					</li>
 					<li class="library-stats_menu-item">
 						Total number of pages read:
-						<p class="stats-data" id="total-books_number">0</p>
+						<p class="stats-data" id="total-read-pages_number"></p>
 					</li>
 				</ul>
-				<button id="empty-library_btn">Empty the library</button>
+				<button id="reset-library_btn">Reset the library</button>
+				<div class="book-delete_warning-area">
+					<p class="book-delete_warning-question">
+						Are you sure you want to delete all the books in the library?
+					</p>
+					<div class="warning-question_buttons-container">
+						<button class="confirm-btn"></button
+						><button class="cancel-btn"></button>
+					</div>
+				</div>
 			</section>
 			<section class="empty-section">
 				<header>
@@ -66,10 +79,18 @@
 					<fieldset>
 						<div class="label-input-error_container">
 							<label for="book-title"
-								>Title:<input type="text" name="book-title" id="book-title" />
+								>Title:<input
+									type="text"
+									name="book-title"
+									id="book-title"
+									onkeydown="removeSpaces(event)"
+								/>
 							</label>
 							<p class="form_warning-message" id="book-title_wm-blank">
 								Can't be blank.
+							</p>
+							<p class="form_warning-message" id="book-title_wm-invalid">
+								You cannot enter a number and redundant space character.
 							</p>
 						</div>
 						<div class="label-input-error_container">
@@ -78,26 +99,28 @@
 									type="text"
 									name="book-author-name"
 									id="book-author-name"
+									onkeydown="removeSpaces(event)"
 								/>
 							</label>
 							<p class="form_warning-message" id="book-author-name_wm-blank">
 								Can't be blank.
 							</p>
+							<p class="form_warning-message" id="book-author-name_wm-invalid">
+								You cannot enter a number and redundant space character.
+							</p>
 						</div>
-						<div
-							class="label-input-error_container"
-							id="book-pages-count_container"
-						>
-							<label for="book-pages-count"
-								>Pages:<input
-									type="number"
-									name="book-pages-count"
-									id="book-pages-count"
-									onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+						<div class="label-input-error_container">
+							<label for="book-cover-image"
+								>Cover:<input
+									type="text"
+									name="book-cover-image"
+									id="book-cover-image"
+									onkeydown="removeSpaces(event)"
+									placeholder="https://bookcart.azurewebsites.net/Upload/Default_image.jpg"
 								/>
 							</label>
-							<p class="form_warning-message" id="book-pages-count_wm-blank">
-								Can't be blank.
+							<p class="form_warning-message" id="book-cover-image_wm-invalid">
+								You cannot enter an invalid link.
 							</p>
 						</div>
 						<div
@@ -107,11 +130,29 @@
 							<label for="select-state"
 								>State:
 								<select name="select-state" id="select-state">
-									<option data-read="not">Not read</option>
-									<option data-read="being">Being read</option>
-									<option data-read="already">Already read</option>
+									<option>Not read</option>
+									<option>Being read</option>
+									<option>Already read</option>
 								</select>
 							</label>
+						</div>
+						<div
+							class="label-input-error_container"
+							id="book-pages-count_container"
+						>
+							<label for="book-pages-count"
+								>Total pages number:<input
+									type="number"
+									name="book-pages-count"
+									id="book-pages-count"
+									min="1"
+									max="21450"
+									onkeydown="if(['Space'].includes(arguments[0].code)){return false;}"
+								/>
+							</label>
+							<p class="form_warning-message" id="book-pages-count_wm-blank">
+								Can't be blank.
+							</p>
 						</div>
 						<div
 							class="label-input-error_container"
@@ -129,24 +170,19 @@
 								Can't be blank.
 							</p>
 							<p class="form_warning-message" id="number-pages-read_wm-exceed">
-								The value entered cannot exceed the number of pages in the book.
+								The value entered cannot exceed the total number of pages in the
+								book.
 							</p>
 						</div>
-						<div class="label-input-error_container" id="select-rate_container">
-							<label for="select-rate"
-								>Rate this book:
-								<select name="select-rate" id="select-rate">
-									<option data-star="1">&bigstar;</option>
-									<option data-star="2">&bigstar; &bigstar;</option>
-									<option data-star="3">&bigstar; &bigstar; &bigstar;</option>
-									<option data-star="4">
-										&bigstar; &bigstar; &bigstar; &bigstar;
-									</option>
-									<option data-star="5">
-										&bigstar; &bigstar; &bigstar; &bigstar; &bigstar;
-									</option>
-								</select>
-							</label>
+						<div class="form_warning-message" id="current-book_wm-container">
+							<p>
+								There is already a book with the same name by this author in the
+								library.
+							</p>
+							<button
+								id="error-message_close-btn"
+								title="close the error message"
+							></button>
 						</div>
 					</fieldset>
 					<input
