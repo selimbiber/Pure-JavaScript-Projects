@@ -332,34 +332,34 @@ BOOK_REGISTRATION_FORM.addEventListener('submit', (submit) => {
             BOOK_PAGES_COUNT_INPUT.classList.remove('invalid-input');
             document.querySelector('#book-pages-count_wm-blank').style.display = 'none';
             BOOK_NUMBER_PAGES_READ_CONTAINER.style.display = 'block';
+        }
 
-            if (NUMBER_PAGES_READ_INPUT) {
-                if ( NUMBER_PAGES_READ_INPUT.value.length == 0 ) {
-                    NUMBER_PAGES_READ_INPUT.classList.add('invalid-input');
-                    document.querySelector('#number-pages-read_wm-blank').style.display = 'block';
-                    document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
-                } else if ( NUMBER_PAGES_READ_INPUT.value == BOOK_PAGES_COUNT_INPUT.value ) {
-                    NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
-                    document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
-                    document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
-                    validInputsCount++;
-                    updateCompletedBooksNumber('+');
-                    updateTotalReadPagesNumber(readedPagesCount);
-                } else if ( NUMBER_PAGES_READ_INPUT.value == 0 ) {
-                    NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
-                    document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
-                    document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
-                    validInputsCount++;
-                } else if ( NUMBER_PAGES_READ_INPUT.value > BOOK_PAGES_COUNT_INPUT.value ) {
-                    NUMBER_PAGES_READ_INPUT.classList.add('invalid-input');
-                    document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
-                    document.querySelector('#number-pages-read_wm-exceed').style.display = 'block';
-                } else {
-                    validInputsCount++;
-                    NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
-                    document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
-                    document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
-                }
+        if (NUMBER_PAGES_READ_INPUT) {
+            if ( NUMBER_PAGES_READ_INPUT.value.length == 0 ) {
+                NUMBER_PAGES_READ_INPUT.classList.add('invalid-input');
+                document.querySelector('#number-pages-read_wm-blank').style.display = 'block';
+                document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
+            } else if ( NUMBER_PAGES_READ_INPUT.value == BOOK_PAGES_COUNT_INPUT.value ) {
+                NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
+                document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
+                document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
+                validInputsCount++;
+                updateCompletedBooksNumber('+');
+                updateTotalReadPagesNumber(readedPagesCount);
+            } else if ( NUMBER_PAGES_READ_INPUT.value == 0 ) {
+                NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
+                document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
+                document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
+                validInputsCount++;
+            } else if ( NUMBER_PAGES_READ_INPUT.value > BOOK_PAGES_COUNT_INPUT.value ) {
+                NUMBER_PAGES_READ_INPUT.classList.add('invalid-input');
+                document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
+                document.querySelector('#number-pages-read_wm-exceed').style.display = 'block';
+            } else {
+                validInputsCount++;
+                NUMBER_PAGES_READ_INPUT.classList.remove('invalid-input');
+                document.querySelector('#number-pages-read_wm-blank').style.display = 'none';
+                document.querySelector('#number-pages-read_wm-exceed').style.display = 'none';
             }
         }
     }
