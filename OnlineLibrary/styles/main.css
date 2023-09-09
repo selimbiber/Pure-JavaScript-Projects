@@ -258,11 +258,12 @@ input[type='number'], select {
     position: relative;
     line-height: 3.7rem;
     font-size: 2rem;
-    font-weight: bold;    
+    font-weight: bold;
+    color: black;
 }
 
 #error-message_close-btn {
-    background: transparent url(../images/x-icon.svg) no-repeat center;
+    background: url('./images/x-icon.svg') no-repeat center;
     background-size: cover;
     position: absolute;
     top: .5rem;
@@ -349,7 +350,7 @@ input[type='number'], select {
     width: 16rem;
     max-width: 100%;
     cursor: pointer;
-    background: transparent url('../images/default-cover-image.jpg') no-repeat top;
+    background: transparent url('./images/default-cover-image.jpg') no-repeat top;
     background-size: cover;
     outline: .5rem groove var(--theme-color_orange);
     box-shadow: 0 0 .5rem .1rem gray;
@@ -428,14 +429,14 @@ input[type='number'], select {
 }
 
 .confirm-btn {
-    background: transparent url(../images/confirm-svgrepo-com.svg) no-repeat center;
+    background: transparent url('./images/confirm-svgrepo-com.svg') no-repeat center;
     background-size: cover;
     height: 4rem;
     width: 4rem;
 }
 
 .cancel-btn {
-    background: transparent url(../images/cancel-svgrepo-com.svg) no-repeat center;
+    background: transparent url('./images/cancel-svgrepo-com.svg') no-repeat center;
     background-size: cover;
     height: 5.3rem;
     width: 5.3rem;
@@ -456,7 +457,7 @@ input[type='number'], select {
     position: absolute;
     height: 3rem;
     width: 3rem;
-    background: var(--theme-color_red) url(../images/x-icon.svg) no-repeat center;
+    background: var(--theme-color_red) url('./images/x-icon.svg') no-repeat center;
     background-size: cover;
     border-radius: 50%;
     top: .5rem;
@@ -466,7 +467,7 @@ input[type='number'], select {
 .book-info-screen_book-cover {
     height: 40%;
     width: 100%;
-    background: transparent url('../images/default-cover-image.jpg') no-repeat top;
+    background: transparent url('./images/default-cover-image.jpg') no-repeat top;
     background-size: cover;
 }
 
