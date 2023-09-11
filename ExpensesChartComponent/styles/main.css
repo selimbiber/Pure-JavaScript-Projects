@@ -1,0 +1,329 @@
+/*! COMMON STYLES */
+
+:root {
+    --primary-color_soft-red: hsl(10, 79%, 65%);
+    --primary-color_cyan: hsl(186, 34%, 60%);
+    --neutral-color_dark-brown: hsl(25, 47%, 15%);
+    --neutral-color_medium-brown: hsl(28, 10%, 53%);
+    --neutral-color_cream: hsl(27, 66%, 92%);
+    --neutral-color_very-pale-orange: hsl(33, 100%, 98%);
+}
+
+body, .main-container, .top-section, .box-section_list-subsection, .daily-spending_data-container, .box-section_footer-subsection {
+    display: flex;
+}
+
+.top-section, .box-section {
+    border-radius: 1rem;
+    padding: 1.5rem 2rem;
+}
+
+.chart-percentage, .chart-bar {
+    border-radius: .3rem;
+}
+
+/*! CUSTOM STYLES -> MOBILE LAYOUT DESIGN */
+
+body {
+    background-color: var(--neutral-color_cream);
+    justify-content: center;
+    align-items: center;
+}
+
+/*! MAIN CONTAINER */
+
+.main-container {
+    font-family: 'DM Sans', sans-serif;
+    height: 53.8rem;
+    width: 34.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* TOP SECTION */
+
+.top-section {
+    background-color: var(--primary-color_soft-red);
+    height: 9.6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* HEADER SUBSECTION */
+
+.top-section_header-subsection {
+    color: var(--neutral-color_cream);
+}
+
+.balance-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.balance-amount {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+/* FIGURE SUBSECTION */
+
+.top-section_figure-subsection {
+    padding-right: .4rem;
+}
+
+.logo {
+    height: 4rem;
+}
+
+/*! BOX SECTION */
+
+.box-section {
+    padding-top: 2rem;
+    background-color: var(--neutral-color_very-pale-orange);
+    height: 42.4rem;
+    align-items: center;
+}
+
+/* HEADER SUBSECTION */
+
+.spending-heading {
+    font-weight: 700;
+    color: var(--neutral-color_dark-brown);
+}
+
+/* LIST SUBSECTION */
+
+.box-section_list-subsection {
+    height: 25rem;
+    border-bottom: .2rem solid var(--neutral-color_cream);
+    justify-content: space-between;
+    padding: 1.7rem 0 2rem;
+    column-gap: 1rem;
+}
+
+/* DATA CONTAINERS */
+
+.daily-spending_data-container {
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .7rem;
+    height: 100%;
+}
+
+/* CHART PERCENTAGE */
+
+.chart-percentage {
+    position: absolute;
+    padding: .5rem;
+    background-color: var(--neutral-color_dark-brown);
+    color: var(--neutral-color_very-pale-orange);
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: none;
+}
+
+.mon .chart-percentage {
+    bottom: 7.3rem;
+}
+
+.tue .chart-percentage {
+    bottom: 11.4rem;
+}
+
+.wed .chart-percentage {
+    bottom: 15.4rem;
+}
+
+.thu .chart-percentage {
+    bottom: 10.5rem;
+}
+
+.fri .chart-percentage {
+    bottom: 8.7rem;
+}
+
+.sat .chart-percentage {
+    bottom: 13.3rem;
+}
+
+.sun .chart-percentage {
+    bottom: 9.1rem;
+}
+
+/* CHART BAR */
+
+.chart-bar {
+    margin-top: auto;
+    min-height: 1rem;
+    height: 100%;
+    max-height: 100%;
+    width: 3.3rem;
+    background-color: var(--primary-color_soft-red);
+    cursor: pointer;
+}
+
+.highest-chart-bar {
+    background-color: var(--primary-color_cyan);
+}
+
+.chart-bar:hover {
+    opacity: .7;
+}
+
+/* DAY NAME */
+
+.day-name {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--neutral-color_medium-brown);
+}
+
+/* FOOTER SUBSECTION */
+
+.box-section_footer-subsection {
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 2.5rem 0 2rem;
+}
+
+/* THIS MONTH */
+
+.this-month_heading {
+    font-size: 1.53rem;
+    font-weight: 400;
+    color: var(--neutral-color_medium-brown);
+}
+
+.this-month_spending-amount {
+    font-size: 3.1rem;
+    font-weight: 700;
+    color: var(--neutral-color_dark-brown);
+}
+
+/* LAST MONTH */
+
+.last-month_percentage {
+    text-align: right;
+    font-size: 1.53rem;
+    font-weight: 700;
+    color: var(--neutral-color_dark-brown);
+}
+
+.last-month_data-description {
+    font-size: 1.53rem;
+    font-weight: 400;
+    color: var(--neutral-color_medium-brown);
+}
+
+/*! MEDIA QUERIES -> DESKTOP LAYOUT DESIGN */
+
+@media (min-width: 1440px) {
+    .main-container {
+        height: 66rem;
+        width: 54rem;
+    }
+
+    .top-section, .box-section {
+        border-radius: 2rem;
+        padding: 2rem 3.7rem;
+    }
+
+    /* TOP SECTION */
+    .top-section_header-subsection {
+        display: flex;
+        flex-direction: column;
+        row-gap: .5rem;
+    }
+
+    .top-section {
+        height: 12.6rem;
+    }
+
+    .balance-heading {
+        font-size: 1.73rem;
+    }
+    .balance-amount {
+        font-size: 3.15rem;
+    }
+    .logo {
+        height: 4.6rem;
+    }
+
+    /* BOX SECTION */
+    .box-section {
+        padding: 2.5rem 3.7rem 3.7rem;
+        height: 51rem;
+    }
+    .spending-heading {
+        font-size: 3.4rem;
+    }
+    .box-section_list-subsection {
+        height: 28rem;
+        padding-bottom: 3.3rem;
+    }
+
+    /* CHART PERCENTAGE */
+    .chart-percentage {
+        font-size: 1.73rem;
+        padding: .7rem .9rem;
+    }
+
+    .mon .chart-percentage {
+        bottom: 8.8rem;
+    }
+
+    .tue .chart-percentage {
+        bottom: 14.3rem;
+    }
+    
+    .wed .chart-percentage {
+        bottom: 19.6rem;
+    }
+    
+    .thu .chart-percentage {
+        bottom: 13rem;
+    }
+    
+    .fri .chart-percentage {
+        bottom: 10.8rem;
+    }
+    
+    .sat .chart-percentage {
+        bottom: 16.8rem;
+    }
+    
+    .sun .chart-percentage {
+        bottom: 11.3rem;
+    }
+
+    /* CHART BAR */
+    .chart-bar {
+        width: 5.14rem;
+    }
+
+    /* FOOTER SUBSECTION */
+    .box-section_footer-subsection {
+        height: 12.5rem;
+    }
+
+    .this-month_container {
+        line-height: 4.2rem;
+    }
+
+    .this-month_heading {
+        font-size: 1.8rem;
+    }
+    
+    .this-month_spending-amount {
+        font-size: 4.9rem;
+    }
+
+    .last-month_container {
+        line-height: 2.5rem;
+    }
+
+    .last-month_percentage, .last-month_data-description {
+        font-size: 1.9rem;
+    }
+}

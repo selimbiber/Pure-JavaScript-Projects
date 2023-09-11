@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<!-- FONTS START -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- STYLES START -->
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/main.css" />
+		<title>Frontend Mentor | Expenses chart component</title>
+	</head>
+	<body>
+		<main class="main-container" title="Label for the main container">
+			<section
+				class="top-section"
+				title="Label for top section of the main container"
+			>
+				<header class="top-section_header-subsection">
+					<h1 class="balance-heading">My balance</h1>
+					<p class="balance-amount">$921.48</p>
+				</header>
+				<figure class="top-section_figure-subsection">
+					<img class="logo" src="./images/logo.svg" alt="" />
+				</figure>
+			</section>
+			<section
+				class="box-section"
+				title="Label for box section of the main container"
+			>
+				<header class="box-section_header-subsection">
+					<h2 class="spending-heading">Spending - Last 7 days</h2>
+				</header>
+				<ul class="box-section_list-subsection">
+					<li class="mon daily-spending_data-container">
+						<p class="chart-percentage">$31.07</p>
+						<div class="chart-bar"></div>
+						<p class="day-name">mon</p>
+					</li>
+					<li class="tue daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">tue</p>
+					</li>
+					<li class="wed daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">wed</p>
+					</li>
+					<li class="thu daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">thu</p>
+					</li>
+					<li class="fri daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">fri</p>
+					</li>
+					<li class="sat daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">sat</p>
+					</li>
+					<li class="sun daily-spending_data-container">
+						<p class="chart-percentage"></p>
+						<div class="chart-bar"></div>
+						<p class="day-name">sun</p>
+					</li>
+				</ul>
+				<footer class="box-section_footer-subsection">
+					<header class="this-month_container">
+						<h3 class="this-month_heading">Total this month</h3>
+						<p class="this-month_spending-amount">$478.33</p>
+					</header>
+					<header class="last-month_container">
+						<h4 class="last-month_percentage">+2.4%</h4>
+						<p class="last-month_data-description">from last month</p>
+					</header>
+				</footer>
+			</section>
+		</main>
+		<script src="main.js"></script>
+	</body>
+</html>
