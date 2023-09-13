@@ -21,6 +21,8 @@
 ### [Intro Section With Dropdown Navigation](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DropdownNavigation/index.html)
 ### [Interactive Card Details Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveCardDetailsForm/index.html)
 ### [Crowdfunding Product Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/CrowdfundingProductPage/index.html)
+### [Online Library Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/OnlineLibrary/index.html)
+### [Expenses Chart Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ExpensesChartComponent/index.html)
 ---
 ## Preview Links For My Other JavaScript Projects:
 
