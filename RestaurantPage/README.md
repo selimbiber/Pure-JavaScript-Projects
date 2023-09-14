@@ -20,7 +20,7 @@ But I couldn't focus enough on the visual design of the project.
 - Webpack
 - Javascript Module Pattern
 
-### [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/index.html)
+### [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/dist/index.html)
 
 ## Author
 
