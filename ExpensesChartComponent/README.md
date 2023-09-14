@@ -47,17 +47,29 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/1b9e649f-e934-4ad5-af74-341644e0d512)
+
 #### Desktop Layout (1440px)
+
+![desktop-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/c2f47dff-bcb0-4b33-b059-c40e6334476d)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/47f511e0-2b1e-4288-a6d3-7e5c501e48df)
 
 ### My Result
 
 #### Mobile Layout (375px)
 
+![mobile-layout](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/deedf3bd-e7c2-489a-8ec0-1a15347a6ef7)
+
 #### Desktop Layout (1440px)
+
+![desktop-layout](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/de3efa57-40d3-462a-807d-8d25b5f17dd9)
+
+![active-states](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/8d281df1-f81b-4723-8966-4ee2929c4270)
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/expenses-chart-component-7U0eSN0gjT)
 - [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ExpensesChartComponent/index.html)
 
 ## My process
