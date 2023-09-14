@@ -78,11 +78,11 @@ function createFooterSection() {
 }
 
 function initializeRestrauntPageLayout() {
-    const PAGE_CONTAINER = document.getElementById('page-container');
+    const CONTENT = document.getElementById('content');
 
-    PAGE_CONTAINER.appendChild( createHeaderSection() );
-    PAGE_CONTAINER.appendChild( createMainSection() );
-    PAGE_CONTAINER.appendChild( createFooterSection() );
+    CONTENT.appendChild( createHeaderSection() );
+    CONTENT.appendChild( createMainSection() );
+    CONTENT.appendChild( createFooterSection() );
 }
 
 export default initializeRestrauntPageLayout;
