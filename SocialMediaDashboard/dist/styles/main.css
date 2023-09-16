@@ -29,11 +29,11 @@ body, .header-section, .title-subsection, .theme-subsection, .main-section, .med
 	display: flex;
 }
 
-body, .header-section, .title-subsection, .main-section, .media-followers-counts-subsection, .user-media_info-card, .user-media_total-stats-container, .overview-cards-subsection, .overview-cards-container, .stats-name_daily-data, .media-icon_daily-state {
+body, .header-section, .title-subsection, .main-section, .user-media_info-card, .user-media_total-stats-container, .stats-name_daily-data, .media-icon_daily-state {
 	flex-direction: column;
 }
 
-.media-followers-counts-subsection, .user-media_total-stats-container, .overview-cards-container, .overview-card_daily-state, .user-media_today-stats-container {
+.media-followers-counts-subsection, .user-media_total-stats-container, .overview-cards-subsection, .overview-cards-container, .overview-card_daily-state, .user-media_today-stats-container {
 	justify-content: center;
 	align-items: center;
 }
@@ -49,6 +49,7 @@ body {
 	justify-content: center;
 	padding: 3rem 2.4rem 0;
 	row-gap: 2rem;
+	align-items: center;
 }
 
 body.dark-mode {
@@ -167,12 +168,14 @@ body.dark-mode::before {
 .main-section {
 	padding-top: 2rem;
 	row-gap: 4.6rem;
+	max-width: calc(32.6rem * 4);
 }
 
 /* TOP SUBSECTION */
 
 .media-followers-counts-subsection {
-	row-gap: 2.5rem;
+	gap: 2.5rem;
+	flex-wrap: wrap;
 }
 
 .user-media_info-card {
@@ -281,9 +284,8 @@ body.dark-mode::before {
 /* BOTTOM SUBSECTION */
 
 .overview-cards-subsection {
-	row-gap: 1.5rem;
-	width: 32.6rem;
-	margin: 0 auto;
+	gap: 2.5rem;
+	flex-wrap: wrap;
 }
 
 .sub-heading-text {
@@ -293,12 +295,28 @@ body.dark-mode::before {
 	margin-bottom: 1rem;
 }
 
+/*? SUB HEADING TEXT ALIGNMENT STYLES FOR EXPECTED PAGE LAYOUT DESIGN | Extra Small Screen Devices */
+@media (max-width: 576px) {
+	.sub-heading-text {
+		min-width: 32.6rem;
+		text-align: left;
+	}
+}
+
 .dark-mode .sub-heading-text {
 	color: var(--neutral-text-color_white);
 }
 
 .overview-cards-container {
-	row-gap: 1.5rem;
+	gap: 2.5rem;
+	flex-wrap: wrap;
+}
+
+/*? BETWEEN OVERVIEW CARDS GAP STYLES FOR EXPECTED PAGE LAYOUT DESIGN | Small Screen Devices */
+@media (max-width: 725px) {
+	.overview-cards-subsection, .overview-cards-container {
+		gap: 1.5rem;
+	}
 }
 
 .stats-overview-card {
@@ -417,6 +435,7 @@ body.dark-mode::before {
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+		width: calc(32.6rem * 4);
 	}
 	.title-subsection {
 		all: unset;
@@ -434,8 +453,8 @@ body.dark-mode::before {
 		row-gap: 3rem;
 	}
 	.media-followers-counts-subsection {
+		flex-wrap: nowrap;
 		flex-direction: row;
-		column-gap: 3rem;
 	}
 	.overview-cards-subsection {
 		all: unset;
@@ -448,8 +467,8 @@ body.dark-mode::before {
 		margin: 1rem 0 0 0;
 	}
 	.overview-cards-container {
+		flex-wrap: nowrap;
 		flex-direction: row;
-		column-gap: 3rem;
 	}
 	.stats-overview-card {
 		height: 7.3rem;
