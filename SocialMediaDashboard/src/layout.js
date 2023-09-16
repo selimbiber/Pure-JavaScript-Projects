@@ -65,22 +65,26 @@ function createFooterSection() {
         const FRONTEND_MENTOR_LINK = document.createElement('a');
             FRONTEND_MENTOR_LINK.textContent = 'Frontend Mentor';
             FRONTEND_MENTOR_LINK.href = 'https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H/';
+            FRONTEND_MENTOR_LINK.ariaLabel = 'Visit the website of this challenge.'
             FRONTEND_MENTOR_LINK.target = '_blank';
         FOOTER_SECTION.appendChild(FRONTEND_MENTOR_LINK);
 
         const GITHUB_REPO_LINK = document.createElement('a');
             GITHUB_REPO_LINK.href = 'https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard';
+            GITHUB_REPO_LINK.ariaLabel = 'Visit code source repo of this project.'
             GITHUB_REPO_LINK.target = '_blank';
         FOOTER_SECTION.appendChild(GITHUB_REPO_LINK);
 
             const GITHUB_LOGO_ICON = document.createElement('i');
                 GITHUB_LOGO_ICON.classList.add('fa-brands', 'fa-github');
+                GITHUB_LOGO_ICON.ariaHidden = 'true';
             GITHUB_REPO_LINK.appendChild(GITHUB_LOGO_ICON);
 
         const GITHUB_PROFILE_LINK = document.createElement('a');
-            GITHUB_PROFILE_LINK.href = 'https://www.github.com/selimbiber/';
-            GITHUB_PROFILE_LINK.target = '_blank';
             GITHUB_PROFILE_LINK.textContent = 'Selim Biber';
+            GITHUB_PROFILE_LINK.href = 'https://www.github.com/selimbiber/';
+            GITHUB_PROFILE_LINK.ariaLabel = 'Visit my GitHub profile.'
+            GITHUB_PROFILE_LINK.target = '_blank';
         FOOTER_SECTION.appendChild(GITHUB_PROFILE_LINK);
         
     return FOOTER_SECTION;

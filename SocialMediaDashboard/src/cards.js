@@ -5,6 +5,7 @@ function createMediaFollowersCountsSubsection() {
     MEDIA_FOLLOWERS_COUNTS_SUBSECTION.appendChild(
         createUserMediaFollowersCountInfoCard(
             '../dist/images/icon-facebook.svg',
+            'facebook',
             '@nathanf',
             '1987',
             '../dist/images/icon-up.svg',
@@ -15,6 +16,7 @@ function createMediaFollowersCountsSubsection() {
     MEDIA_FOLLOWERS_COUNTS_SUBSECTION.appendChild(
         createUserMediaFollowersCountInfoCard(
             '../dist/images/icon-twitter.svg',
+            'twitter',
             '@nathanf',
             '1044',
             '../dist/images/icon-up.svg',
@@ -25,6 +27,7 @@ function createMediaFollowersCountsSubsection() {
     MEDIA_FOLLOWERS_COUNTS_SUBSECTION.appendChild(
         createUserMediaFollowersCountInfoCard(
             '../dist/images/icon-instagram.svg',
+            'instagram',
             '@realnathanf',
             '11k',
             '../dist/images/icon-up.svg',
@@ -35,6 +38,7 @@ function createMediaFollowersCountsSubsection() {
     MEDIA_FOLLOWERS_COUNTS_SUBSECTION.appendChild(
         createUserMediaFollowersCountInfoCard(
             '../dist/images/icon-youtube.svg',
+            'youtube',
             'Nathan F.',
             '8239',
             '../dist/images/icon-down.svg',
@@ -45,22 +49,9 @@ function createMediaFollowersCountsSubsection() {
     return MEDIA_FOLLOWERS_COUNTS_SUBSECTION;
 }
 
-function createUserMediaFollowersCountInfoCard(mediaIcon, userName, mediaFollowersCountData, statsStateIcon, todayFollowersStats) {
+function createUserMediaFollowersCountInfoCard(mediaIcon, mediaName, userName, mediaFollowersCountData, statsStateIcon, todayFollowersStats) {
     const USER_MEDIA_INFO_CARD = document.createElement('ul');
-    USER_MEDIA_INFO_CARD.className = 'user-media_info-card';
-
-    if ( mediaIcon.includes('facebook') ) {
-        USER_MEDIA_INFO_CARD.classList.add('facebook');
-
-    } else if ( mediaIcon.includes('twitter') ) {
-        USER_MEDIA_INFO_CARD.classList.add('twitter');
-
-    } else if ( mediaIcon.includes('instagram') ) {
-        USER_MEDIA_INFO_CARD.classList.add('instagram');
-
-    } else {
-        USER_MEDIA_INFO_CARD.classList.add('youtube');
-    }
+    USER_MEDIA_INFO_CARD.classList.add('user-media_info-card', mediaName);
 
     const USER_MEDIA_LINK_CONTAINER = document.createElement('li');
 
@@ -75,6 +66,7 @@ function createUserMediaFollowersCountInfoCard(mediaIcon, userName, mediaFollowe
                 const USER_MEDIA_LINK_ICON_IMG = document.createElement('img');
                     USER_MEDIA_LINK_ICON_IMG.className = 'user-media_icon-img';
                     USER_MEDIA_LINK_ICON_IMG.src = mediaIcon;
+                    USER_MEDIA_LINK_ICON_IMG.alt = mediaName;
                 USER_MEDIA_LINK_ICON_FIGURE.appendChild(USER_MEDIA_LINK_ICON_IMG);
 
             const USER_MEDIA_NICK_NAME = document.createElement('p');
@@ -106,6 +98,7 @@ function createUserMediaFollowersCountInfoCard(mediaIcon, userName, mediaFollowe
             const USER_MEDIA_TODAY_STATS_ICON_IMG = document.createElement('img');
             USER_MEDIA_LINK_ICON_IMG.className = 'today-stats-state_icon-img';
             USER_MEDIA_TODAY_STATS_ICON_IMG.src = statsStateIcon;
+            USER_MEDIA_TODAY_STATS_ICON_IMG.alt = '';
             USER_MEDIA_TODAY_STATS_ICON_FIGURE.appendChild(USER_MEDIA_TODAY_STATS_ICON_IMG);
 
         USER_MEDIA_TODAY_STATS_CONTAINER.appendChild(USER_MEDIA_TODAY_STATS_ICON_FIGURE);
@@ -132,13 +125,14 @@ function createMediaOverviewCardsSubsection() {
         SUB_HEADING_TEXT.textContent = 'Overview - Today';
     SUB_HEADING_CONTAINER.appendChild(SUB_HEADING_TEXT);
 
-    const OVERVIEW_CARDS_CONTAINER_ONE = document.createElement('ul');
+    const OVERVIEW_CARDS_CONTAINER_ONE = document.createElement('div');
     OVERVIEW_CARDS_CONTAINER_ONE.className = 'overview-cards-container';
 
         OVERVIEW_CARDS_CONTAINER_ONE.appendChild(
             createUserMediaStatsOverviewCard(
                 'Page Views',
                 '../dist/images/icon-facebook.svg',
+                'Facebook',
                 '87',
                 '../dist/images/icon-up.svg',
                 '3%'
@@ -149,6 +143,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Likes',
                 '../dist/images/icon-facebook.svg',
+                'Facebook',
                 '52',
                 '../dist/images/icon-down.svg',
                 '2%'
@@ -159,6 +154,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Likes',
                 '../dist/images/icon-instagram.svg',
+                'Instagram',
                 '5462',
                 '../dist/images/icon-up.svg',
                 '2257%'
@@ -169,6 +165,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Profile Views',
                 '../dist/images/icon-instagram.svg',
+                'Instagram',
                 '52k',
                 '../dist/images/icon-up.svg',
                 '1375%'
@@ -177,13 +174,14 @@ function createMediaOverviewCardsSubsection() {
 
     TODAY_STATS_OVERVIEW_CARDS_SUBSECTION.appendChild(OVERVIEW_CARDS_CONTAINER_ONE);
 
-    const OVERVIEW_CARDS_CONTAINER_TWO = document.createElement('ul');
+    const OVERVIEW_CARDS_CONTAINER_TWO = document.createElement('div');
     OVERVIEW_CARDS_CONTAINER_TWO.className = 'overview-cards-container';
 
         OVERVIEW_CARDS_CONTAINER_TWO.appendChild(
             createUserMediaStatsOverviewCard(
                 'Retweets',
                 '../dist/images/icon-twitter.svg',
+                'Twitter',
                 '117',
                 '../dist/images/icon-up.svg',
                 '303%'
@@ -194,6 +192,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Likes',
                 '../dist/images/icon-twitter.svg',
+                'Twitter',
                 '507',
                 '../dist/images/icon-up.svg',
                 '553%'
@@ -204,6 +203,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Likes',
                 '../dist/images/icon-youtube.svg',
+                'YouTube',
                 '107',
                 '../dist/images/icon-down.svg',
                 '19%'
@@ -214,6 +214,7 @@ function createMediaOverviewCardsSubsection() {
             createUserMediaStatsOverviewCard(
                 'Total Views',
                 '../dist/images/icon-youtube.svg',
+                'YouTube',
                 '1407',
                 '../dist/images/icon-down.svg',
                 '12%'
@@ -225,7 +226,7 @@ function createMediaOverviewCardsSubsection() {
     return TODAY_STATS_OVERVIEW_CARDS_SUBSECTION;
 }
 
-function createUserMediaStatsOverviewCard(statsName, mediaIcon, numberData, arrowIcon, percentageData) {
+function createUserMediaStatsOverviewCard(statsName, mediaIcon, mediaName, numberData, arrowIcon, percentageData) {
     const STATS_OVERVIEW_CARD = document.createElement('ul');
     STATS_OVERVIEW_CARD.className = 'stats-overview-card';
 
@@ -248,8 +249,8 @@ function createUserMediaStatsOverviewCard(statsName, mediaIcon, numberData, arro
             MEDIA_ICON_DAILY_STATE.className = 'media-icon_daily-state';
 
                 const OVERVIEW_CARD_MEDIA_ICON = document.createElement('img');
-                    OVERVIEW_CARD_MEDIA_ICON.alt = mediaIcon;
                     OVERVIEW_CARD_MEDIA_ICON.src = mediaIcon;
+                    OVERVIEW_CARD_MEDIA_ICON.alt = mediaName;
                     OVERVIEW_CARD_MEDIA_ICON.className = 'overview-card_media-icon';
                 MEDIA_ICON_DAILY_STATE.appendChild(OVERVIEW_CARD_MEDIA_ICON);
 
@@ -259,6 +260,7 @@ function createUserMediaStatsOverviewCard(statsName, mediaIcon, numberData, arro
                     const DAILY_STATE_ARROW_ICON_FIGURE = document.createElement('figure');
                         const DAILY_STATE_ARROW_ICON_FIGURE_IMG = document.createElement('img');
                         DAILY_STATE_ARROW_ICON_FIGURE_IMG.src = arrowIcon;
+                        DAILY_STATE_ARROW_ICON_FIGURE_IMG.alt = '';
                         DAILY_STATE_ARROW_ICON_FIGURE.appendChild(DAILY_STATE_ARROW_ICON_FIGURE_IMG);
                     OVERVIEW_CARD_DAILY_STATE.appendChild(DAILY_STATE_ARROW_ICON_FIGURE);
                     
