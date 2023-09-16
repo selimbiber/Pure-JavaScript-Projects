@@ -74,7 +74,7 @@ function createFooterSection() {
         FOOTER_SECTION.appendChild(GITHUB_REPO_LINK);
 
             const GITHUB_LOGO_ICON = document.createElement('i');
-                GITHUB_LOGO_ICON.classList.add('fa-brands', 'fa-github');
+                GITHUB_LOGO_ICON.classList.add('fab', 'fa-github');
             GITHUB_REPO_LINK.appendChild(GITHUB_LOGO_ICON);
 
         const GITHUB_PROFILE_LINK = document.createElement('a');
