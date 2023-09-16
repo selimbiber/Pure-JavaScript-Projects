@@ -81,6 +81,8 @@ Your users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Pure JavaScript
+- Fetch API with local JSON data file
+- Async/Await function
 
 ## Author
 
