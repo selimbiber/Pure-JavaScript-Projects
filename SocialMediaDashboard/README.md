@@ -43,7 +43,23 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+##### Mobile Layout - Light (Default) Mode
+
+![mobile-layout-light-mode](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/9935b579-9f3d-43b9-9e6b-55c1f4038dcb)
+
+##### Mobile Layout - Dark Mode
+
+![mobile-layout-dark-mode](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/47387ff5-cb55-4f49-bf55-f5534c9a0864)
+
 #### Desktop Layout (1440px)
+
+##### Desktop Layout - Light (Default) Mode
+
+![desktop-layout-light-mode](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/314da716-8b9d-4e44-9bef-be87f1927a3e)
+
+##### Desktop Layout - Dark Mode
+
+![desktop-layout-dark-mode](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/5e565b3f-a9a0-4e4c-a45e-8a783daee3f2)
 
 ### Built with
 
@@ -57,7 +73,7 @@ Your users should be able to:
 
 ### Project Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-cQ_ZuBAlZz)
 - [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard/dist/index.html)
 
 ## Project Author
