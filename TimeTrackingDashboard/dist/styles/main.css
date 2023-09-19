@@ -131,32 +131,32 @@ body {
 }
 
 .work.user-report-card::before {
-    background: var(--primary-color_light-red_work) url(../images/icon-work.svg) no-repeat 93% 35%;
+    background: var(--primary-color_light-red_work) url(./images/icon-work.svg) no-repeat 93% 35%;
     background-size: 25%;
 }
 
 .play.user-report-card::before {
-    background: var(--primary-color_soft-blue_play) url(../images/icon-play.svg) no-repeat 93% 28%;
+    background: var(--primary-color_soft-blue_play) url(./images/icon-play.svg) no-repeat 93% 28%;
     background-size: 25%;
 }
 
 .study.user-report-card::before {
-    background: var(--primary-color_light-red_study) url(../images/icon-study.svg) no-repeat 93% 28%;
+    background: var(--primary-color_light-red_study) url(./images/icon-study.svg) no-repeat 93% 28%;
     background-size: 25%;
 }
 
 .exercise.user-report-card::before {
-    background: var(--primary-color_lime-green_exercise) url(../images/icon-exercise.svg) no-repeat 93% 28%;
+    background: var(--primary-color_lime-green_exercise) url(./images/icon-exercise.svg) no-repeat 93% 28%;
     background-size: 25%;
 }
 
 .social.user-report-card::before {
-    background: var(--primary-color_violet_social) url(../images/icon-social.svg) no-repeat 93% 32%;
+    background: var(--primary-color_violet_social) url(./images/icon-social.svg) no-repeat 93% 32%;
     background-size: 23%;
 }
 
 .self-care.user-report-card::before {
-    background: var(--primary-color_soft-orange_self-care) url(../images/icon-self-care.svg) no-repeat 93% 64%;
+    background: var(--primary-color_soft-orange_self-care) url(./images/icon-self-care.svg) no-repeat 93% 64%;
     background-size: 20%;
 }
 
@@ -175,12 +175,12 @@ body {
 .user-report-card_btn {
     height: .53rem;
     width: 2.3rem;
-    background: transparent url(../images/icon-default-ellipsis.svg) no-repeat center;
+    background: transparent url(./images/icon-default-ellipsis.svg) no-repeat center;
     background-size: cover;
 }
 
 .user-report-card_btn:hover {
-    background-image: url(../images/icon-active-ellipsis.svg);
+    background-image: url(./images/icon-active-ellipsis.svg);
 }
 
 .user-report-card_data-comparison-area {
@@ -257,32 +257,32 @@ body {
     }
 
     .work.user-report-card::before {
-        background: var(--primary-color_light-red_work) url(../images/icon-work.svg) no-repeat 90% 40%;
+        background: var(--primary-color_light-red_work) url(./images/icon-work.svg) no-repeat 90% 40%;
         background-size: 30%;
     }
     
     .play.user-report-card::before {
-        background: var(--primary-color_soft-blue_play) url(../images/icon-play.svg) no-repeat 88% 25%;
+        background: var(--primary-color_soft-blue_play) url(./images/icon-play.svg) no-repeat 88% 25%;
         background-size: 30%;
     }
     
     .study.user-report-card::before {
-        background: var(--primary-color_light-red_study) url(../images/icon-study.svg) no-repeat 90% 28%;
+        background: var(--primary-color_light-red_study) url(./images/icon-study.svg) no-repeat 90% 28%;
         background-size: 30%;
     }
     
     .exercise.user-report-card::before {
-        background: var(--primary-color_lime-green_exercise) url(../images/icon-exercise.svg) no-repeat 90% 37%;
+        background: var(--primary-color_lime-green_exercise) url(./images/icon-exercise.svg) no-repeat 90% 37%;
         background-size: 30%;
     }
     
     .social.user-report-card::before {
-        background: var(--primary-color_violet_social) url(../images/icon-social.svg) no-repeat 91% 30%;
+        background: var(--primary-color_violet_social) url(./images/icon-social.svg) no-repeat 91% 30%;
         background-size: 30%;
     }
     
     .self-care.user-report-card::before {
-        background: var(--primary-color_soft-orange_self-care) url(../images/icon-self-care.svg) no-repeat 90% 64%;
+        background: var(--primary-color_soft-orange_self-care) url(./images/icon-self-care.svg) no-repeat 90% 64%;
         background-size: 28%;
     }
 
