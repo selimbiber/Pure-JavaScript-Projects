@@ -1,0 +1,300 @@
+/*! COMMON STYLES */
+
+:root {
+    --primary-color_blue: hsl(246, 80%, 60%);
+    --primary-color_light-red_work: hsl(15, 100%, 70%);
+    --primary-color_soft-blue_play:  hsl(195, 74%, 62%);
+    --primary-color_light-red_study: hsl(348, 100%, 68%);
+    --primary-color_lime-green_exercise: hsl(145, 58%, 55%);
+    --primary-color_violet_social: hsl(264, 64%, 52%);
+    --primary-color_soft-orange_self-care: hsl(43, 84%, 65%);
+
+    --neutral-color_very-dark-blue: hsl(226, 43%, 10%);
+    --neutral-color_dark-blue: hsl(235, 46%, 20%);
+    --neutral-color_desaturated-blue: hsl(235, 45%, 61%);
+    --neutral-color_pale-blue: hsl(236, 100%, 87%);
+}
+
+/*! CUSTOM STYLES */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: var(--neutral-color_very-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6.4rem 0;
+}
+
+/*? MAIN SECTION */
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    width: 33rem;
+    row-gap: 6rem;
+}
+
+/* USER REPORT SUBSECTION */
+
+.user-report_subsection {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral-color_dark-blue);
+    border-radius: 1.3rem;
+}
+
+.profile-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1.7rem;
+    background-color: var(--primary-color_blue);
+    height: 13.3rem;
+    border-radius: 1.3rem;
+    padding: 2rem 1rem 2rem 0;
+}
+
+.profile-card-img {
+    height: 7rem;
+    border-radius: 50%;
+    border: .3rem solid white;
+}
+
+.profile-card-heading {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--neutral-color_pale-blue);
+}
+
+.profile-card-name {
+    font-size: 2.4rem;
+    font-weight: 300;
+    color: white;
+}
+
+.nav-items-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--neutral-color_dark-blue);
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding: 2rem 3.5rem;
+    column-gap: 5.5rem;
+}
+
+.user-report-btn {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--neutral-color_desaturated-blue);
+}
+
+.active-btn.user-report-btn, .user-report-btn:hover {
+    color: white;
+}
+
+/* REPORT CARDS SUBSECTION */
+
+.report-cards-subsection {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+/* USER REPORT CARD */
+
+.user-report-card {
+    padding: 2rem 2.8rem;
+    background-color: var(--neutral-color_dark-blue);
+    border-radius: 1.3rem;
+    height: 12.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.user-report-card:hover {
+    background-color: hsl(236, 35%, 31%);
+}
+
+.user-report-card::before {
+    content: "";
+    height: 5rem;
+    width: 100%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    position: absolute;
+    top: -3.7rem;
+    left: 0;
+    z-index: -1;
+    background-size: 25%;
+}
+
+.work.user-report-card::before {
+    background: var(--primary-color_light-red_work) url(../images/icon-work.svg) no-repeat 93% 35%;
+}
+
+.play.user-report-card::before {
+    background: var(--primary-color_soft-blue_play) url(../images/icon-play.svg) no-repeat 93% 28%;
+}
+
+.study.user-report-card::before {
+    background: var(--primary-color_light-red_study) url(../images/icon-study.svg) no-repeat 93% 28%;
+}
+
+.exercise.user-report-card::before {
+    background: var(--primary-color_lime-green_exercise) url(../images/icon-exercise.svg) no-repeat 93% 28%;
+    background-size: 25%;
+}
+
+.social.user-report-card::before {
+    background: var(--primary-color_violet_social) url(../images/icon-social.svg) no-repeat 93% 32%;
+    background-size: 23%;
+}
+
+.self-care.user-report-card::before {
+    background: var(--primary-color_soft-orange_self-care) url(../images/icon-self-care.svg) no-repeat 93% 64%;
+    background-size: 20%;
+}
+
+.user-report-card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-report-card_title {
+    font-size: 1.73rem;
+    font-weight: 500;
+    color: white;
+}
+
+.user-report-card_btn {
+    height: .53rem;
+    width: 2.3rem;
+    background: transparent url(../images/icon-default-ellipsis.svg) no-repeat center;
+    background-size: cover;
+}
+
+.user-report-card_btn:hover {
+    background-image: url(../images/icon-active-ellipsis.svg);
+}
+
+.user-report-card_data-comparison-area {
+    display: flex;
+    justify-content: space-between;
+    line-height: 5rem;
+}
+
+.user-report-card_hours-count {
+    font-size: 3rem;
+    font-weight: 300;
+    color: white;
+}
+
+.user-report-card_compared-sub-area {
+    font-size: 1.5rem;
+    color: var(--neutral-color_pale-blue);
+}
+
+/*! DESKTOP LAYOUT STYLES */
+
+@media (min-width: 1440px) {
+    .main-section {
+        display: grid;
+        grid-template: 1fr / 1fr 4fr;
+        place-items: center;
+        place-content: center;
+        column-gap: 2.8rem;
+    }
+    .user-report_subsection {
+        height: 51.7rem;
+        width: 25.7rem;
+    }
+    .profile-card-container {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 35.3rem;
+        row-gap: 4rem;
+        padding: 0 1rem 3.3rem 3rem;
+    }
+
+    .profile-card-img {
+        height: 8.4rem;
+    }
+    
+    .profile-card-name {
+        font-size: 4rem;
+        line-height: 4.6rem;
+    }
+    
+    .nav-items-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 3rem 0 0 3rem;
+        row-gap: 1.35rem;
+    }
+
+    .report-cards-subsection {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: auto;
+        column-gap: 2.8rem;
+        row-gap: 7rem;
+    }
+
+    .user-report-card {
+        height: 20rem;
+        width: 25.5rem;
+        row-gap: 3.7rem;
+    }
+
+    .user-report-card::before {
+        top: -4.37rem;
+    }
+
+    .work.user-report-card::before {
+        background-position: 90% 40%;
+    }
+    
+    .play.user-report-card::before {
+        background-position: 90% 25%;
+    }
+    
+    .study.user-report-card::before {
+        background-position: 90% 28%;
+    }
+    
+    .exercise.user-report-card::before {
+        background-position: 90% 37%;
+        background-size: 30%;
+    }
+    
+    .social.user-report-card::before {
+        background-position: 91% 30%;
+        background-size: 30%;
+    }
+    
+    .self-care.user-report-card::before {
+        background-position: 90% 64%;
+        background-size: 28%;
+    }
+
+    .user-report-card_header {
+        padding: .7rem .3rem 0;
+    }
+
+    .user-report-card_btn {
+        height: .5rem;
+        width: 2.1rem;
+    }
+
+    .user-report-card_data-comparison-area {
+        flex-direction: column;
+    }
+    
+    .user-report-card_hours-count {
+        font-size: 5.6rem;
+    }
+}
