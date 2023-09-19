@@ -58,6 +58,8 @@ Your users should be able to:
 - Grid System
 - Mobile-first workflow
 - Pure JavaScript
+- Fetch API with local JSON data file
+- Async/Await function
 - Webpack
 - Javascript Module Pattern
 

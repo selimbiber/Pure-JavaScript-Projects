@@ -128,19 +128,21 @@ body {
     top: -3.7rem;
     left: 0;
     z-index: -1;
-    background-size: 25%;
 }
 
 .work.user-report-card::before {
     background: var(--primary-color_light-red_work) url(../images/icon-work.svg) no-repeat 93% 35%;
+    background-size: 25%;
 }
 
 .play.user-report-card::before {
     background: var(--primary-color_soft-blue_play) url(../images/icon-play.svg) no-repeat 93% 28%;
+    background-size: 25%;
 }
 
 .study.user-report-card::before {
     background: var(--primary-color_light-red_study) url(../images/icon-study.svg) no-repeat 93% 28%;
+    background-size: 25%;
 }
 
 .exercise.user-report-card::before {
@@ -210,7 +212,7 @@ body {
     }
     .user-report_subsection {
         height: 51.7rem;
-        width: 25.7rem;
+        width: 25.5rem;
     }
     .profile-card-container {
         flex-direction: column;
@@ -255,34 +257,41 @@ body {
     }
 
     .work.user-report-card::before {
-        background-position: 90% 40%;
+        background: var(--primary-color_light-red_work) url(../images/icon-work.svg) no-repeat 90% 40%;
+        background-size: 30%;
     }
     
     .play.user-report-card::before {
-        background-position: 90% 25%;
+        background: var(--primary-color_soft-blue_play) url(../images/icon-play.svg) no-repeat 88% 25%;
+        background-size: 30%;
     }
     
     .study.user-report-card::before {
-        background-position: 90% 28%;
+        background: var(--primary-color_light-red_study) url(../images/icon-study.svg) no-repeat 90% 28%;
+        background-size: 30%;
     }
     
     .exercise.user-report-card::before {
-        background-position: 90% 37%;
+        background: var(--primary-color_lime-green_exercise) url(../images/icon-exercise.svg) no-repeat 90% 37%;
         background-size: 30%;
     }
     
     .social.user-report-card::before {
-        background-position: 91% 30%;
+        background: var(--primary-color_violet_social) url(../images/icon-social.svg) no-repeat 91% 30%;
         background-size: 30%;
     }
     
     .self-care.user-report-card::before {
-        background-position: 90% 64%;
+        background: var(--primary-color_soft-orange_self-care) url(../images/icon-self-care.svg) no-repeat 90% 64%;
         background-size: 28%;
     }
 
     .user-report-card_header {
-        padding: .7rem .3rem 0;
+        padding: 1.1rem .3rem 0;
+    }
+
+    .user-report-card_title {
+        font-size: 1.8rem;
     }
 
     .user-report-card_btn {
