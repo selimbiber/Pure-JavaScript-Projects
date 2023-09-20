@@ -48,7 +48,11 @@ Your users should be able to:
 
 #### Mobile Layout (375px)
 
+![mobile-layout-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/d4ec6a8e-2d3b-44cf-813b-9e9b4c2c36d5)
+
 #### Desktop Layout (1440px)
+
+![desktop-layout-design](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/09dedcdb-1b55-4a5c-8179-c5ce8302e46e)
 
 ### Built with
 
@@ -65,7 +69,7 @@ Your users should be able to:
 
 ### Project Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/time-tracking-dashboard-LCDOA6d-oY)
 - [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TimeTrackingDashboard/dist/index.html)
 
 ## Project Author
