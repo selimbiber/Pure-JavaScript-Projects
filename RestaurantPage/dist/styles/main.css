@@ -104,6 +104,10 @@
 
 /* ABOUT SUBSECTION */
 
+.about-subsection {
+    scroll-margin-top: 7rem;
+}
+
 .about-subsection_heading {
     font-size: 2.5rem;
     font-weight: 500;
@@ -146,6 +150,7 @@
     row-gap: 2rem;
     width: 90%;
     max-width: 50rem;
+    scroll-margin-top: 1.5rem;
 }
 
 .menu-subsection_slogan {
@@ -187,7 +192,8 @@
     text-align: center;
     color: var(--theme-color_dark);
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 2.5rem;
+    scroll-margin-top: 5.5rem;
 }
 
 .contact-subsection_heading {
