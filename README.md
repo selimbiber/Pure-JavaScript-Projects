@@ -23,6 +23,9 @@
 ### [Crowdfunding Product Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/CrowdfundingProductPage/index.html)
 ### [Online Library Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/OnlineLibrary/index.html)
 ### [Expenses Chart Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ExpensesChartComponent/index.html)
+### [Social Media Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard/dist/index.html)
+### [Time Tracking Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TimeTrackingDashboard/dist/index.html)
+### [Restaurant Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/dist/index.html)
 ---
 ## Preview Links For My Other JavaScript Projects:
 
@@ -32,5 +35,7 @@
 ### [Leaderboard Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day28-Leaderboard/index.html)
 ### [World Countries Final Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day30-WorldCountriesFinalProject/index.html)
 ### [Play Rock Paper Scissors](https://htmlpreview.github.io/?https://github.com/selimbiber/Play-Rock-Paper-Scissors/blob/main/index.html)
+### [Play Tic Tac Toe](https://htmlpreview.github.io/?https://github.com/selimbiber/SimpleWebBrowserGames/blob/main/TicTacToe/index.html)
+### [Random Advice Generator](https://htmlpreview.github.io/?https://github.com/selimbiber/RandomGenerators/blob/main/RandomAdviceGenerator/index.html)
 ### [Simple Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Simple-Calculator/blob/main/index.html)
 ### [Etch A Sketch](https://htmlpreview.github.io/?https://github.com/selimbiber/Etch-A-Sketch/blob/main/index.html)
