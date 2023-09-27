@@ -1,4 +1,5 @@
 const BODY_CONTAINER = document.getElementById('container')
+const HEADER_SECTION = document.getElementById('header-section')
 const HAMBURGER_MENU = document.getElementById('header-section_nav-menu')
 const HAMBURGER_BTN = document.getElementById('hamburger-menu_btn')
 const ICON_OPEN_MENU = document.getElementById('icon-open-menu')
@@ -9,29 +10,23 @@ const HERO_BTN = document.getElementById('content-subsection_article-btn')
 const DROPDOWN_ITEMS = document.querySelectorAll('.dropdown-items')
 const CLIENT_ICONS = document.querySelectorAll('.client-icons')
 
+function createPageBackground() {
+  if ( document.querySelector('.page-background') ) document.querySelector('.page-background').remove();
+  const PAGE_BACKGROUND = document.createElement('div');
+  PAGE_BACKGROUND.className = 'page-background';
+  document.body.insertBefore(PAGE_BACKGROUND, HEADER_SECTION);
+}
+
 if (window.innerWidth < 1440) {
   function toggleMenu() {
     if ( HAMBURGER_MENU.classList.contains("show-menu") ) {
       HAMBURGER_MENU.classList.remove("show-menu");
-      ICON_CLOSE_MENU.style.display = "none";
-      ICON_OPEN_MENU.style.display = "block";
-      BODY_CONTAINER.style.backgroundColor = 'var(--neutral-color-almost-white)';
-      HERO_BTN.style.opacity = '1';
-      HERO_IMAGE.style.filter = 'none';
-      CLIENT_ICONS.forEach(icon => {
-        icon.style.filter = 'brightness(1)';
-      });
+      document.querySelector('.page-background').remove();
     } else {
       HAMBURGER_MENU.classList.add("show-menu");
       ICON_CLOSE_MENU.style.display = "block";
       ICON_OPEN_MENU.style.display = "none";
-      BODY_CONTAINER.style.backgroundColor = 'var(--neutral-color-medium-gray)';
-      HERO_BTN.style.opacity = '.6';
-      HERO_IMAGE.style.filter = 'brightness(.36)';
-      CLIENT_ICONS.forEach(icon => {
-        icon.style.filter = 'brightness(.45)';
-      });
-      HERO_TEXT.style.color = 'var(--active-color-dark-gray)';
+      createPageBackground();
     }
   }
 } else {
