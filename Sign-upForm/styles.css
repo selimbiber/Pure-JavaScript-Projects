@@ -205,11 +205,11 @@ input + span::before {
     font-weight: bold;
 }
   
-input:invalid {
+.invalid-input {
     border: .2rem solid var(--warning-message-color);
 }
   
-input:invalid + span::before {
+.invalid-input + span::before {
     content: url('./images/icon-error.svg');
 }
 
