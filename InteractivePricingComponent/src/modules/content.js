@@ -1,5 +1,3 @@
-
-
 setTimeout( () => {
     document.querySelector('.range-slider').addEventListener('change', () => {
         const INPUT_VALUE = document.querySelector('.range-slider').value;
@@ -30,9 +28,9 @@ export function updateCurrentOutput(inputValue) {
     const SWITCH_INPUT = document.querySelector('#toggle-checkbox-btn');
     for(let i = 0; i < VALUES.length; i++) {
         if (inputValue >= VALUES[i]) {
-            document.querySelector('.pageviews-count').innerHTML = `${VIEWS[i]} PAGEVIEWS`;
+            document.querySelector('.pageviews-count').textContent = `${VIEWS[i]} PAGEVIEWS`;
             document.querySelectorAll('.pricing-text').forEach(pricingText => {
-                pricingText.innerHTML = `$${SWITCH_INPUT.checked ? COSTS[i] * .75 : COSTS[i].toFixed(2)}`;
+                pricingText.textContent = `$${SWITCH_INPUT.checked ? COSTS[i] * .75 : COSTS[i].toFixed(2)}`;
             });
             document.querySelectorAll('.date-text').forEach(dateText => {
                 dateText.textContent = SWITCH_INPUT.checked ? '/ year' : '/ month';

@@ -7,15 +7,18 @@ function createHeaderSection() {
             PAGE_HEADING.textContent = 'Simple, traffic-based pricing';
         HEADER_SECTION.appendChild(PAGE_HEADING);
 
-        const HERO_TEXT_TOP = document.createElement('p');
-            HERO_TEXT_TOP.className = 'hero-text';
-            HERO_TEXT_TOP.textContent = 'Sign-up for our 30-day trial.';
-        HEADER_SECTION.appendChild(HERO_TEXT_TOP);
+        const HERO_TEXT = document.createElement('p');
+        HERO_TEXT.className = 'hero-text';
 
-        const HERO_TEXT_BOTTOM = document.createElement('p');
-            HERO_TEXT_BOTTOM.className = 'hero-text';
-            HERO_TEXT_BOTTOM.textContent = 'No credit card required.';
-        HEADER_SECTION.appendChild(HERO_TEXT_BOTTOM);
+            const HERO_TEXT_TOP = document.createElement('span');
+                HERO_TEXT_TOP.textContent = 'Sign-up for our 30-day trial.';
+            HERO_TEXT.appendChild(HERO_TEXT_TOP);
+
+            const HERO_TEXT_BOTTOM = document.createElement('span');
+                HERO_TEXT_BOTTOM.textContent = 'No credit card required.';
+            HERO_TEXT.appendChild(HERO_TEXT_BOTTOM);
+
+        HEADER_SECTION.appendChild(HERO_TEXT);
 
     return HEADER_SECTION;
 }
@@ -103,11 +106,16 @@ function createMainSection() {
                         YEARLY_BILLING_TEXT.className = 'yearly-billing-text';
                         YEARLY_BILLING_TEXT.textContent = 'Yearly Billing';
 
-                        const YEARLY_BILLING_PERCENTAGE = document.createElement('span');
-                            YEARLY_BILLING_PERCENTAGE.ariaLabel = 'Discount';
-                            YEARLY_BILLING_PERCENTAGE.className = 'yearly-billing-percentage';
-                            YEARLY_BILLING_PERCENTAGE.textContent = '-25%';
-                        YEARLY_BILLING_TEXT.appendChild(YEARLY_BILLING_PERCENTAGE);
+                        const YEARLY_BILLING_PERCENTAGE_MOBILE = document.createElement('span');
+                            YEARLY_BILLING_PERCENTAGE_MOBILE.ariaLabel = 'Discount';
+                            YEARLY_BILLING_PERCENTAGE_MOBILE.className = 'yearly-billing-percentage_mobile';
+                            YEARLY_BILLING_PERCENTAGE_MOBILE.textContent = '-25%';
+                        YEARLY_BILLING_TEXT.appendChild(YEARLY_BILLING_PERCENTAGE_MOBILE);
+
+                        const YEARLY_BILLING_PERCENTAGE_DESKTOP = document.createElement('span');
+                            YEARLY_BILLING_PERCENTAGE_DESKTOP.className = 'yearly-billing-percentage_desktop';
+                            YEARLY_BILLING_PERCENTAGE_DESKTOP.textContent = '25% discount';
+                        YEARLY_BILLING_TEXT.appendChild(YEARLY_BILLING_PERCENTAGE_DESKTOP);
 
                     MONTHLY_YEARLY_BILLINGS_CONTAINER.appendChild(YEARLY_BILLING_TEXT);
 
