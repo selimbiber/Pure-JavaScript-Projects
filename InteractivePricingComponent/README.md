@@ -49,7 +49,11 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 #### Mobile Layout (375px)
 
+![interactive-pricing-component_mobile-layout](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/00b187cb-6e0b-473c-8624-aa9b498c1de0)
+
 #### Desktop Layout (1440px)
+
+![interactive-pricing-component_desktop-layout](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/9e5aa319-a96d-4e79-9ced-a68d8ed173e0)
 
 ### Built with
 
@@ -63,7 +67,7 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Project Links
 
-- [Frontend Mentor Solution]()
+- [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-KLtXXBiFXn)
 - [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractivePricingComponent/dist/index.html)
 
 ## Project Author
