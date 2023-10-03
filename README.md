@@ -26,6 +26,7 @@
 ### [Social Media Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard/dist/index.html)
 ### [Time Tracking Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TimeTrackingDashboard/dist/index.html)
 ### [Restaurant Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/dist/index.html)
+### [Interactive Pricing Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractivePricingComponent/dist/index.html)
 ---
 ## Preview Links For My Other JavaScript Projects:
 
