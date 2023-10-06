@@ -1,0 +1,55 @@
+/*! COMMON STYLES */
+
+:root {
+    --body-bg-color: #BBEC6C;
+    --card-bg-color: #C8EFFE;
+    --card-border-color: #528FD8;
+    --box-shadow-color: #7A8C98;
+}
+
+body, .main-section, .main-section footer, .footer-section {
+    display: flex;
+}
+
+/*! CUSTOM STYLES */
+
+body {
+    background-color: var(--body-bg-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section {
+    flex-direction: column;
+    row-gap: 2rem;
+    height: 28rem;
+    background-color: var(--card-bg-color);
+    border: .3rem solid var(--card-border-color);
+    border-radius: 1rem;
+    box-shadow: 0 0 .3rem .3rem var(--box-shadow-color);
+    padding: 2rem;
+
+    & textarea {
+        resize: none;
+        height: 12rem;
+        width: 100%;
+        padding: .5rem .3rem;
+        border-width: .3rem;
+    }
+
+    & footer {
+        justify-content: space-between;
+
+        & p {
+            font-weight: 500;
+
+            & .total-characters-count {
+                color: #528FD8;
+            }
+
+            & .remaining-characters-count {
+                color: #ff0000d8;
+            }
+        }
+    }
+}
