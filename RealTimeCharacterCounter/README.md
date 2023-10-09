@@ -1,4 +1,4 @@
-# [Real-Time Character Counter | Gerçek Zamanlı Karakter Sayacı](https://www.100jsprojects.com/project/step-progress-bar)
+# [Real-Time Character Counter | Gerçek Zamanlı Karakter Sayacı](https://www.100jsprojects.com/project/real-time-character-counter)
 
 ## Project Description | Proje Açıklaması
 
