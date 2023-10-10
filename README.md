@@ -29,6 +29,7 @@
 ### [Interactive Pricing Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractivePricingComponent/dist/index.html)
 ### [Step Progress Bar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StepProgressBar/index.html)
 ### [Real Time Character Counter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/RealTimeCharacterCounter/index.html)
+### [Q-A Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/Q-A-Section/index.html)
 ---
 ## Preview Links For My Other JavaScript Projects:
 
