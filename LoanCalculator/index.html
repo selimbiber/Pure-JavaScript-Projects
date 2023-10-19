@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- STYLES-->
+		<link rel="stylesheet" href="styles/reset.css" />
+		<link rel="stylesheet" href="styles/main.css" />
+		<!-- FAVICON -->
+		<link
+			rel="shortcut icon"
+			href="images/loan-favicon.png"
+			type="image/x-icon"
+		/>
+		<title>Loan Calculator</title>
+	</head>
+	<body>
+		<main class="main-section">
+			<header><h1>Loan Calculator</h1></header>
+			<label class="loan-amount-label">
+				Loan Amount ($)
+				<input
+					type="number"
+					name="loan-amount-input"
+					value="10000"
+					id="loan-amount-input"
+				/>
+			</label>
+			<label class="interest-rate-label">
+				Interest Rate (%)
+				<input
+					type="number"
+					name="interest-rate-input"
+					value="10"
+					id="interest-rate-input"
+				/>
+			</label>
+			<label class="months-to-pay-label">
+				Months to pay
+				<input
+					type="number"
+					name="months-to-pay-input"
+					value="12"
+					id="months-to-pay-input"
+				/>
+			</label>
+			<footer>
+				<p>
+					Monthly Payment: <span class="monthly-payment-amount">916.66</span>
+				</p>
+			</footer>
+		</main>
+		<footer class="footer-section">
+			<a
+				href="https://demo.100jsprojects.com/loan-calculator/"
+				target="_blank"
+				title="Resource Link"
+				>Challenged by 100jsprojects</a
+			>
+			<a
+				href="https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoanCalcoulator/"
+				target="_blank"
+				title="GitHub Repository"
+				><img src="./images/github-logo.svg" alt="" />
+			</a>
+			<a
+				href="https://github.com/selimbiber"
+				target="_blank"
+				title="Profile Link"
+				>Coded by selimbiber</a
+			>
+		</footer>
+		<script src="./main.js"></script>
+	</body>
+</html>
