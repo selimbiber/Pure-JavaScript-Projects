@@ -1,0 +1,24 @@
+{
+  "name": "weatherforecastapplication",
+  "version": "1.0.0",
+  "description": "theodinproject",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "purejsprojects"
+  },
+  "keywords": [
+    "challenge"
+  ],
+  "author": "Selim Biber",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
