@@ -70,7 +70,7 @@ function createFooterSection() {
 
   const GITHUB_REPO_LINK = document.createElement('a');
   GITHUB_REPO_LINK.href =
-    'https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherForecastApplication/';
+    'https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/';
   GITHUB_REPO_LINK.ariaLabel = 'Visit code source repo of this project.';
   GITHUB_REPO_LINK.target = '_blank';
 
