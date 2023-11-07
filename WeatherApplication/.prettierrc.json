@@ -1,0 +1,6 @@
+{
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "singleQuote": true,
+  "arrowParens": "always",
+  "semi": true
+}

@@ -1,11 +1,14 @@
-# Project Name
-A Weather Forecast Application For 'The Odin Project' Curriculum.
+# [Weather Application | Hava Durumu Uygulaması](https://www.theodinproject.com/lessons/node-path-javascript-weather-app/)
+
+A Weather Application For 'The Odin Project' Curriculum.
 
 ## Welcome! 👋
+
 Thanks for checking out my front-end coding project.
 
 ## Table of contents
-- [Project Name](#project-name)
+
+- [Weather Application | Hava Durumu Uygulaması](#weather-application--hava-durumu-uygulaması)
   - [Welcome! 👋](#welcome-)
   - [Table of contents](#table-of-contents)
   - [Development Description](#development-description)
@@ -27,33 +30,46 @@ Thanks for checking out my front-end coding project.
     - [FreeCodeCamp](#freecodecamp)
     - [Frontend Mentor](#frontend-mentor)
   - [Preview Images for Project:](#preview-images-for-project)
-    - [Light Mode Design](#light-mode-design)
-    - [Dark Mode Design](#dark-mode-design)
+    - [Mobile Design](#mobile-design)
+    - [Desktop Design](#desktop-design)
   - [Preview Link of Project](#preview-link-of-project)
 
 ## Development Description
-  
-  The data required for the application was provided with [weatherAPI](https://www.weatherapi.com/).
+
+The data required for the application was provided with [weatherAPI](https://www.weatherapi.com/).
 
 ## Builted with:
 
 ### Semantic HTML5 markup
+
 ### CSS custom properties
+
 ### Flexbox
+
 ### Grid System
+
 ### Mobile-first workflow
+
 ### Pure JavaScript
+
 ### Javascript Module Pattern
+
 ### Webpack
+
 ### JSON
+
 ### API
 
 ## Author Links:
 
 ### [Website](https://www.selimbiber.dev)
+
 ### [LinkedIn](https://linkedin.com/in/selim-biber-406550214)
+
 ### [Twitter](https://www.twitter.com/selimbbr)
+
 ### [FreeCodeCamp](https://www.freecodecamp.org/selimbiber)
+
 ### [Frontend Mentor](https://www.frontendmentor.io/profile/selimbiber)
 
 ## Preview Images for Project:
@@ -62,4 +78,4 @@ Thanks for checking out my front-end coding project.
 
 ### Desktop Design
 
-## [Preview Link of Project]()
+## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html/)
