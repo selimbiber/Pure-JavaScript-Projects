@@ -1,7 +1,7 @@
 async function getWeatherData(city) {
   try {
     const RESPONSE = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=5a9afe1d8dba4ccabe5172309230111&q=${city}&days=1&aqi=no&alerts=no`,
+      `https://api.weatherapi.com/v1/forecast.json?key=5a9afe1d8dba4ccabe5172309230111&q=${city}&days=1&aqi=no&alerts=no`,
     );
     if (!RESPONSE.ok) {
       throw new Error('No city with this name was found.');
