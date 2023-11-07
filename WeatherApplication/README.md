@@ -56,6 +56,8 @@ The data required for the application was provided with [weatherAPI](https://www
 
 ### Webpack
 
+### ESLint
+
 ### JSON
 
 ### API
@@ -76,6 +78,14 @@ The data required for the application was provided with [weatherAPI](https://www
 
 ### Mobile Design
 
+![mobile-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/efc2e33d-2dbe-44b2-bca3-729371fdd9e6)
+
+![mobile-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/13aaa747-3dfb-4391-9494-96b7c02aa3f9)
+
 ### Desktop Design
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html/)
+![desktop-design-1](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/261095f1-ec03-4da3-88cb-d1ad65f09326)
+
+![desktop-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/87761ce5-41d6-4203-b2f8-b2fd632f8fb6)
+
+## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html)
