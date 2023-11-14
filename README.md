@@ -34,6 +34,7 @@
 ### [Mouse Event](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/MouseEvent/index.html)
 ### [Loading Bar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoadingBar/index.html)
 ### [Loan Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoanCalculator/index.html)
+### [Weather Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html)
 ---
 ## Preview Links For My Other JavaScript Projects:
 
