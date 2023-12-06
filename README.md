@@ -48,3 +48,6 @@
 ### [Random Advice Generator](https://htmlpreview.github.io/?https://github.com/selimbiber/RandomGenerators/blob/main/RandomAdviceGenerator/index.html)
 ### [Simple Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Simple-Calculator/blob/main/index.html)
 ### [Etch A Sketch](https://htmlpreview.github.io/?https://github.com/selimbiber/Etch-A-Sketch/blob/main/index.html)
+---
+## [Thank You freeCodeCamp](https://www.freecodecamp.org/certification/selimbiber/javascript-algorithms-and-data-structures)
+![www freecodecamp org](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/93ae38d1-09ad-4c61-8b91-362c6ed6c367)
