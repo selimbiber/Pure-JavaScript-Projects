@@ -1,7 +1,6 @@
-# PureJavaScriptProjects
- I will share my educational projects that I made using only JavaScript in this repository, from easy to difficult.
+# Pure JavaScript Projects
 ---
-## Preview Links For My JavaScript Projects In This Repository:
+## Preview Links For My Pure JavaScript Projects In This Repository:
 
 ### [Tip Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TipCalculator/index.html)
 ### [Age Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AgeCalculator/index.html)
@@ -36,7 +35,7 @@
 ### [Loan Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoanCalculator/index.html)
 ### [Weather Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html)
 ---
-## Preview Links For My Other JavaScript Projects:
+## Preview Links For My Other Pure JavaScript Projects:
 
 ### [Solar System Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day24-ProjectSolarSystem/index.html)
 ### [World Countries Data Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day25-WorldCountriesDataProject/index.html)
