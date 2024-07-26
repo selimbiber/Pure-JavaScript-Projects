@@ -1,0 +1,131 @@
+/* RESET */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* HELPERS */
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+#result[aria-hidden="true"] {
+  display: none;
+}
+
+/* STYLES */
+
+body {
+  background-color: hsl(240, 56%, 9%);
+  padding: 6rem 7rem 3rem;
+  row-gap: 2.5rem;
+  align-items: center;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 30rem;
+}
+
+main {
+  max-width: 45rem;
+  row-gap: 3.5rem;
+}
+
+form {
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0rem 1rem 0.5rem #061a5f;
+  padding: 2rem 3rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+fieldset {
+  border: 0;
+  justify-content: center;
+  text-align: center;
+  row-gap: 2rem;
+}
+
+div {
+  justify-content: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+label {
+  font-size: 2rem;
+}
+
+input {
+  border: 0;
+  border-bottom: 0.2rem solid hsl(272, 99%, 33%);
+  position: relative;
+  padding: 1rem 0.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+button {
+  background-color: hsl(272, 99%, 33%);
+  color: white;
+  padding: 1rem 3rem;
+  border: 0;
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.result-text {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.info-text {
+  background-color: hsl(143, 100%, 14%);
+  text-align: center;
+  padding: 1.5rem 3rem;
+  font-size: 2.5rem;
+  color: white;
+  border-radius: 2rem;
+  line-height: 2.5rem;
+}
+
+.info-text::before {
+  content: "💡";
+}
+
+@media (width < 428px) {
+  div {
+    flex-direction: column;
+  }
+}
