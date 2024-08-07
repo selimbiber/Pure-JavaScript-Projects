@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #1453;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+form {
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+input,
+button {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin-top: 10px;
+}
