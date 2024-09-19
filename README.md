@@ -98,6 +98,10 @@
 
 ### [Shopping Cart](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ShoppingCart/index.html)
 
+### [Cash Register](https://selimbiber.github.io/Pure-JavaScript-Projects/CashRegister/)
+
+### [Author Page](https://selimbiber.github.io/Pure-JavaScript-Projects/AuthorPage/)
+
 ---
 
 ## Preview Links For My Other Pure JavaScript Projects:
