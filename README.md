@@ -4,99 +4,99 @@
 
 ## Preview Links For My Pure JavaScript Projects In This Repository:
 
-### [Tip Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TipCalculator/index.html)
+### [Tip Calculator](https://selimbiber.github.io/Pure-JavaScript-Projects/TipCalculator/)
 
-### [Age Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AgeCalculator/index.html)
+### [Age Calculator](https://selimbiber.github.io/Pure-JavaScript-Projects/AgeCalculator/)
 
-### [Simple Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SimpleCalculator/index.html)
+### [Simple Calculator](https://selimbiber.github.io/Pure-JavaScript-Projects/SimpleCalculator/)
 
-### [Asian Kitchens Menu](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AsianKitchensMenu/index.html)
+### [Asian Kitchens Menu](https://selimbiber.github.io/Pure-JavaScript-Projects/AsianKitchensMenu/)
 
-### [Random Recipes Book](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RandomRecipesBook/index.html)
+### [Random Recipes Book](https://selimbiber.github.io/Pure-JavaScript-Projects/RandomRecipesBook/)
 
-### [Pomodoro Timer](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PomodoroTimer/index.html)
+### [Pomodoro Timer](https://selimbiber.github.io/Pure-JavaScript-Projects/PomodoroTimer/)
 
-### [Stopwatch](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Stopwatch/index.html)
+### [Stopwatch](https://selimbiber.github.io/Pure-JavaScript-Projects/Stopwatch/)
 
-### [Weight Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/WeightConverter/index.html)
+### [Weight Converter](https://selimbiber.github.io/Pure-JavaScript-Projects/WeightConverter/)
 
-### [Video Trailer Popup](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/VideoTrailerPopup/index.html)
+### [Video Trailer Popup](https://selimbiber.github.io/Pure-JavaScript-Projects/VideoTrailerPopup/)
 
-### [Temperature Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TemperatureConverter/index.html)
+### [Temperature Converter](https://selimbiber.github.io/Pure-JavaScript-Projects/TemperatureConverter/)
 
-### [Tabs Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/TabsSection/index.html)
+### [Tabs Section](https://selimbiber.github.io/Pure-JavaScript-Projects/TabsSection/)
 
-### [Sticky Navbar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StickyNavbar/index.html)
+### [Sticky Navbar](https://selimbiber.github.io/Pure-JavaScript-Projects/StickyNavbar/)
 
-### [Interactive Rating Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
+### [Interactive Rating Component](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractiveRatingComponent/)
 
-### [FAQ Accordion Card](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/FAQ-accordion-card/index.html)
+### [FAQ Accordion Card](https://selimbiber.github.io/Pure-JavaScript-Projects/FAQ-accordion-card/)
 
-### [Article Preview Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ArticlePreviewComponent/index.html)
+### [Article Preview Component](https://selimbiber.github.io/Pure-JavaScript-Projects/ArticlePreviewComponent/)
 
-### [Newsletter Sign-up Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsletterSign-upForm/index.html)
+### [Newsletter Sign-up Form](https://selimbiber.github.io/Pure-JavaScript-Projects/NewsletterSign-upForm/)
 
-### [News Homepage](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsHomepage/index.html)
+### [News Homepage](https://selimbiber.github.io/Pure-JavaScript-Projects/NewsHomepage/)
 
-### [Intro Section With Dropdown Navigation](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DropdownNavigation/index.html)
+### [Intro Section With Dropdown Navigation](https://selimbiber.github.io/Pure-JavaScript-Projects/DropdownNavigation/)
 
-### [Interactive Card Details Form](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveCardDetailsForm/index.html)
+### [Interactive Card Details Form](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractiveCardDetailsForm/)
 
-### [Crowdfunding Product Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/CrowdfundingProductPage/index.html)
+### [Crowdfunding Product Page](https://selimbiber.github.io/Pure-JavaScript-Projects/CrowdfundingProductPage/)
 
-### [Online Library Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/OnlineLibrary/index.html)
+### [Online Library Application](https://selimbiber.github.io/Pure-JavaScript-Projects/OnlineLibrary/)
 
-### [Expenses Chart Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ExpensesChartComponent/index.html)
+### [Expenses Chart Component](https://selimbiber.github.io/Pure-JavaScript-Projects/ExpensesChartComponent/)
 
-### [Social Media Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard/dist/index.html)
+### [Social Media Dashboard](https://selimbiber.github.io/Pure-JavaScript-Projects/SocialMediaDashboard/dist/)
 
-### [Time Tracking Dashboard](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TimeTrackingDashboard/dist/index.html)
+### [Time Tracking Dashboard](https://selimbiber.github.io/Pure-JavaScript-Projects/TimeTrackingDashboard/dist/)
 
-### [Restaurant Page](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/dist/index.html)
+### [Restaurant Page](https://selimbiber.github.io/Pure-JavaScript-Projects/RestaurantPage/dist/)
 
-### [Interactive Pricing Component](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractivePricingComponent/dist/index.html)
+### [Interactive Pricing Component](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractivePricingComponent/dist/)
 
-### [Step Progress Bar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/StepProgressBar/index.html)
+### [Step Progress Bar](https://selimbiber.github.io/Pure-JavaScript-Projects/StepProgressBar/)
 
-### [Real-Time Character Counter](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/RealTimeCharacterCounter/index.html)
+### [Real-Time Character Counter](https://selimbiber.github.io/Pure-JavaScript-Projects/RealTimeCharacterCounter/)
 
-### [Q-A Section](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/Q-A-Section/index.html)
+### [Q-A Section](https://selimbiber.github.io/Pure-JavaScript-Projects/Q-A-Section/)
 
-### [Simple Note-Taking Application](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/SimpleNoteTakingApplication/index.html)
+### [Simple Note-Taking Application](https://selimbiber.github.io/Pure-JavaScript-Projects/SimpleNoteTakingApplication/)
 
-### [Mouse Event](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/MouseEvent/index.html)
+### [Mouse Event](https://selimbiber.github.io/Pure-JavaScript-Projects/MouseEvent/)
 
-### [Loading Bar](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoadingBar/index.html)
+### [Loading Bar](https://selimbiber.github.io/Pure-JavaScript-Projects/LoadingBar/)
 
-### [Loan Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoanCalculator/index.html)
+### [Loan Calculator](https://selimbiber.github.io/Pure-JavaScript-Projects/LoanCalculator/)
 
-### [Weather Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html)
+### [Weather Application](https://selimbiber.github.io/Pure-JavaScript-Projects/WeatherApplication/dist/)
 
-### [Calorie Counter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/CalorieCounter/index.html)
+### [Calorie Counter](https://selimbiber.github.io/Pure-JavaScript-Projects/CalorieCounter/)
 
-### [Palindrome Checker](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PalindromeChecker/index.html)
+### [Palindrome Checker](https://selimbiber.github.io/Pure-JavaScript-Projects/PalindromeChecker/)
 
-### [Date Formatter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DateFormatter/index.html)
+### [Date Formatter](https://selimbiber.github.io/Pure-JavaScript-Projects/DateFormatter/)
 
-### [1986 Argentina Football Team Cards](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/1986ArgentinaFootballTeamCards/index.html)
+### [1986 Argentina Football Team Cards](https://selimbiber.github.io/Pure-JavaScript-Projects/1986ArgentinaFootballTeamCards/)
 
-### [Basic Todo Application](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/BasicTodoApplication/index.html)
+### [Basic Todo Application](https://selimbiber.github.io/Pure-JavaScript-Projects/BasicTodoApplication/)
 
-### [Decimal to Binary Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DecimalToBinaryConverter/index.html)
+### [Decimal to Binary Converter](https://selimbiber.github.io/Pure-JavaScript-Projects/DecimalToBinaryConverter/)
 
-### [Roman Numeral Converter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RomanNumeralConverter/index.html)
+### [Roman Numeral Converter](https://selimbiber.github.io/Pure-JavaScript-Projects/RomanNumeralConverter/)
 
-### [Spam Filter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SpamFilter/index.html)
+### [Spam Filter](https://selimbiber.github.io/Pure-JavaScript-Projects/SpamFilter/)
 
-### [Number Sorter](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NumberSorter/index.html)
+### [Number Sorter](https://selimbiber.github.io/Pure-JavaScript-Projects/NumberSorter/)
 
-### [Statistics Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/StatisticsCalculator/index.html)
+### [Statistics Calculator](https://selimbiber.github.io/Pure-JavaScript-Projects/StatisticsCalculator/)
 
-### [Spreadsheet](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Spreadsheet/index.html)
+### [Spreadsheet](https://selimbiber.github.io/Pure-JavaScript-Projects/Spreadsheet/)
 
-### [Telephone Number Validator](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TelephoneNumberValidator/index.html)
+### [Telephone Number Validator](https://selimbiber.github.io/Pure-JavaScript-Projects/TelephoneNumberValidator/)
 
-### [Shopping Cart](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/ShoppingCart/index.html)
+### [Shopping Cart](https://selimbiber.github.io/Pure-JavaScript-Projects/ShoppingCart/)
 
 ### [Cash Register](https://selimbiber.github.io/Pure-JavaScript-Projects/CashRegister/)
 
@@ -106,25 +106,31 @@
 
 ## Preview Links For My Other Pure JavaScript Projects:
 
-### [Solar System Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day24-ProjectSolarSystem/index.html)
+### [Solar System Project](https://selimbiber.github.io/30DaysOfJavaScriptChallenge/Day24-ProjectSolarSystem/)
 
-### [World Countries Data Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day25-WorldCountriesDataProject/index.html)
+### [World Countries Data Project](https://selimbiber.github.io/30DaysOfJavaScriptChallenge/Day25-WorldCountriesDataProject/)
 
-### [World Countries List Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day26-WorldCountriesListProject/index.html)
+### [World Countries List Project](https://selimbiber.github.io/30DaysOfJavaScriptChallenge/Day26-WorldCountriesListProject/)
 
-### [Leaderboard Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day28-Leaderboard/index.html)
+### [Leaderboard Project](https://selimbiber.github.io/30DaysOfJavaScriptChallenge/Day28-Leaderboard/)
 
-### [World Countries Final Project](https://htmlpreview.github.io/?https://github.com/selimbiber/30DaysOfJavaScriptChallenge/blob/master/Day30-WorldCountriesFinalProject/index.html)
+### [World Countries Final Project](https://selimbiber.github.io/30DaysOfJavaScriptChallenge/Day30-WorldCountriesFinalProject/)
 
-### [Tic Tac Toe](https://htmlpreview.github.io/?https://github.com/selimbiber/PlayfulWeb/blob/main/TicTacToe/index.html)
+### [Tic Tac Toe](https://selimbiber.github.io/PlayfulWeb/TicTacToe/)
 
-### [Rock Paper Scissors](https://htmlpreview.github.io/?https://github.com/selimbiber/PlayfulWeb/blob/main/RockPaperScissors/index.html)
+### [Rock Paper Scissors](https://selimbiber.github.io/PlayfulWeb/RockPaperScissors/)
 
-### [Random Advice Generator](https://htmlpreview.github.io/?https://github.com/selimbiber/RandomGenerators/blob/main/RandomAdviceGenerator/index.html)
+### [Basic Role Playing Game](https://selimbiber.github.io/PlayfulWeb/BasicRolePlayingGame/)
 
-### [Simple Calculator](https://htmlpreview.github.io/?https://github.com/selimbiber/Simple-Calculator/blob/main/index.html)
+### [Battleship](https://selimbiber.github.io/PlayfulWeb/Battleship/)
 
-### [Etch A Sketch](https://htmlpreview.github.io/?https://github.com/selimbiber/Etch-A-Sketch/blob/main/index.html)
+### [Random Advice Generator](https://selimbiber.github.io/RandomGenerators/RandomAdviceGenerator/)
+
+### [Random Multiplication Generator](https://selimbiber.github.io/RandomGenerators/RandomMultiplicationGenerator/)
+
+### [Random Color Generator](https://selimbiber.github.io/RandomGenerators/RandomColorGenerator/)
+
+### [Etch A Sketch](https://selimbiber.github.io/Etch-A-Sketch/)
 
 ---
 
