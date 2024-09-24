@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.changelog.com/uploads/icons/news_sources/Qo/icon_large.png?v=63680075631"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Music Player App</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="player">
+        <div class="player-bar">
+          <div class="parallel-lines">
+            <div></div>
+            <div></div>
+          </div>
+          <h1 class="fcc-title">
+            <a
+              href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-string-and-array-methods-by-building-a-music-player/step-1"
+              >freeCodeCamp</a
+            >
+          </h1>
+          <div class="parallel-lines">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <div class="player-content">
+          <div id="player-album-art">
+            <img
+              src="https://cdn.freecodecamp.org/curriculum/js-music-player/quincy-larson-album-art.jpg"
+              alt="song cover art"
+            />
+          </div>
+          <div class="player-display">
+            <article class="player-display-song-artist">
+              <p id="player-song-title"></p>
+              <p id="player-song-artist"></p>
+            </article>
+            <nav class="player-buttons">
+              <button id="previous" class="previous" aria-label="Previous">
+                <img src="./icons/previous.svg" alt="" />
+              </button>
+              <button id="controller" class="controller" aria-label="Play">
+                <img src="./icons/play.svg" alt="" />
+              </button>
+              <button id="next" class="next" aria-label="Next">
+                <img src="./icons/next.svg" alt="" />
+              </button>
+              <button id="shuffle" class="shuffle" aria-label="Shuffle">
+                <img src="./icons/shuffle.svg" alt="" />
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <article class="playlist">
+        <div class="playlist-bar">
+          <div class="parallel-lines">
+            <div></div>
+            <div></div>
+          </div>
+          <h2 class="playlist-title" id="playlist">Playlist</h2>
+          <div class="parallel-lines">
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+        <ul id="playlist-songs"></ul>
+      </article>
+      <footer>
+        <div class="parallel-lines">
+          <div></div>
+          <div></div>
+        </div>
+        <a href="https://github.com/selimbiber" target="_blank"
+          ><img src="./icons/github.svg" alt="GitHub Profile Link"
+        /></a>
+        <div class="parallel-lines">
+          <div></div>
+          <div></div>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
