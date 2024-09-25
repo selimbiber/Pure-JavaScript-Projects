@@ -3,6 +3,8 @@ const controllerBtn = document.getElementById("controller");
 const nextBtn = document.getElementById("next");
 const previousBtn = document.getElementById("previous");
 const shuffleBtn = document.getElementById("shuffle");
+const playerProgressEl = document.getElementById("player-progress");
+const progressBar = document.getElementById("progress-bar");
 
 const allSongs = [
   {
@@ -99,6 +101,7 @@ const playSong = (id) => {
   userData.currentSong = song;
   controllerBtn.classList.add("playing");
   controllerBtn.innerHTML = `<img src="./icons/pause.svg" alt="" />`;
+  playerProgressEl.classList.remove("hidden");
 
   highlightCurrentSong();
   setPlayerDisplay();
@@ -151,6 +154,7 @@ const deleteSong = (id) => {
   if (userData?.currentSong?.id === id) {
     userData.currentSong = null;
     userData.songCurrentTime = 0;
+    playerProgressEl.className = "hidden";
 
     pauseSong();
     setPlayerDisplay();
@@ -222,6 +226,30 @@ const renderSongs = (array) => {
   playlistSongs.innerHTML = songsHTML;
 };
 
+const updateProgressBar = () => {
+  const currentTime = audio.currentTime;
+  const duration = audio.duration || 0;
+  const progressBar = document.getElementById("progress-bar");
+  const currentTimeDisplay = document.getElementById("current-time");
+  const durationTimeDisplay = document.getElementById("duration-time");
+
+  // Update the progress-bar values
+  progressBar.max = duration;
+  progressBar.value = currentTime;
+
+  // Update the times
+  currentTimeDisplay.textContent = formatTime(currentTime);
+  durationTimeDisplay.textContent = formatTime(duration);
+};
+
+const formatTime = (time) => {
+  const minutes = Math.floor(time / 60);
+  const seconds = Math.floor(time % 60)
+    .toString()
+    .padStart(2, "0");
+  return `${minutes}:${seconds}`;
+};
+
 const setPlayBtnAccessibleText = () => {
   const song = userData?.currentSong || userData?.songs[0];
 
@@ -247,6 +275,8 @@ previousBtn.addEventListener("click", playPreviousSong);
 
 shuffleBtn.addEventListener("click", shuffle);
 
+audio.addEventListener("timeupdate", updateProgressBar);
+
 audio.addEventListener("ended", () => {
   const currentSongIndex = getCurrentSongIndex();
   const nextSongExists = userData?.songs[currentSongIndex + 1] !== undefined;
@@ -262,6 +292,11 @@ audio.addEventListener("ended", () => {
   setPlayerDisplay();
   highlightCurrentSong();
   setPlayBtnAccessibleText();
+});
+
+progressBar.addEventListener("input", (event) => {
+  const newTime = event.target.value;
+  audio.currentTime = newTime;
 });
 
 const sortSongs = () => {

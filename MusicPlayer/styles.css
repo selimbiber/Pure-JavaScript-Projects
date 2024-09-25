@@ -44,6 +44,10 @@ ul {
   margin: 0;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .container {
   margin-top: 10px;
   display: flex;
@@ -74,7 +78,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5px;
+  padding: 0 4px;
   width: 100%;
   height: 30px;
   background-color: var(--foreground-color);
@@ -105,7 +109,7 @@ ul {
   display: flex;
   background-color: var(--foreground-color);
   width: 430px;
-  height: 200px;
+  height: 280px;
   column-gap: 13px;
   align-items: center;
   justify-content: center;
@@ -124,15 +128,87 @@ ul {
 .player-display {
   display: flex;
   flex-direction: column;
-  row-gap: 20px;
+  row-gap: 12px;
   padding: 14px;
   background-color: var(--background-color);
-  height: 153px;
+  height: 163px;
   width: 226px;
 }
 
 .player-display-song-artist {
   height: 80px;
+}
+
+#player-progress {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 13px;
+  }
+}
+
+#progress-bar {
+  flex: 1;
+  margin: 0 10px;
+  max-width: 100px;
+
+  -webkit-appearance: none;
+  appearance: none; /* Modern tarayıcılar için */
+  width: 100%;
+  height: 8px;
+  background: var(--foreground-color);
+  border-radius: 5px;
+  outline: none;
+}
+
+#progress-bar::-webkit-slider-runnable-track {
+  background: var(--foreground-color);
+  border-radius: 5px;
+}
+
+#progress-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #dfdfe2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#progress-bar::-moz-range-track {
+  background: var(--foreground-color);
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: var(--highlight-color);
+}
+
+#progress-bar::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #dfdfe2;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#progress-bar::-ms-fill-lower {
+  background: var(--highlight-color);
+  border-radius: 5px;
+}
+
+#progress-bar::-ms-fill-upper {
+  background: var(--foreground-color);
+  border-radius: 5px;
+}
+
+#progress-bar::-ms-thumb {
+  width: 12px;
+  height: 12px;
+  background: #dfdfe2;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .player-buttons {
@@ -328,6 +404,14 @@ footer {
 
   .playlist-song-duration > button {
     padding: 0;
+  }
+
+  #player-progress {
+    margin-top: 100px;
+
+    #progress-bar {
+      max-width: 140px;
+    }
   }
 
   .player-content {

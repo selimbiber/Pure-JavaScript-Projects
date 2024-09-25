@@ -46,11 +46,17 @@
               alt="song cover art"
             />
           </div>
+
           <div class="player-display">
             <article class="player-display-song-artist">
               <p id="player-song-title"></p>
               <p id="player-song-artist"></p>
             </article>
+            <div id="player-progress" class="hidden">
+              <span id="current-time">0:00</span>
+              <input type="range" id="progress-bar" value="0" min="0" step="1" />
+              <span id="duration-time">0:00</span>
+            </div>
             <nav class="player-buttons">
               <button id="previous" class="previous" aria-label="Previous">
                 <img src="./icons/previous.svg" alt="" />
