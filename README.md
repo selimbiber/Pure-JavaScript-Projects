@@ -102,6 +102,8 @@
 
 ### [Author Page](https://selimbiber.github.io/Pure-JavaScript-Projects/AuthorPage/)
 
+### [Music Player](https://selimbiber.github.io/Pure-JavaScript-Projects/MusicPlayer)
+
 ---
 
 ## Preview Links For My Other Pure JavaScript Projects:
