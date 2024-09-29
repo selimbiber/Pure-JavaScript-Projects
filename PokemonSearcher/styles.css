@@ -92,10 +92,31 @@ main {
   }
 
   .display-container {
+    margin-bottom: 1rem;
+
     div {
       display: flex;
       column-gap: 2rem;
       font-weight: bold;
+    }
+
+    ul {
+      display: flex;
+      gap: 1rem;
+      margin-left: 0.3rem;
+    }
+
+    li {
+      list-style-type: none;
+      background-color: darkblue;
+      color: white;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+
+    img {
+      height: 15rem;
+      width: 15rem;
     }
   }
 
@@ -127,7 +148,7 @@ footer {
 
   & a {
     text-decoration: none;
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     font-weight: 500;
     color: aliceblue;
   }
@@ -139,5 +160,11 @@ footer {
     &:hover {
       transform: rotate(360deg) scale(1.2);
     }
+  }
+}
+
+@media (min-width: 576px) {
+  footer a {
+    font-size: 1.7rem;
   }
 }

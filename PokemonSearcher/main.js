@@ -18,7 +18,7 @@ async function getPokemonDetails(identifier) {
 }
 
 async function displayPokemonDetails() {
-  const identifier = SEARCH_INPUT.value;
+  const identifier = SEARCH_INPUT.value.toLowerCase();
   try {
     const pokemon = await getPokemonDetails(identifier);
     const { name, id, weight, height, sprites, types, stats } = pokemon;
