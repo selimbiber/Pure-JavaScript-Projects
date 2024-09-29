@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Pokemon Search App</title>
+  </head>
+  <body>
+    <header><h1>Pokémon Search App</h1></header>
+    <main>
+      <div class="search-container">
+        <label for="search-input">Search for Pokémon Name or ID:</label>
+        <div>
+          <input type="text" id="search-input" />
+          <button id="search-button">Search</button>
+        </div>
+        <p id="alert-text" class="hidden">Pokémon not found</p>
+      </div>
+
+      <article class="hidden">
+        <div class="display-container"></div>
+        <table id="table"></table>
+      </article>
+    </main>
+    <footer>
+      <a
+        href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/build-a-pokemon-search-app-project/build-a-pokemon-search-app"
+        target="_blank"
+        title="Resource Link"
+        >Challenged by freeCodeCamp</a
+      >
+      <a
+        href="https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PokemonSearcher/"
+        target="_blank"
+        title="GitHub Repository"
+        ><img src="github-logo.svg" alt="" />
+      </a>
+      <a href="https://github.com/selimbiber" target="_blank" title="Profile Link"
+        >Coded by Selim Biber</a
+      >
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
