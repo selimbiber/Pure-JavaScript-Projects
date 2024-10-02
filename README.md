@@ -104,6 +104,8 @@
 
 ### [Music Player](https://selimbiber.github.io/Pure-JavaScript-Projects/MusicPlayer)
 
+### [Pokemon Searcher](https://selimbiber.github.io/Pure-JavaScript-Projects/PokemonSearcher)
+
 ---
 
 ## Preview Links For My Other Pure JavaScript Projects:
