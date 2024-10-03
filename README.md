@@ -141,3 +141,5 @@
 ## [Thank You freeCodeCamp](https://www.freecodecamp.org/certification/selimbiber/javascript-algorithms-and-data-structures)
 
 ![www freecodecamp org](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/93ae38d1-09ad-4c61-8b91-362c6ed6c367)
+
+![JS_DSA_CERT](https://github.com/user-attachments/assets/1205edcb-033b-45cb-a2e4-957185597f03)
