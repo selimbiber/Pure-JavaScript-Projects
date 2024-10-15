@@ -33,6 +33,7 @@ Here are the different page view ranges and the corresponding monthly price tota
 If the visitor switches the toggle to yearly billing, a 25% discount should be applied to all prices.
 
 ## Table of contents
+
 - [Frontend Mentor - Interactive pricing component](#frontend-mentor---interactive-pricing-component)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -68,7 +69,7 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 ### Project Links
 
 - [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/interactive-pricing-component-KLtXXBiFXn)
-- [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractivePricingComponent/dist/index.html)
+- [Live Preview Link](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractivePricingComponent/dist/)
 
 ## Project Author
 

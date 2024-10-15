@@ -14,13 +14,14 @@ Your challenge is to build out this Intro section with dropdown navigation and g
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
-- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links 
-- View the optimal layout for the content depending on their device's screen size 
+- View the relevant dropdown menus on desktop and mobile when interacting with the navigation links
+- View the optimal layout for the content depending on their device's screen size
 - See hover states for all interactive elements on the page
 
 ## Table of contents
+
 - [Frontend Mentor - Intro section with dropdown navigation](#frontend-mentor---intro-section-with-dropdown-navigation)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -71,11 +72,10 @@ Your users should be able to:
 
 ![desktop-design-active](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/3be4096a-6e25-464b-a9e1-dce24c57c944)
 
-
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-BDD3P2F3nd)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/DropdownNavigation/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/DropdownNavigation/)
 
 ## My process
 

@@ -8,4 +8,4 @@ Bu uygulama, kullanıcı tarafından girilen pound ağırlık birimine sahip mik
 
 Eğer kullanıcı tarafından girilen ağırlık miktarı 0 veya daha küçük bir miktar ise, o zaman geçersiz veri girildiği hakkında bir uyarı mesajı ekranda 2 saniye kalacak şekilde gösteriliyor.
 
-### [Live Preview Link | Canlı Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/WeightConverter/index.html)
+### [Live Preview Link | Canlı Önizleme Bağlantısı](https://selimbiber.github.io/Pure-JavaScript-Projects/WeightConverter/)

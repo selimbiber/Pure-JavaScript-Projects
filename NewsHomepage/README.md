@@ -16,10 +16,11 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 Your users should be able to:
 
--   View the optimal layout for the interface depending on their device's screen size
--   See hover and focus states for all interactive elements on the page
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
 ## Table of contents
+
 - [Frontend Mentor - News homepage](#frontend-mentor---news-homepage)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -67,7 +68,7 @@ Your users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/news-homepage-fHj_5HNMGJ)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsHomepage/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/NewsHomepage/)
 
 ## My process
 

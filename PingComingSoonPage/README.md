@@ -14,15 +14,16 @@ Your challenge is to build out this Sign-up Form and get it looking as close to 
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size 
-- See hover states for all interactive elements on the page 
-- Submit their email address using an `input` field 
-- Receive an error message when the `form` is submitted if: 
-  - The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"* - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Submit their email address using an `input` field
+- Receive an error message when the `form` is submitted if:
+  - The `input` field is empty. The message for this error should say _"Whoops! It looks like you forgot to add your email"_ - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Please provide a valid email address"_
 
 ## Table of contents
+
 - [Frontend Mentor - Ping coming soon page](#frontend-mentor---ping-coming-soon-page)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -69,7 +70,7 @@ Your users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/ping-coming-soon-page-J2-zFOVhQi)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/PingComingSoonPage/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/PingComingSoonPage/)
 
 ## My process
 

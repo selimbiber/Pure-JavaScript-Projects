@@ -22,6 +22,7 @@ Your users should be able to:
 - See the "Thank you" card state after submitting a rating
 
 ## Table of contents
+
 - [Frontend Mentor - Interactive rating component](#frontend-mentor---interactive-rating-component)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -67,7 +68,7 @@ Your users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-ufwwSpkAW0)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/InteractiveRatingComponent/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractiveRatingComponent/)
 
 ## My process
 

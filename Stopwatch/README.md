@@ -4,4 +4,4 @@
 
 Projeyi [bu adresteki](https://www.100jsprojects.com/project/stopwatch) orijinal haline bağlı kalarak yapmaya çalıştım.
 
-### [Live Preview Link | Canlı Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Stopwatch/index.html)
+### [Live Preview Link | Canlı Önizleme Bağlantısı](https://selimbiber.github.io/Pure-JavaScript-Projects/Stopwatch/)

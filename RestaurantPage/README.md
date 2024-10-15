@@ -6,8 +6,8 @@ Thanks for checking out this front-end coding challenge.
 
 ## Description
 
-I used Webpack technology for the first time while doing this project, which belongs to The Odin Project training curriculum. 
-The novice process that can be experienced when using a technology for the first time was a bit difficult for me, but I think I improved myself a little more at the end of this project. 
+I used Webpack technology for the first time while doing this project, which belongs to The Odin Project training curriculum.
+The novice process that can be experienced when using a technology for the first time was a bit difficult for me, but I think I improved myself a little more at the end of this project.
 But I couldn't focus enough on the visual design of the project.
 
 ### Built with
@@ -20,7 +20,7 @@ But I couldn't focus enough on the visual design of the project.
 - Webpack
 - Javascript Module Pattern
 
-### [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/RestaurantPage/dist/index.html)
+### [Live Preview Link](https://selimbiber.github.io/Pure-JavaScript-Projects/RestaurantPage/dist/)
 
 ## Author
 

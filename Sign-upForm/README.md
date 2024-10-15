@@ -14,9 +14,10 @@ Your challenge is to build out this Sign-up Form and get it looking as close to 
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: - View the optimal layout for the site depending on their device's screen size - See hover states for all interactive elements on the page - Receive an error message when the `form` is submitted if: - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"* - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
+Your users should be able to: - View the optimal layout for the site depending on their device's screen size - See hover states for all interactive elements on the page - Receive an error message when the `form` is submitted if: - Any `input` field is empty. The message for this error should say _"[Field Name] cannot be empty"_ - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say _"Looks like this is not an email"_
 
 ## Table of contents
+
 - [Frontend Mentor - Sign-up Form solution](#frontend-mentor---sign-up-form-solution)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -58,7 +59,7 @@ Your users should be able to: - View the optimal layout for the site depending o
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/signup-form-jWVdt42GCA)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/Sign-upForm/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/Sign-upForm/)
 
 ## My process
 

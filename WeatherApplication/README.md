@@ -88,4 +88,4 @@ The data required for the application was provided with [weatherAPI](https://www
 
 ![desktop-design-2](https://github.com/selimbiber/Pure-JavaScript-Projects/assets/117529414/87761ce5-41d6-4203-b2f8-b2fd632f8fb6)
 
-## [Preview Link of Project](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/WeatherApplication/dist/index.html)
+## [Preview Link of Project](https://selimbiber.github.io/Pure-JavaScript-Projects/WeatherApplication/dist/)

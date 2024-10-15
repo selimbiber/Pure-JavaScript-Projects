@@ -6,7 +6,7 @@
 
 I find it easy and fun to make javascript projects from 100jsproject.com. My main goal in making these simple projects, even on a micro scale, is to use javascript more effectively and improve my skills in writing legible and maintainable code.
 
-### [Preview Link | Önizleme Bağlantısı](https://htmlpreview.github.io/?https://github.com/selimbiber/PureJavaScriptProjects/blob/main/LoadingBar/index.html)
+### [Preview Link | Önizleme Bağlantısı](https://selimbiber.github.io/Pure-JavaScript-Projects/LoadingBar/)
 
 #### [Profile Links | Profil Bağlantıları](https://github.com/selimbiber/)
 

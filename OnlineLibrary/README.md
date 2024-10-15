@@ -22,4 +22,4 @@ Features planned to be developed in later versions of the project:
 - Mobile-first workflow
 - Pure JavaScript
 
-#### [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/OnlineLibrary/index.html)
+#### [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/OnlineLibrary/)

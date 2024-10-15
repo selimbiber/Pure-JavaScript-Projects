@@ -31,6 +31,7 @@ Your users should be able to:
 - Thanks to this project, I have significantly increased my practice of working with data in JSON file format.
 
 ## Table of contents
+
 - [Frontend Mentor - Time tracking dashboard](#frontend-mentor---time-tracking-dashboard)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -70,7 +71,7 @@ Your users should be able to:
 ### Project Links
 
 - [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/time-tracking-dashboard-LCDOA6d-oY)
-- [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/TimeTrackingDashboard/dist/index.html)
+- [Live Preview Link](https://selimbiber.github.io/Pure-JavaScript-Projects/TimeTrackingDashboard/dist/)
 
 ## Project Author
 

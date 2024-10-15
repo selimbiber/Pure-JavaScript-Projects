@@ -4,4 +4,4 @@
 
 ## [Patika Academy - Frontend 101 - JavaScript Homework](https://academy.patika.dev/tr/courses/javascript/odev3)
 
-### [Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/AsianKitchensMenu/index.html)
+### [Preview Link](https://selimbiber.github.io/Pure-JavaScript-Projects/AsianKitchensMenu/)

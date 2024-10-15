@@ -21,6 +21,7 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 ## Table of contents
+
 - [Frontend Mentor - FAQ accordion card solution](#frontend-mentor---faq-accordion-card-solution)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -62,7 +63,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-card-bjO2OipBRD)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/FAQ-accordion-card/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/FAQ-accordion-card/)
 
 ## My process
 

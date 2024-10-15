@@ -26,6 +26,12 @@
 
 ### [Tabs Section](https://selimbiber.github.io/Pure-JavaScript-Projects/TabsSection/)
 
+### [Sign-up Form](https://selimbiber.github.io/Pure-JavaScript-Projects/Sign-upForm/)
+
+### [Profile Statistics](https://selimbiber.github.io/Pure-JavaScript-Projects/ProfileStatistics/)
+
+### [Coming Soon Page](https://selimbiber.github.io/Pure-JavaScript-Projects/PingComingSoonPage/)
+
 ### [Sticky Navbar](https://selimbiber.github.io/Pure-JavaScript-Projects/StickyNavbar/)
 
 ### [Interactive Rating Component](https://selimbiber.github.io/Pure-JavaScript-Projects/InteractiveRatingComponent/)

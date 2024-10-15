@@ -14,17 +14,18 @@ Your challenge is to build out this Newsletter sign-up form with success message
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-Your users should be able to: 
+Your users should be able to:
 
-- Add their email and submit the form 
-- See a success message with their email after successfully submitting the form 
-- See form validation messages if: 
-  - The field is left empty 
-  - The email address is not formatted correctly 
-- View the optimal layout for the interface depending on their device's screen size 
+- Add their email and submit the form
+- See a success message with their email after successfully submitting the form
+- See form validation messages if:
+  - The field is left empty
+  - The email address is not formatted correctly
+- View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
 ## Table of contents
+
 - [Frontend Mentor - Newsletter sign-up form with success message](#frontend-mentor---newsletter-sign-up-form-with-success-message)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -82,7 +83,7 @@ Your users should be able to:
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/newsletter-signup-form-WaNlEvgV4q)
-- [Live Site URL](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/NewsletterSign-upForm/index.html)
+- [Live Site URL](https://selimbiber.github.io/Pure-JavaScript-Projects/NewsletterSign-upForm/)
 
 ## My process
 

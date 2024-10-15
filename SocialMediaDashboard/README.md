@@ -22,11 +22,12 @@ Your users should be able to:
 
 ## My Description
 
-- This project was my second project that I completed using webpack technology and Javascript module system. 
+- This project was my second project that I completed using webpack technology and Javascript module system.
 - With this project, I now feel more confident in using webpack technology and Javascript module system in my projects.
 - Thanks to this project, I worked for the first time on the feature of changing the color theme of the page according to user preference.
 
 ## Table of contents
+
 - [Frontend Mentor - Social media dashboard with theme switcher](#frontend-mentor---social-media-dashboard-with-theme-switcher)
   - [Welcome! 👋](#welcome-)
   - [The challenge](#the-challenge)
@@ -74,7 +75,7 @@ Your users should be able to:
 ### Project Links
 
 - [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-media-dashboard-with-theme-switcher-cQ_ZuBAlZz)
-- [Live Preview Link](https://htmlpreview.github.io/?https://github.com/selimbiber/Pure-JavaScript-Projects/blob/main/SocialMediaDashboard/dist/index.html)
+- [Live Preview Link](https://selimbiber.github.io/Pure-JavaScript-Projects/SocialMediaDashboard/dist/)
 
 ## Project Author
 
