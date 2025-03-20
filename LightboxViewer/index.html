@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lightbox Viewer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- https://www.freecodecamp.org/learn/full-stack-developer/lab-lightbox-viewer -->
+  <body>
+    <div class="gallery">
+      <img
+        class="gallery-item"
+        src="https://cdn.freecodecamp.org/curriculum/labs/stonehenge-thumbnail.jpg"
+        alt="Stonehenge Thumbnail"
+      />
+      <img
+        class="gallery-item"
+        src="https://cdn.freecodecamp.org/curriculum/labs/storm-thumbnail.jpg"
+        alt="Storm Thumbnail"
+      />
+      <img
+        class="gallery-item"
+        src="https://cdn.freecodecamp.org/curriculum/labs/trees-thumbnail.jpg"
+        alt="Trees Thumbnail"
+      />
+    </div>
+
+    <div class="lightbox" id="lightbox">
+      <span id="close">&times;</span>
+      <img id="lightbox-image" src="" alt="Lightbox Image" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
